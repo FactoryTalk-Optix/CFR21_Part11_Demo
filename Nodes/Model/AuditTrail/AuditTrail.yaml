@@ -1,0 +1,175 @@
+Name: AuditTrail
+Id: g=6bb3a3f36c0a28bb80ad18ca617e37a7
+Type: FolderType
+Children:
+- Name: MachineSetSpeed
+  Id: g=b7d3a8847216af21c7f3e47adb98f869
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 10
+  Children:
+  - Name: AuditSigning Signature
+    Id: g=5b61f093b367cebfe637f053f84ad400
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Id: g=8c2fad3c1734de807c0bc8e72a579137
+      Type: BaseObjectType
+    - Name: Groups
+      Id: g=860b3dc5fae726a805216144ec3b6866
+      Type: BaseObjectType
+    - Name: WorkflowType
+      Id: g=e1792343ac1d7f14061433eb75b4f821
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 0
+- Name: SetTemperature
+  Id: g=c884bb0c969c372b80c69e9d9f21570f
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 50
+  Children:
+  - Name: AuditSigning Signature
+    Id: g=92bc7342b0eeb5eb1a22df941e9b8e17
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Id: g=691f102988ae3e44be0d8c996b28cc9b
+      Type: BaseObjectType
+    - Name: Groups
+      Id: g=75e8a808c9262f7e31fe955922669303
+      Type: BaseObjectType
+    - Name: WorkflowType
+      Id: g=18eddacc3cb88b0453b7ef6099e604e9
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 2
+- Name: SpeedFactor
+  Id: g=9548457916b472bf07d888455bfa7603
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 1.7799999713897705
+  Children:
+  - Name: AuditSigning Signature
+    Id: g=d603c94d8e7b80950d29e68d329aa106
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Id: g=ca183864f5c65c7a9f39f2c96f2f896e
+      Type: BaseObjectType
+    - Name: Groups
+      Id: g=3e31869ce87cb098f504c3213e8e536e
+      Type: BaseObjectType
+    - Name: WorkflowType
+      Id: g=167d22ab194af4de099c9a259ab8d1bb
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 1
+- Name: ProductName
+  Id: g=eebc89144bbc978805597b5b0311b732
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Prod_1"
+  Children:
+  - Name: AuditSigning Signature
+    Id: g=bece50247dd1d4d3a70be726b29a87a7
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Id: g=e3b9c2dc0310da8ccea22078fb046afe
+      Type: BaseObjectType
+    - Name: Groups
+      Id: g=c999e9390bd12993bf79b1a4d3260a31
+      Type: BaseObjectType
+    - Name: WorkflowType
+      Id: g=4d16769ad9e1e129d90fceb5a3558ceb
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 1
+- Name: AutoMode
+  Id: g=e78ce223eb40a57b53e04bdcae4724bc
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: AuditSigning Signature
+    Id: g=ec02885aa54ea0bff5292902e9cfef6f
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Id: g=351296ddae9c54fe93666c875b29df4c
+      Type: BaseObjectType
+    - Name: Groups
+      Id: g=b32f412b174f8fcd3c53ef30c55c269a
+      Type: BaseObjectType
+    - Name: WorkflowType
+      Id: g=e069ea0a910a57d97b9a2defab77ff6e
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 0
+- Name: Variable1
+  Id: g=1d7310a82f44acad00dd771dc60913ef
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: AuditSigning Signature
+    Id: g=65dca64e8445c512759c3609055414ee
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Id: g=601ec19292487cf74d16121814d24efe
+      Type: BaseObjectType
+    - Name: Groups
+      Id: g=19c5a60544b3f6701e3e93a3efc0e458
+      Type: BaseObjectType
+    - Name: WorkflowType
+      Id: g=c2ac2ef915e7c44d1cfe7fe020f05787
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 3
+- Name: batchprint
+  Id: g=1dbefed713b34b05bf8865f128633c6c
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: AuditSigning Signature
+    Id: g=d815eb1250f9086fd2e747f587d669cb
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Id: g=94086d745479458196ae7fab95504713
+      Type: BaseObjectType
+      Children:
+      - Name: User1
+        Id: g=867e725f1aea64cdbc29f7a4c55aec05
+        Type: NodePointer
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+        Children:
+        - Name: Kind
+          Id: g=7f9ff6477c8364b6a6cc9da2fbd35b25
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":14,"Namespace":1}
+        - Name: NodeClass
+          Id: g=d6d05a20d8a4e38a3ba7953c3508c324
+          Type: PropertyType
+          DataType: NodePointerNodeClass
+          Value: 0
+    - Name: Groups
+      Id: g=dbd3d251703026dc71bb43796b0f42f1
+      Type: BaseObjectType
+    - Name: WorkflowType
+      Id: g=4bef5b6a759cab6114c97c2ba9a2e413
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 1

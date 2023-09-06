@@ -1,0 +1,5 @@
+Name: Bela_Cement
+Id: g=8bd7a9bd2d91df68841be97a40f83494
+Type: RAEtherNetIPDriver
+Children:
+- File: RAEtherNet_IPStation1/RAEtherNet_IPStation1.yaml

@@ -1,0 +1,212 @@
+Name: Converters
+Id: g=c8c637f8ec8d0607665984c740a2e6b8
+Type: ConvertersCategoryFolder
+Children:
+- Name: ButtonSelection1
+  Id: g=c4c5cc8a08fc6c7c8d8b1ceb2d0aac08
+  Supertype: ConditionalConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Condition
+    Id: g=959c7aa504fd185d60d8822763e10c0c
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ReferenceType: HasSource
+    Value: false
+    Children:
+    - Name: ConditionalConverter1
+      Id: g=311b2a889a8462c021372fb9fc50f470
+      Type: ConditionalConverter
+      Children:
+      - Name: Condition
+        Id: g=6323680216099779ff38497b277f0d9e
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ReferenceType: HasSource
+        Value: false
+        Children:
+        - Name: ExpressionEvaluator1
+          Id: g=a207496cd23e1c8d35e6c7eb7d2fdb1a
+          Type: ExpressionEvaluator
+          Children:
+          - Name: Expression
+            Id: g=8d93f0748da6eee7fe8487e591411e09
+            Type: BaseDataVariableType
+            DataType: String
+            ReferenceType: HasParameter
+            ModellingRule: Optional
+            Value: "{0} == (0)"
+          - Name: ns=5;Source0
+            Id: g=7a0fecf0e660183acf09aebfc8a46e53
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Id: g=14e10825eb124f50c9c906cf6a0d5119
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{NodeId:ns=42;g=a0392a72-1fcb-a29a-6359-2594c025bc09}"
+      - Name: TrueValue
+        Id: g=ca0ea4b3e73ebc7841cecf128fc9dab7
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ReferenceType: HasParameter
+        ModellingRule: Optional
+        Value: true
+      - Name: FalseValue
+        Id: g=cb8cb7f49070d2a8d23f115cdb9658d5
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ReferenceType: HasParameter
+        ModellingRule: Optional
+        Value: false
+  - Name: TrueValue
+    Id: g=ff1e9d015a8249f106cf123408b0f46f
+    Type: BaseDataVariableType
+    DataType: Color
+    ReferenceType: HasParameter
+    Value: "#0fafff"
+  - Name: FalseValue
+    Id: g=95e45245da3dfce5f43a15d7f4b56b58
+    Type: BaseDataVariableType
+    DataType: Color
+    ReferenceType: HasParameter
+    ModellingRule: Optional
+    Value: "#f3f3f3"
+- Name: ButtonSelection2
+  Id: g=afdccac44004a347e7d9e8dd37e05823
+  Supertype: ConditionalConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Condition
+    Id: g=97806d7bdde0865c054727c32076cef5
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ReferenceType: HasSource
+    Value: false
+    Children:
+    - Name: ConditionalConverter1
+      Id: g=b3ba71e3902cb4a028468744361f6866
+      Type: ConditionalConverter
+      Children:
+      - Name: Condition
+        Id: g=59b207dbba342e97207c40a4569f2007
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ReferenceType: HasSource
+        Value: false
+        Children:
+        - Name: ExpressionEvaluator1
+          Id: g=90d34a0efad757120eaa683e671f5947
+          Type: ExpressionEvaluator
+          Children:
+          - Name: Expression
+            Id: g=db26bae369fb491f96e8d86cf957a5dc
+            Type: BaseDataVariableType
+            DataType: String
+            ReferenceType: HasParameter
+            ModellingRule: Optional
+            Value: "{0} == (1)"
+          - Name: ns=5;Source0
+            Id: g=673993173687cd81715a81aa6ebacb7f
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Id: g=60ad1bfbbdd6eb4ac76dfbfd3342bf48
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{NodeId:ns=42;g=a0392a72-1fcb-a29a-6359-2594c025bc09}"
+      - Name: TrueValue
+        Id: g=cadf7d4b379ba65010a4f5217ad32180
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ReferenceType: HasParameter
+        ModellingRule: Optional
+        Value: true
+      - Name: FalseValue
+        Id: g=211803659f1a130ea56de8bbc51373d5
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ReferenceType: HasParameter
+        ModellingRule: Optional
+        Value: false
+  - Name: TrueValue
+    Id: g=188c1d6573e58ee0953f7e5874c1418c
+    Type: BaseDataVariableType
+    DataType: Color
+    ReferenceType: HasParameter
+    ModellingRule: Optional
+    Value: "#0fafff"
+  - Name: FalseValue
+    Id: g=b3b5219ca415ba2797049a49ed8f0c67
+    Type: BaseDataVariableType
+    DataType: Color
+    ReferenceType: HasParameter
+    ModellingRule: Optional
+    Value: "#f3f3f3"
+- Name: BitStatus
+  Id: g=1c5cf16710210f325e91444386c46f5c
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Pairs
+    Id: g=0ff16322b400c0f0546def917753ec69
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Id: g=f12ff22978ae0c41e20808071d48c173
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=fece5533ff8f12b989222212569d054c
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+        Value: false
+      - Name: Value
+        Id: g=d4feb0d8e2c5bf325dc17c467d98420a
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#808080"
+    - Name: Pair1
+      Id: g=dfcfef97f0c909552053dd04aabe0b8a
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=aa9f2554757373066be52969e707d6e8
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+        Value: true
+      - Name: Value
+        Id: g=ad524cb9c0330a7b24892f5f9ca2c1a9
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#008000a4"
+- Name: ExpressionEvaluator1
+  Id: g=0b2895ca1f08bf307f35e51d0b3cec52
+  Supertype: ExpressionEvaluator
+  ReferenceType: HasComponent
+  Children:
+  - Name: Expression
+    Id: g=485852b56e77c9e68121bcdfdf64c9d2
+    Type: BaseDataVariableType
+    DataType: String
+    ReferenceType: HasParameter
+    ModellingRule: Optional
+    Value: "e^10"
+  - Name: Mode
+    Id: g=b5215f60421168dd8f59606be0ea538d
+    Type: PropertyType
+    DataType: DynamicLinkMode
+    ReferenceType: HasComponent
+    ModellingRule: Optional
+    Value: 1

@@ -1,0 +1,55 @@
+Name: TempLogging
+Id: g=b2781eb81c1bdb4ebde2f7e508a86174
+Type: FolderType
+Children:
+- File: ChartVars/ChartVars.yaml
+- Name: FromValueGroup1
+  Id: g=f64ebfb2c482b8cd94ebe974fcf614b5
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: -5.0
+- Name: FromValueGroup2
+  Id: g=b9b2293ca43243a1f7b28546e495aca6
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: -2.0
+- Name: FromValueGroup3
+  Id: g=70e3228e697139c071609f9036de1dd8
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: -0.5
+- Name: FromValueGroup4
+  Id: g=02454c7bcacb6591e0571b8c0c8af928
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.5
+- Name: FromValueGroup5
+  Id: g=67fcda88e9f4332fef39dd0973a9524b
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 2.0
+- Name: ToValueGroup1
+  Id: g=29539fbc9261656cfbfeb72ac55d594e
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: -2.0
+- Name: ToValueGroup2
+  Id: g=8573fa42b3ea389d5893fd63a4488996
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: -0.5
+- Name: ToValueGroup3
+  Id: g=c8c94e7508bb6e3185ae7f5d3595c3f6
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.5
+- Name: ToValueGroup4
+  Id: g=ce2440a294298c6cdc3bad54d0519031
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 2.0
+- Name: ToValueGroup5
+  Id: g=5393373f6b6459fba25cfa17e8aa43ab
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 5.0

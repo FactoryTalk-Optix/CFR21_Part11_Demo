@@ -1,0 +1,142 @@
+Name: DigitalAlarm
+Id: g=83bc13bf43647349b2c41ddac1508213
+Type: FolderType
+Children:
+- Name: EmeStopActive
+  Id: g=65e2fe1f6524f872b0da2335da94a92b
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=9f14ab73393cc986cad5a88161b33a29
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=9b536d82283cfd8dc978a79d24938ccb
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=834cc99e9544ae424ccbbf1c29c7b185
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/Alarms/A1_EstopActive"
+      Children:
+      - Name: Mode
+        Id: g=1111aec6a0a54cc278bec62f1e87097c
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=7943a59789948608e76cc2281088f4cd
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=23;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=32787e1cb63743bda1bd436f162a2c90
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Emergency Stop Active"}
+- Name: SafetyDoorOpen
+  Id: g=ef81d9010d2c73acf443af657d5dab94
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=3f5749db0d124595103fd29ce61b1a1a
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=47f837a69f33a2fb37c2226b582a61f9
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=35204a6e79b96a9fa886001083c93c87
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/Alarms/A2_SafetDoopOpen"
+      Children:
+      - Name: Mode
+        Id: g=59008cd2922828c38afd4a7d30c000d5
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=56e86fe42d9a467593568f20378fd9da
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=23;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=3c40408ed8e58f6c80164156b44d3da3
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Safety Door Opened"}
+- Name: CommLost
+  Id: g=dc86b8ae0436b5d496e92ec57dbc92d3
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=a154fcc2a6fef9cc69404b277bcff5f5
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=fc3ef88f01d0a2632a9f79abc2a7799c
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=0d6d3b5c373e130e35cdd7539796099d
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/Alarms/A3_CommunicationLost"
+      Children:
+      - Name: Mode
+        Id: g=fb575b2db0d534b2df994d0e52c50314
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=a5e3cb1fed32316ba59fef1295db2d73
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=23;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=7817cc2b5e885b74ffba80cb6d42249f
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Communication Lost"}

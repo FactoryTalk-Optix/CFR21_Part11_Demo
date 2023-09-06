@@ -1,0 +1,6 @@
+Name: Alarms
+Id: g=64ba1d03899f9df51a4362e8a11ab238
+Type: AlarmsCategoryFolder
+Children:
+- File: DigitalAlarm/DigitalAlarm.yaml
+- File: AnalogAlarm/AnalogAlarm.yaml

@@ -1,0 +1,34 @@
+Name: DateTime
+Id: g=6fa9d79ba0cd52f2f271a452f7f00c72
+Type: FolderType
+Children:
+- Name: DateTimeFormatted
+  Id: g=1a3cf011fd0bcabc0a4489474d594f75
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: DateOperator
+  Id: g=d315daec7e9e4d6c0d1c95e88863dc38
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "/"
+- Name: TimeOperator
+  Id: g=d343f87d30465666a49c837536cb2fa7
+  Type: BaseDataVariableType
+  DataType: String
+  Value: ":"
+- Name: DateFormat
+  Id: g=24c3b5682629b472723565de82ca5faa
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "DDMMYYYY"
+- Name: DateFormatted
+  Id: g=aaff0bf5808fb0804ded59280609840a
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: TimeFormatted
+  Id: g=f96926143613be02dde6767a26075e05
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"

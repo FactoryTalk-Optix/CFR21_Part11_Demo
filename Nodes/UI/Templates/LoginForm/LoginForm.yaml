@@ -1,0 +1,223 @@
+Name: LoginForm
+Id: g=5feefdaa8e424df8570732f1f0cbcd37
+Type: FolderType
+Children:
+- Name: LoginForm
+  Id: g=d0fba00ff93f064d6e1cb546eea27209
+  Supertype: PanelLoader
+  ReferenceType: HasComponent
+  Children:
+  - Name: Panel
+    Id: g=8b81ffc76962b9f9283634d23da82a42
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Id: g=7bca1f3eba869b19b9f2a41500feb452
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":71,"Namespace":7}
+    - Name: ConditionalConverter1
+      Id: g=75ec26991165c118ce6228c9097c51ad
+      Type: ConditionalConverter
+      Children:
+      - Name: Condition
+        Id: g=d01d86779f9a551962039346de4770d9
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ReferenceType: HasSource
+        Value: false
+        Children:
+        - Name: DynamicLink
+          Id: g=35e9be2a01cb60432cce2262482160e2
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{Session}/LoggedIn"
+      - Name: TrueValue
+        Id: g=0ea5604433e4479927753dfb426a0413
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ReferenceType: HasParameter
+        ModellingRule: Optional
+        Value: {"IdType":2,"Id":"2eebfd3def044e747aa57952fc13c70d","Namespace":42}
+      - Name: FalseValue
+        Id: g=49fb635bfb66b3fe5c5f388cb6df958d
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ReferenceType: HasParameter
+        ModellingRule: Optional
+        Value: {"IdType":2,"Id":"ce814fddddd607c776a3b9a6e0b90c27","Namespace":42}
+  - Name: CurrentPanel
+    Id: g=0fc8c0c885f120ad5fc141d977bd9bfe
+    Type: NodePointer
+    DataType: NodeId
+    AccessLevel: Read
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Id: g=00fc37d5a0b4f71ec01894d0c2b81d90
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":6,"Namespace":7}
+  - Class: Reference
+    Target: ns=7;i=478
+  - Name: Width
+    Id: g=65eb41b4c4e1881435a819548606c1f3
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 400.0
+  - Name: Height
+    Id: g=57a3b3170e01f39e300dd1f642b4ed58
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 400.0
+  - Name: Users
+    Id: g=7d04a243c6791327246f93eba53cdde5
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Id: g=b17c3b4e106a5166ac0d508426654c97
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":61}
+  - Name: PanelAliasNode
+    Id: g=7aa2579a56eeb4c0e895908022512bae
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: DynamicLink
+      Id: g=8f47795282c3fcb473db9a47b42b2510
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../Users@NodeId"
+  - Name: HorizontalAlignment
+    Id: g=ba50d9aa3254ba0a71143a7eaed60240
+    Type: BaseVariableType
+    DataType: HorizontalAlignment
+    ModellingRule: Optional
+    Value: 3
+  - Name: VerticalAlignment
+    Id: g=83035c32243439748524acf63e7f865c
+    Type: BaseVariableType
+    DataType: VerticalAlignment
+    ModellingRule: Optional
+    Value: 3
+  - Name: Rectangle2
+    Id: g=eea5c6bb0fe4f1dce190f4219bb12c7d
+    Type: Rectangle
+    Children:
+    - Name: BorderColor
+      Id: g=15c3eb81cb661be90c6b5c53631702f3
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#9b9898"
+    - Name: FillColor
+      Id: g=99cee9843429117e8ef71f9522de2764
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#ffffff00"
+    - Name: BorderThickness
+      Id: g=4fd4d54db17bb37dea0bbfcf711c54b4
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1.0
+    - Name: CornerRadius
+      Id: g=8dad63a29fe431b14d2dc8a37351d3e8
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 15.0
+    - Name: HitTestVisible
+      Id: g=0b43e5620fe1857836df38e35797c60f
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+    - Name: Blink
+      Id: g=fac8856c15e34c38aca3256bda6ded25
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+    - Name: Visible
+      Id: g=f6c3d31e208a589b681fad9a7cafb34a
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+    - Name: Enabled
+      Id: g=c29fc112b89319721e62969e0f9a09e8
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+    - Name: Opacity
+      Id: g=48cc90c1d58b7e22ee7be96a06f99b23
+      Type: BaseVariableType
+      DataType: Float
+      ModellingRule: Optional
+      Value: 100.0
+    - Name: LeftMargin
+      Id: g=3e5f375483a7593be7822991bfdf0796
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
+    - Name: TopMargin
+      Id: g=0b9093c53e27fc67a817734cdc589c1e
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
+    - Name: RightMargin
+      Id: g=cfc7d356282d4cee8241ba85c678d9e2
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
+    - Name: BottomMargin
+      Id: g=f66411637bac0000f2d1512ab5690575
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
+    - Name: Width
+      Id: g=f0933ad64436ea82c238d6075993c157
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 400.0
+    - Name: Height
+      Id: g=ef8879d4b4a5acee75d664eeced80adf
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 400.0
+    - Name: HorizontalAlignment
+      Id: g=8499b31338f00ca8f40971e3ee454241
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Id: g=d08c6731a1b14b8bb369cbbd73770bfe
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: Rotation
+      Id: g=fa2df4818fda1792d2a0394f406a743f
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
+- File: LoginFormComponents/LoginFormComponents.yaml

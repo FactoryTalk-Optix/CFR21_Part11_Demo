@@ -1,0 +1,5 @@
+Name: RAEtherNet_IPDriver1
+Id: g=986a67e3e3b3143c7447d460e7e0e66b
+Type: RAEtherNetIPDriver
+Children:
+- File: RAEtherNet_IPLogixEcho/RAEtherNet_IPLogixEcho.yaml
