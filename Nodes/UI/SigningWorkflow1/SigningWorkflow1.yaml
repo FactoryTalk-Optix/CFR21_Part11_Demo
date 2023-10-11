@@ -3694,7 +3694,16 @@ Children:
       Id: g=50b8250dc855be10b39ad2d4bc184a9a
       Type: BaseDataVariableType
       DataType: TimeZoneDataType
-      Value: {"TypeId":{"Id":8912},"Body":{"offset":0,"daylightSavingInOffset":false}}
+      Value: 
+       {
+        "TypeId": {
+         "Id": 8912
+        },
+        "Body": {
+         "offset": 0,
+         "daylightSavingInOffset": false
+        }
+       }
     - Name: Time
       Id: g=9ae5c137970578e04f9083494c928fab
       Type: BaseDataVariableType

@@ -104,6 +104,17 @@ Children:
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":6,"Namespace":7}
+  - Name: CurrentTabIndex
+    Id: g=b76861f12e2bd90f59a8e7756877879c
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Class: Reference
+    Target: ns=7;i=1181
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=1183
+    Direction: Forward
 - Name: PresentAlarms
   Id: g=bb2306eea7be521a670620cacc9b9068
   Supertype: SubScreenTemplate

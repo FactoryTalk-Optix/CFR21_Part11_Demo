@@ -84,6 +84,17 @@ Children:
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":6,"Namespace":7}
+  - Name: CurrentTabIndex
+    Id: g=14824ecc87073dff5c711fb421f053c6
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Class: Reference
+    Target: ns=7;i=1181
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=1183
+    Direction: Forward
 - Name: ElectronicSignature
   Id: g=aab97a14b64989058a08ee31bd118a15
   Supertype: SubScreenTemplate

@@ -44,6 +44,17 @@ Children:
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":6,"Namespace":7}
+  - Name: CurrentTabIndex
+    Id: g=e0ada50e43ffc22e42be1064a542209c
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Class: Reference
+    Target: ns=7;i=1181
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=1183
+    Direction: Forward
 - Name: DatabaseControls
   Id: g=2bfe0187738134f29f8b24ade541a772
   Supertype: SubScreenTemplate

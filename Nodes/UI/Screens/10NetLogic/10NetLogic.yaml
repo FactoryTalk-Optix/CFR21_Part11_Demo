@@ -44,6 +44,17 @@ Children:
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":6,"Namespace":7}
+  - Name: CurrentTabIndex
+    Id: g=8b61aa594263457fb3846f168993ab67
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Class: Reference
+    Target: ns=7;i=1181
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=1183
+    Direction: Forward
 - Name: NetLogic_Control
   Id: g=a6d7c44a7b96d3547ebc62272d4fea8f
   Supertype: SubScreenTemplate

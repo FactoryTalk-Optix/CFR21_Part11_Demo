@@ -1,10 +1,20 @@
 Name: Tags
 Id: g=52772bf1ffea86cc1941a391ae074c5f
-Type: BaseObjectType
+Type: FolderType
 Children:
 - Name: Controller Tags
   Id: g=9cca7b97c715a036b09b48478fe7a217
   Type: TagStructure
+  DataType: Structure
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "Id": 22
+     }
+    }
+   }
   Children:
   - Name: Var1
     Id: g=76f36dfa6b406124a5fafea060b68c96
@@ -207,10 +217,271 @@ Children:
   - Name: 'Local:1:C'
     Id: g=a41f21cb7ef4c1e2ca965c014edece6d
     Type: 'AB:1756_IF8IH:C:0'
+    DataType: 'AB:1756_IF8IH:C:0'
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "3d3782f9865e81935ac5e23d8f776abe",
+       "Namespace": 42
+      },
+      "Body": {
+       "Ch0Config": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ea2599f56a7aec13ea28d82594a8cb98",
+         "Namespace": 42
+        },
+        "Body": {
+         "AlarmDeadband": 0.0,
+         "AlarmDisable": false,
+         "CalBias": 0.0,
+         "Config": 0,
+         "DigitalFilter": 0,
+         "HAlarmLimit": 0.0,
+         "HARTEn": false,
+         "HHAlarmLimit": 0.0,
+         "HighEngineering": 0.0,
+         "HighSignal": 0.0,
+         "LAlarmLimit": 0.0,
+         "LLAlarmLimit": 0.0,
+         "LowEngineering": 0.0,
+         "LowSignal": 0.0,
+         "ProcessAlarmLatch": false,
+         "RangeType": 0,
+         "RateAlarmLatch": false,
+         "RateAlarmLimit": 0.0
+        }
+       },
+       "Ch1Config": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ea2599f56a7aec13ea28d82594a8cb98",
+         "Namespace": 42
+        },
+        "Body": {
+         "AlarmDeadband": 0.0,
+         "AlarmDisable": false,
+         "CalBias": 0.0,
+         "Config": 0,
+         "DigitalFilter": 0,
+         "HAlarmLimit": 0.0,
+         "HARTEn": false,
+         "HHAlarmLimit": 0.0,
+         "HighEngineering": 0.0,
+         "HighSignal": 0.0,
+         "LAlarmLimit": 0.0,
+         "LLAlarmLimit": 0.0,
+         "LowEngineering": 0.0,
+         "LowSignal": 0.0,
+         "ProcessAlarmLatch": false,
+         "RangeType": 0,
+         "RateAlarmLatch": false,
+         "RateAlarmLimit": 0.0
+        }
+       },
+       "Ch2Config": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ea2599f56a7aec13ea28d82594a8cb98",
+         "Namespace": 42
+        },
+        "Body": {
+         "AlarmDeadband": 0.0,
+         "AlarmDisable": false,
+         "CalBias": 0.0,
+         "Config": 0,
+         "DigitalFilter": 0,
+         "HAlarmLimit": 0.0,
+         "HARTEn": false,
+         "HHAlarmLimit": 0.0,
+         "HighEngineering": 0.0,
+         "HighSignal": 0.0,
+         "LAlarmLimit": 0.0,
+         "LLAlarmLimit": 0.0,
+         "LowEngineering": 0.0,
+         "LowSignal": 0.0,
+         "ProcessAlarmLatch": false,
+         "RangeType": 0,
+         "RateAlarmLatch": false,
+         "RateAlarmLimit": 0.0
+        }
+       },
+       "Ch3Config": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ea2599f56a7aec13ea28d82594a8cb98",
+         "Namespace": 42
+        },
+        "Body": {
+         "AlarmDeadband": 0.0,
+         "AlarmDisable": false,
+         "CalBias": 0.0,
+         "Config": 0,
+         "DigitalFilter": 0,
+         "HAlarmLimit": 0.0,
+         "HARTEn": false,
+         "HHAlarmLimit": 0.0,
+         "HighEngineering": 0.0,
+         "HighSignal": 0.0,
+         "LAlarmLimit": 0.0,
+         "LLAlarmLimit": 0.0,
+         "LowEngineering": 0.0,
+         "LowSignal": 0.0,
+         "ProcessAlarmLatch": false,
+         "RangeType": 0,
+         "RateAlarmLatch": false,
+         "RateAlarmLimit": 0.0
+        }
+       },
+       "Ch4Config": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ea2599f56a7aec13ea28d82594a8cb98",
+         "Namespace": 42
+        },
+        "Body": {
+         "AlarmDeadband": 0.0,
+         "AlarmDisable": false,
+         "CalBias": 0.0,
+         "Config": 0,
+         "DigitalFilter": 0,
+         "HAlarmLimit": 0.0,
+         "HARTEn": false,
+         "HHAlarmLimit": 0.0,
+         "HighEngineering": 0.0,
+         "HighSignal": 0.0,
+         "LAlarmLimit": 0.0,
+         "LLAlarmLimit": 0.0,
+         "LowEngineering": 0.0,
+         "LowSignal": 0.0,
+         "ProcessAlarmLatch": false,
+         "RangeType": 0,
+         "RateAlarmLatch": false,
+         "RateAlarmLimit": 0.0
+        }
+       },
+       "Ch5Config": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ea2599f56a7aec13ea28d82594a8cb98",
+         "Namespace": 42
+        },
+        "Body": {
+         "AlarmDeadband": 0.0,
+         "AlarmDisable": false,
+         "CalBias": 0.0,
+         "Config": 0,
+         "DigitalFilter": 0,
+         "HAlarmLimit": 0.0,
+         "HARTEn": false,
+         "HHAlarmLimit": 0.0,
+         "HighEngineering": 0.0,
+         "HighSignal": 0.0,
+         "LAlarmLimit": 0.0,
+         "LLAlarmLimit": 0.0,
+         "LowEngineering": 0.0,
+         "LowSignal": 0.0,
+         "ProcessAlarmLatch": false,
+         "RangeType": 0,
+         "RateAlarmLatch": false,
+         "RateAlarmLimit": 0.0
+        }
+       },
+       "Ch6Config": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ea2599f56a7aec13ea28d82594a8cb98",
+         "Namespace": 42
+        },
+        "Body": {
+         "AlarmDeadband": 0.0,
+         "AlarmDisable": false,
+         "CalBias": 0.0,
+         "Config": 0,
+         "DigitalFilter": 0,
+         "HAlarmLimit": 0.0,
+         "HARTEn": false,
+         "HHAlarmLimit": 0.0,
+         "HighEngineering": 0.0,
+         "HighSignal": 0.0,
+         "LAlarmLimit": 0.0,
+         "LLAlarmLimit": 0.0,
+         "LowEngineering": 0.0,
+         "LowSignal": 0.0,
+         "ProcessAlarmLatch": false,
+         "RangeType": 0,
+         "RateAlarmLatch": false,
+         "RateAlarmLimit": 0.0
+        }
+       },
+       "Ch7Config": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ea2599f56a7aec13ea28d82594a8cb98",
+         "Namespace": 42
+        },
+        "Body": {
+         "AlarmDeadband": 0.0,
+         "AlarmDisable": false,
+         "CalBias": 0.0,
+         "Config": 0,
+         "DigitalFilter": 0,
+         "HAlarmLimit": 0.0,
+         "HARTEn": false,
+         "HHAlarmLimit": 0.0,
+         "HighEngineering": 0.0,
+         "HighSignal": 0.0,
+         "LAlarmLimit": 0.0,
+         "LLAlarmLimit": 0.0,
+         "LowEngineering": 0.0,
+         "LowSignal": 0.0,
+         "ProcessAlarmLatch": false,
+         "RangeType": 0,
+         "RateAlarmLatch": false,
+         "RateAlarmLimit": 0.0
+        }
+       },
+       "ModuleFilter": 0,
+       "PassthroughFreq_14": false,
+       "PassthroughFreq_15": false,
+       "PassthroughHandleTimeout": 0,
+       "RealTimeSample": 0
+      }
+     }
     Children:
     - Name: Ch0Config
       Id: g=a6cef7a821d18f42cc9ed34647fb8f32
       Type: 'AB:1756_IF8IH_ChConfig_Struct:C:0'
+      DataType: 'AB:1756_IF8IH_ChConfig_Struct:C:0'
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ea2599f56a7aec13ea28d82594a8cb98",
+         "Namespace": 42
+        },
+        "Body": {
+         "AlarmDeadband": 0.0,
+         "AlarmDisable": false,
+         "CalBias": 0.0,
+         "Config": 0,
+         "DigitalFilter": 0,
+         "HAlarmLimit": 0.0,
+         "HARTEn": false,
+         "HHAlarmLimit": 0.0,
+         "HighEngineering": 0.0,
+         "HighSignal": 0.0,
+         "LAlarmLimit": 0.0,
+         "LLAlarmLimit": 0.0,
+         "LowEngineering": 0.0,
+         "LowSignal": 0.0,
+         "ProcessAlarmLatch": false,
+         "RangeType": 0,
+         "RateAlarmLatch": false,
+         "RateAlarmLimit": 0.0
+        }
+       }
       Children:
       - Name: AlarmDeadband
         Id: g=4774a64bce605fcfa1a933fc5634da0a
@@ -413,6 +684,35 @@ Children:
     - Name: Ch1Config
       Id: g=ce1557557c5ba2b764370a55db979625
       Type: 'AB:1756_IF8IH_ChConfig_Struct:C:0'
+      DataType: 'AB:1756_IF8IH_ChConfig_Struct:C:0'
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ea2599f56a7aec13ea28d82594a8cb98",
+         "Namespace": 42
+        },
+        "Body": {
+         "AlarmDeadband": 0.0,
+         "AlarmDisable": false,
+         "CalBias": 0.0,
+         "Config": 0,
+         "DigitalFilter": 0,
+         "HAlarmLimit": 0.0,
+         "HARTEn": false,
+         "HHAlarmLimit": 0.0,
+         "HighEngineering": 0.0,
+         "HighSignal": 0.0,
+         "LAlarmLimit": 0.0,
+         "LLAlarmLimit": 0.0,
+         "LowEngineering": 0.0,
+         "LowSignal": 0.0,
+         "ProcessAlarmLatch": false,
+         "RangeType": 0,
+         "RateAlarmLatch": false,
+         "RateAlarmLimit": 0.0
+        }
+       }
       Children:
       - Name: AlarmDeadband
         Id: g=e053ea057eac9c6c0d0db95f7c6a6cb7
@@ -615,6 +915,35 @@ Children:
     - Name: Ch2Config
       Id: g=8336f42e8b18859e19b2de24247f2ec4
       Type: 'AB:1756_IF8IH_ChConfig_Struct:C:0'
+      DataType: 'AB:1756_IF8IH_ChConfig_Struct:C:0'
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ea2599f56a7aec13ea28d82594a8cb98",
+         "Namespace": 42
+        },
+        "Body": {
+         "AlarmDeadband": 0.0,
+         "AlarmDisable": false,
+         "CalBias": 0.0,
+         "Config": 0,
+         "DigitalFilter": 0,
+         "HAlarmLimit": 0.0,
+         "HARTEn": false,
+         "HHAlarmLimit": 0.0,
+         "HighEngineering": 0.0,
+         "HighSignal": 0.0,
+         "LAlarmLimit": 0.0,
+         "LLAlarmLimit": 0.0,
+         "LowEngineering": 0.0,
+         "LowSignal": 0.0,
+         "ProcessAlarmLatch": false,
+         "RangeType": 0,
+         "RateAlarmLatch": false,
+         "RateAlarmLimit": 0.0
+        }
+       }
       Children:
       - Name: AlarmDeadband
         Id: g=ce1f424b3640d0b1e2f74617d154e28b
@@ -817,6 +1146,35 @@ Children:
     - Name: Ch3Config
       Id: g=03d448e79f81b09453c90b0d7dc3038a
       Type: 'AB:1756_IF8IH_ChConfig_Struct:C:0'
+      DataType: 'AB:1756_IF8IH_ChConfig_Struct:C:0'
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ea2599f56a7aec13ea28d82594a8cb98",
+         "Namespace": 42
+        },
+        "Body": {
+         "AlarmDeadband": 0.0,
+         "AlarmDisable": false,
+         "CalBias": 0.0,
+         "Config": 0,
+         "DigitalFilter": 0,
+         "HAlarmLimit": 0.0,
+         "HARTEn": false,
+         "HHAlarmLimit": 0.0,
+         "HighEngineering": 0.0,
+         "HighSignal": 0.0,
+         "LAlarmLimit": 0.0,
+         "LLAlarmLimit": 0.0,
+         "LowEngineering": 0.0,
+         "LowSignal": 0.0,
+         "ProcessAlarmLatch": false,
+         "RangeType": 0,
+         "RateAlarmLatch": false,
+         "RateAlarmLimit": 0.0
+        }
+       }
       Children:
       - Name: AlarmDeadband
         Id: g=795fd6e9e4806b1994587629ae02a703
@@ -1019,6 +1377,35 @@ Children:
     - Name: Ch4Config
       Id: g=4869cb12b52b665186489a99d4d8ad8b
       Type: 'AB:1756_IF8IH_ChConfig_Struct:C:0'
+      DataType: 'AB:1756_IF8IH_ChConfig_Struct:C:0'
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ea2599f56a7aec13ea28d82594a8cb98",
+         "Namespace": 42
+        },
+        "Body": {
+         "AlarmDeadband": 0.0,
+         "AlarmDisable": false,
+         "CalBias": 0.0,
+         "Config": 0,
+         "DigitalFilter": 0,
+         "HAlarmLimit": 0.0,
+         "HARTEn": false,
+         "HHAlarmLimit": 0.0,
+         "HighEngineering": 0.0,
+         "HighSignal": 0.0,
+         "LAlarmLimit": 0.0,
+         "LLAlarmLimit": 0.0,
+         "LowEngineering": 0.0,
+         "LowSignal": 0.0,
+         "ProcessAlarmLatch": false,
+         "RangeType": 0,
+         "RateAlarmLatch": false,
+         "RateAlarmLimit": 0.0
+        }
+       }
       Children:
       - Name: AlarmDeadband
         Id: g=48735956943abc3d6e416e5edad75604
@@ -1221,6 +1608,35 @@ Children:
     - Name: Ch5Config
       Id: g=ade3f537461f15f8aeb955016e658d00
       Type: 'AB:1756_IF8IH_ChConfig_Struct:C:0'
+      DataType: 'AB:1756_IF8IH_ChConfig_Struct:C:0'
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ea2599f56a7aec13ea28d82594a8cb98",
+         "Namespace": 42
+        },
+        "Body": {
+         "AlarmDeadband": 0.0,
+         "AlarmDisable": false,
+         "CalBias": 0.0,
+         "Config": 0,
+         "DigitalFilter": 0,
+         "HAlarmLimit": 0.0,
+         "HARTEn": false,
+         "HHAlarmLimit": 0.0,
+         "HighEngineering": 0.0,
+         "HighSignal": 0.0,
+         "LAlarmLimit": 0.0,
+         "LLAlarmLimit": 0.0,
+         "LowEngineering": 0.0,
+         "LowSignal": 0.0,
+         "ProcessAlarmLatch": false,
+         "RangeType": 0,
+         "RateAlarmLatch": false,
+         "RateAlarmLimit": 0.0
+        }
+       }
       Children:
       - Name: AlarmDeadband
         Id: g=6c7e2f968f47a446a48501f66e206829
@@ -1423,6 +1839,35 @@ Children:
     - Name: Ch6Config
       Id: g=51ab894b9c94a505a3f09dd2cfafad1f
       Type: 'AB:1756_IF8IH_ChConfig_Struct:C:0'
+      DataType: 'AB:1756_IF8IH_ChConfig_Struct:C:0'
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ea2599f56a7aec13ea28d82594a8cb98",
+         "Namespace": 42
+        },
+        "Body": {
+         "AlarmDeadband": 0.0,
+         "AlarmDisable": false,
+         "CalBias": 0.0,
+         "Config": 0,
+         "DigitalFilter": 0,
+         "HAlarmLimit": 0.0,
+         "HARTEn": false,
+         "HHAlarmLimit": 0.0,
+         "HighEngineering": 0.0,
+         "HighSignal": 0.0,
+         "LAlarmLimit": 0.0,
+         "LLAlarmLimit": 0.0,
+         "LowEngineering": 0.0,
+         "LowSignal": 0.0,
+         "ProcessAlarmLatch": false,
+         "RangeType": 0,
+         "RateAlarmLatch": false,
+         "RateAlarmLimit": 0.0
+        }
+       }
       Children:
       - Name: AlarmDeadband
         Id: g=b05643a34321e21d36071b26839da666
@@ -1625,6 +2070,35 @@ Children:
     - Name: Ch7Config
       Id: g=65747f911c9b5219ab61378d569ce313
       Type: 'AB:1756_IF8IH_ChConfig_Struct:C:0'
+      DataType: 'AB:1756_IF8IH_ChConfig_Struct:C:0'
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ea2599f56a7aec13ea28d82594a8cb98",
+         "Namespace": 42
+        },
+        "Body": {
+         "AlarmDeadband": 0.0,
+         "AlarmDisable": false,
+         "CalBias": 0.0,
+         "Config": 0,
+         "DigitalFilter": 0,
+         "HAlarmLimit": 0.0,
+         "HARTEn": false,
+         "HHAlarmLimit": 0.0,
+         "HighEngineering": 0.0,
+         "HighSignal": 0.0,
+         "LAlarmLimit": 0.0,
+         "LLAlarmLimit": 0.0,
+         "LowEngineering": 0.0,
+         "LowSignal": 0.0,
+         "ProcessAlarmLatch": false,
+         "RangeType": 0,
+         "RateAlarmLatch": false,
+         "RateAlarmLimit": 0.0
+        }
+       }
       Children:
       - Name: AlarmDeadband
         Id: g=e370ffa0bd7fbde93f44ff0ca4295307
@@ -1882,6 +2356,129 @@ Children:
   - Name: 'Local:1:I'
     Id: g=449ed09298f3bd60398a76ec5c2969a0
     Type: 'AB:1756_IF8H_Analog:I:0'
+    DataType: 'AB:1756_IF8H_Analog:I:0'
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "e71ff186c6c8dc703790348caa093d0e",
+       "Namespace": 42
+      },
+      "Body": {
+       "AnalogGroupFault": false,
+       "CalFault": false,
+       "Calibrating": false,
+       "Ch0BrokenWire": false,
+       "Ch0CalFault": false,
+       "Ch0Data": 0.0,
+       "Ch0Fault": false,
+       "Ch0HAlarm": false,
+       "Ch0HARTFault": false,
+       "Ch0HHAlarm": false,
+       "Ch0LAlarm": false,
+       "Ch0LLAlarm": false,
+       "Ch0Overrange": false,
+       "Ch0RateAlarm": false,
+       "Ch0Status": 0,
+       "Ch0Underrange": false,
+       "Ch1BrokenWire": false,
+       "Ch1CalFault": false,
+       "Ch1Data": 0.0,
+       "Ch1Fault": false,
+       "Ch1HAlarm": false,
+       "Ch1HARTFault": false,
+       "Ch1HHAlarm": false,
+       "Ch1LAlarm": false,
+       "Ch1LLAlarm": false,
+       "Ch1Overrange": false,
+       "Ch1RateAlarm": false,
+       "Ch1Status": 0,
+       "Ch1Underrange": false,
+       "Ch2BrokenWire": false,
+       "Ch2CalFault": false,
+       "Ch2Data": 0.0,
+       "Ch2Fault": false,
+       "Ch2HAlarm": false,
+       "Ch2HARTFault": false,
+       "Ch2HHAlarm": false,
+       "Ch2LAlarm": false,
+       "Ch2LLAlarm": false,
+       "Ch2Overrange": false,
+       "Ch2RateAlarm": false,
+       "Ch2Status": 0,
+       "Ch2Underrange": false,
+       "Ch3BrokenWire": false,
+       "Ch3CalFault": false,
+       "Ch3Data": 0.0,
+       "Ch3Fault": false,
+       "Ch3HAlarm": false,
+       "Ch3HARTFault": false,
+       "Ch3HHAlarm": false,
+       "Ch3LAlarm": false,
+       "Ch3LLAlarm": false,
+       "Ch3Overrange": false,
+       "Ch3RateAlarm": false,
+       "Ch3Status": 0,
+       "Ch3Underrange": false,
+       "Ch4BrokenWire": false,
+       "Ch4CalFault": false,
+       "Ch4Data": 0.0,
+       "Ch4Fault": false,
+       "Ch4HAlarm": false,
+       "Ch4HARTFault": false,
+       "Ch4HHAlarm": false,
+       "Ch4LAlarm": false,
+       "Ch4LLAlarm": false,
+       "Ch4Overrange": false,
+       "Ch4RateAlarm": false,
+       "Ch4Status": 0,
+       "Ch4Underrange": false,
+       "Ch5BrokenWire": false,
+       "Ch5CalFault": false,
+       "Ch5Data": 0.0,
+       "Ch5Fault": false,
+       "Ch5HAlarm": false,
+       "Ch5HARTFault": false,
+       "Ch5HHAlarm": false,
+       "Ch5LAlarm": false,
+       "Ch5LLAlarm": false,
+       "Ch5Overrange": false,
+       "Ch5RateAlarm": false,
+       "Ch5Status": 0,
+       "Ch5Underrange": false,
+       "Ch6BrokenWire": false,
+       "Ch6CalFault": false,
+       "Ch6Data": 0.0,
+       "Ch6Fault": false,
+       "Ch6HAlarm": false,
+       "Ch6HARTFault": false,
+       "Ch6HHAlarm": false,
+       "Ch6LAlarm": false,
+       "Ch6LLAlarm": false,
+       "Ch6Overrange": false,
+       "Ch6RateAlarm": false,
+       "Ch6Status": 0,
+       "Ch6Underrange": false,
+       "Ch7BrokenWire": false,
+       "Ch7CalFault": false,
+       "Ch7Data": 0.0,
+       "Ch7Fault": false,
+       "Ch7HAlarm": false,
+       "Ch7HARTFault": false,
+       "Ch7HHAlarm": false,
+       "Ch7LAlarm": false,
+       "Ch7LLAlarm": false,
+       "Ch7Overrange": false,
+       "Ch7RateAlarm": false,
+       "Ch7Status": 0,
+       "Ch7Underrange": false,
+       "ChannelFaults": 0,
+       "CSTTimestamp": [0,0],
+       "HARTFaults": 0,
+       "ModuleFaults": 0,
+       "RollingTimestamp": 0
+      }
+     }
     Children:
     - Name: AnalogGroupFault
       Id: g=dd9db812be6a7d835d30e4d32ca43926
@@ -3120,6 +3717,16 @@ Children:
 - Name: 'Program:MachineCtrl'
   Id: g=e1ab5b1dce8fde5e7db7c187335bbb5c
   Type: TagStructure
+  DataType: Structure
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "Id": 22
+     }
+    }
+   }
   Children:
   - Name: FillingDone
     Id: g=7c9597fe7002df7e22cad97e3261a662
@@ -3135,6 +3742,22 @@ Children:
   - Name: Timer1
     Id: g=713ded2d3192e9c96d87b10dceaa3449
     Type: TIMER
+    DataType: TIMER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "dcf02d149b6262c4b39fe89011f3acb7",
+       "Namespace": 42
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     }
     Children:
     - Name: ACC
       Id: g=2a43806ad8925b8a9197a77b7f66abe2
@@ -3194,6 +3817,22 @@ Children:
   - Name: Timer2
     Id: g=3616e423d31d231a86c7df18a2ccb250
     Type: TIMER
+    DataType: TIMER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "dcf02d149b6262c4b39fe89011f3acb7",
+       "Namespace": 42
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     }
     Children:
     - Name: ACC
       Id: g=6b1ae0b0e2d7d6fe38258b1f889c7c1d
@@ -3275,6 +3914,16 @@ Children:
 - Name: 'Program:MainProgram'
   Id: g=8f7535ce16b066db60de70a2296edf31
   Type: TagStructure
+  DataType: Structure
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "Id": 22
+     }
+    }
+   }
   Children:
   - Name: Start
     Id: g=63d4339a2d71e0c2c60658ac45961c7b
@@ -3301,6 +3950,24 @@ Children:
   - Name: LogVar1Counter
     Id: g=2585877c76671aa5e0b6fbc006e25623
     Type: COUNTER
+    DataType: COUNTER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "a4cc7e538e9e3102ee94830d80b8be11",
+       "Namespace": 42
+      },
+      "Body": {
+       "ACC": 0,
+       "CD": false,
+       "CU": false,
+       "DN": false,
+       "OV": false,
+       "PRE": 0,
+       "UN": false
+      }
+     }
     Children:
     - Name: ACC
       Id: g=1a0de6715f4760b21de1983c3d169186
@@ -3382,6 +4049,22 @@ Children:
   - Name: Timer1
     Id: g=1f865b5ff900effb630d205c7d796860
     Type: TIMER
+    DataType: TIMER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "dcf02d149b6262c4b39fe89011f3acb7",
+       "Namespace": 42
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     }
     Children:
     - Name: ACC
       Id: g=4eec9e3d5e855aa9111a30b15e265854
@@ -3452,6 +4135,24 @@ Children:
   - Name: LogVar2Counter
     Id: g=36e5d382e3b24723c5fb6e6f34589406
     Type: COUNTER
+    DataType: COUNTER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "a4cc7e538e9e3102ee94830d80b8be11",
+       "Namespace": 42
+      },
+      "Body": {
+       "ACC": 0,
+       "CD": false,
+       "CU": false,
+       "DN": false,
+       "OV": false,
+       "PRE": 0,
+       "UN": false
+      }
+     }
     Children:
     - Name: ACC
       Id: g=720487656ca647906aa68c33cee2dd35
@@ -3533,6 +4234,24 @@ Children:
   - Name: LogVar3Counter
     Id: g=4b6aa5f5d3a0c1124cc0d0be40fb4f9e
     Type: COUNTER
+    DataType: COUNTER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "a4cc7e538e9e3102ee94830d80b8be11",
+       "Namespace": 42
+      },
+      "Body": {
+       "ACC": 0,
+       "CD": false,
+       "CU": false,
+       "DN": false,
+       "OV": false,
+       "PRE": 0,
+       "UN": false
+      }
+     }
     Children:
     - Name: ACC
       Id: g=6b9075d59d09c0a0fd487a0418fc9fcb
@@ -3614,6 +4333,24 @@ Children:
   - Name: LogVar4Counter
     Id: g=ef454b098a60aaa1598fa7c8d8ba444b
     Type: COUNTER
+    DataType: COUNTER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "a4cc7e538e9e3102ee94830d80b8be11",
+       "Namespace": 42
+      },
+      "Body": {
+       "ACC": 0,
+       "CD": false,
+       "CU": false,
+       "DN": false,
+       "OV": false,
+       "PRE": 0,
+       "UN": false
+      }
+     }
     Children:
     - Name: ACC
       Id: g=ca00372622e745b476b81b98e59facde
@@ -3695,6 +4432,22 @@ Children:
   - Name: Timer2
     Id: g=4172052324eb66794912829424450795
     Type: TIMER
+    DataType: TIMER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "dcf02d149b6262c4b39fe89011f3acb7",
+       "Namespace": 42
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     }
     Children:
     - Name: ACC
       Id: g=1cdbb22a58a44f027c45cfcb954679b3

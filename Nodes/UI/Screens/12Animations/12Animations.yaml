@@ -44,6 +44,17 @@ Children:
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":6,"Namespace":7}
+  - Name: CurrentTabIndex
+    Id: g=38ecfef39da820175bd8ea5528c7465b
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Class: Reference
+    Target: ns=7;i=1181
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=1183
+    Direction: Forward
 - Name: Number_Animation
   Id: g=ebaeee4f8e82158eb5f93a59163ccc7a
   Supertype: SubScreenTemplate

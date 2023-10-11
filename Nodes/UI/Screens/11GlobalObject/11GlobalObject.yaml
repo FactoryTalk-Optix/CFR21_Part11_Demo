@@ -75,6 +75,17 @@ Children:
       Type: PropertyType
       DataType: NodeId
       Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: CurrentTabIndex
+    Id: g=f2972d8ce6f2b6db2552efe8f44ac8d2
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Class: Reference
+    Target: ns=7;i=1181
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=1183
+    Direction: Forward
 - Name: Bit_Operation
   Id: g=5f4ee833e99f67e7d1ada88735e72dda
   Supertype: SubScreenTemplate

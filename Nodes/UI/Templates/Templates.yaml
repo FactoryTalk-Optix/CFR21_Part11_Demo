@@ -320,6 +320,17 @@ Children:
     DataType: VerticalAlignment
     ModellingRule: Optional
     Value: 3
+  - Name: CurrentTabIndex
+    Id: g=1f122a246c21b0c5b2c30d6806a42227
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Class: Reference
+    Target: ns=7;i=1181
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=1183
+    Direction: Forward
 - File: UserEditor/UserEditor.yaml
 - File: LoginForm/LoginForm.yaml
 - Name: MotorGlobalObject

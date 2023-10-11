@@ -64,6 +64,17 @@ Children:
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":6,"Namespace":7}
+  - Name: CurrentTabIndex
+    Id: g=1d49933985920c8497f6def0adfb61e3
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Class: Reference
+    Target: ns=7;i=1181
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=1183
+    Direction: Forward
 - Name: RA_EthernetIP
   Id: g=07628c4e617cd9524ec644dc2dadb9a8
   Supertype: SubScreenTemplate

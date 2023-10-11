@@ -56,6 +56,12 @@ Children:
   - Name: NavigationPanelStyle
     Id: g=a9430f19ba00d7534b4c080b24488410
     Type: NavigationPanelStyle
+    Children:
+    - Name: IconUsesTextColor
+      Id: g=5c0e575e3acc1fe6fdf0bf17a66df78e
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
   - Name: ChartStyle
     Id: g=8c4fae18bd32b2f5d1794b21411013f1
     Type: ChartStyle
@@ -6747,7 +6753,16 @@ Children:
         DataType: TimeZoneDataType
         ReferenceType: HasProperty
         AccessLevel: Read
-        Value: {"TypeId":{"Id":8912},"Body":{"offset":0,"daylightSavingInOffset":false}}
+        Value: 
+         {
+          "TypeId": {
+           "Id": 8912
+          },
+          "Body": {
+           "offset": 0,
+           "daylightSavingInOffset": false
+          }
+         }
       - Name: Groups
         Id: g=a81130fda966fc4086f74c0cdeff0ba3
         Type: BaseObjectType

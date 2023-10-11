@@ -124,6 +124,17 @@ Children:
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":6,"Namespace":7}
+  - Name: CurrentTabIndex
+    Id: g=1ac458dd8817aa384d5f4e250386d895
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Class: Reference
+    Target: ns=7;i=1181
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=1183
+    Direction: Forward
 - Name: DataLogReport
   Id: g=165b1ecdd70c991f96962fe08c946853
   Supertype: SubScreenTemplate

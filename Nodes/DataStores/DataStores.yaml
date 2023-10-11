@@ -31,42 +31,42 @@ Children:
         Type: BaseObjectType
         Children:
         - Name: LocalTimeStamp
-          Id: g=f828213f7c1ec247fb2913777da84705
+          Id: g=960b1cc76faa1f18862de77885cabb21
           Type: StoreColumn
           DataType: DateTime
           Value: "1601-01-01T00:00:00.0000000"
         - Name: SourceName
-          Id: g=621a47a559868ce01070d4585367cf45
+          Id: g=631bcb8d7fb6342821da999fdbf1a388
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: Message
-          Id: g=6eec01575aaee333cd3a9e1a48edf796
+          Id: g=ede6b89b75ca5f5487125290d4f6396f
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: ClientUserId
-          Id: g=40ac9c45422e2cad753c2c1ffa1b5ade
+          Id: g=2df3bb9d54cde8d57896e67fa5e1350d
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: ClientUserNote
-          Id: g=19a4e31263f71ea1afc1e201f6aacebb
+          Id: g=f2b335cdaaaeb83df8185bffe9e44e4d
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: SecondClientUserId
-          Id: g=c94ebdb5f6725748d2767b7324ab9a25
+          Id: g=063abd3c5abb59142f1e72dad062f04f
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: SecondClientUserNote
-          Id: g=564d2ec32e6a4dcd3ee00ba59849b485
+          Id: g=7ceeb7f431e08f5fa4a05264dad46e8a
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: EventType
-          Id: g=d9eafcf19bb366626331f8f6b5dd1425
+          Id: g=79cc16a6b77d4c42d51ba16cd9c69768
           Type: StoreColumn
           DataType: String
           Value: ""
@@ -164,52 +164,52 @@ Children:
         Type: BaseObjectType
         Children:
         - Name: ActiveState_Id
-          Id: g=5e56ef67b623b2da15b2db5c05117e42
+          Id: g=c2ff06bfc624502e9742f87eca255b90
           Type: StoreColumn
           DataType: Boolean
           Value: false
         - Name: AckedState_Id
-          Id: g=b7632e9dd18674a336047350b1dc8f19
+          Id: g=652045705e2c639da106dcaaece42026
           Type: StoreColumn
           DataType: Boolean
           Value: false
         - Name: ConfirmedState_Id
-          Id: g=749ae4d46bb95c42763da723110cedb0
+          Id: g=73e862a611e3f0425693c93661660103
           Type: StoreColumn
           DataType: Boolean
           Value: false
         - Name: ConditionName
-          Id: g=4270ef1f359420d03c884c88abbe0053
+          Id: g=17ada40bcc3741d9653f5a6645f964bd
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: EnabledState_Id
-          Id: g=d453c29cc24129bb0e8f8812d0e7f84d
+          Id: g=3409d58c3f428b5b29f8ac8212bcae64
           Type: StoreColumn
           DataType: Boolean
           Value: false
         - Name: SourceName
-          Id: g=c4133b2f95776bb79d7683c4fc82dd53
+          Id: g=1ddc1ec64b515860830ec6306ec08f52
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: Time
-          Id: g=875d7a59cff274eee87acaf9c55e44a0
+          Id: g=637516ba1128f8ad2978cd59e74f64da
           Type: StoreColumn
           DataType: UtcTime
           Value: "1601-01-01T00:00:00.0000000"
         - Name: 'Message_en-US'
-          Id: g=3238afa1f3e175f8f6ae88277c5ef875
+          Id: g=254d509aab2cece3d69efb1cd4b291e3
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: Severity
-          Id: g=3d406d5a4ef8c9670b038d8a708695fb
+          Id: g=554d9ecb9b9b59f5452f37617489ea7c
           Type: StoreColumn
           DataType: UInt16
           Value: 0
         - Name: LocalTime
-          Id: g=c86f0a459a9cc15f39e8755a000b71d0
+          Id: g=f7dc811497b162c29f1bbffa18cf83c0
           Type: StoreColumn
           DataType: DateTime
           Value: "1601-01-01T00:00:00.0000000"
@@ -776,7 +776,16 @@ Children:
           Id: g=665a01d7c9f4d1a6467001112ee8e754
           Type: StoreColumn
           DataType: TimeZoneDataType
-          Value: {"TypeId":{"Id":8912},"Body":{"offset":0,"daylightSavingInOffset":false}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 8912
+            },
+            "Body": {
+             "offset": 0,
+             "daylightSavingInOffset": false
+            }
+           }
   - Class: Reference
     Target: ns=29;i=30
     Direction: Forward

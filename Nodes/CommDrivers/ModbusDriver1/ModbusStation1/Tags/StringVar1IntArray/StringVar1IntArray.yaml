@@ -1,0 +1,224 @@
+Name: StringVar1IntArray
+Id: g=984bf856b868cc28ff1df1901826a57e
+Type: FolderType
+Children:
+- Name: S1VarInt1
+  Id: g=9d34c24d57cb299b8d574278440e5709
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=33d512ee1afc44f47aa13b98a56d7d80
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 7
+- Name: S1VarInt2
+  Id: g=caf2440f28de5d430d5fa7424e1ba686
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=06d38ab012f1b66ff760a40c21b34ecd
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 8
+- Name: S1VarInt3
+  Id: g=bdc695a62f599fbd13163ff192c1205e
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=0b533f31a7bb793fc25c8f308b6fff02
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 9
+- Name: S1VarInt4
+  Id: g=da4d8793908fb04e430badb9f797d21b
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=2ecb7cb20937662bcc2db93ab03968c9
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 10
+- Name: S1VarInt5
+  Id: g=8f339f11041b9da9897cdc76f75242df
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=592387139191df1ea5ae4e2b860adf1c
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 11
+- Name: S1VarInt6
+  Id: g=628f31dd1baf9ee4e0f30a9552d65a61
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=d8ce7b2f8e7aeb821e07dac5d020267b
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 12
+- Name: S1VarInt7
+  Id: g=687194ae343be7397d99bdc701620d7f
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=073a06680498a2f1ad8491838a14f613
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 13
+- Name: S1VarInt8
+  Id: g=86a82ac03bbcdf4c3f12bcf9995508f5
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=cf1a7b32346a27b4676376e6ce5097f0
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 14
+- Name: S1VarInt9
+  Id: g=1f37fc01d4507d027d38d14793b8a58c
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=24631e7aa7a5f9b3d00fd5bd55d9f7d3
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 15
+- Name: S1VarInt10
+  Id: g=b4d96d518eb73fb0ba23a08a000078fb
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=bf0b7dfa0b0d95e3d85d1f19d6dc61c4
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 16
+- Name: S1VarInt11
+  Id: g=a6ccfbfee27e5c2d687464056cce6920
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=60f4bc9ee8425da62b6e6b6f32850a54
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 17
+- Name: S1VarInt12
+  Id: g=949609f574a86948ff837ade6c5fbd6e
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=82e5206e6f209c0015046bcb7a6a9612
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 18
+- Name: S1VarInt13
+  Id: g=ad79e0db36adce68b7934dd937dd83d5
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=ff798eb10ccada3553d7419303c5554e
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 19
+- Name: S1VarInt14
+  Id: g=721629c58d2d9c17bc4a14d3af5b72fe
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=31117f33879a5abcc9b15e8cc94c71b0
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 20
+- Name: S1VarInt15
+  Id: g=602a3c8bf7100551b7e4ee10e761a4ee
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=31c699e01ce38d5210dce6b6026af07a
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 21
+- Name: S1VarInt16
+  Id: g=1aa6ca66cc39d4a9995d0a84c433882b
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=694490e466bc8545c449c567e15a8f70
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 22
+- Name: S1VarInt17
+  Id: g=565d992d67f29f76e8d6ae9ee1a1f898
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=c667eff277ccbfb268afc298230de779
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 23
+- Name: S1VarInt18
+  Id: g=c4b473db9fbba3cbca85b5ecb78f2029
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=5e4ebaf1c6ad952dbe97e9d17c2d0910
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 24
+- Name: S1VarInt19
+  Id: g=24e3bcb5247949ed15cbb5a63e7bc53a
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=09c0d46dbe1b124594327a53149ea12c
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 25
+- Name: S1VarInt20
+  Id: g=020d6b8db9134df857cc8af0cab9eba1
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=8f941d2b95fe60b24067ab513bac1685
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 26

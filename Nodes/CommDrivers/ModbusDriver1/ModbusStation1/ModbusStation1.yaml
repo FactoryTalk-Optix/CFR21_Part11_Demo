@@ -69,7 +69,10 @@ Children:
 - File: Tags/Tags.yaml
 - Name: Types
   Id: g=d96be78a42834fecfc851091e3ec3522
-  Type: BaseObjectType
+  Type: FolderType
+  Children:
+  - File: DataTypes/DataTypes.yaml
+  - File: VariableTypes/VariableTypes.yaml
 - Name: SwapWords
   Id: g=d007fdfaa1ad0922f92baf3eb47dddd8
   Type: BaseDataVariableType
