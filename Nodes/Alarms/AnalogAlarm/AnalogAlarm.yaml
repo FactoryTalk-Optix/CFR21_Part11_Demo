@@ -10,7 +10,6 @@ Children:
     Id: g=fa2459ef4bcf825036c0730b023d0d6a
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=525cffb0a0b929d5ab544a03fe16202c
@@ -48,6 +47,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Temperature High"}
+  - Class: Reference
+    Target: ns=23;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=135
+    Direction: Forward
 - Name: PresHighAlarm
   Id: g=7c663614fd21475079c1cc59ebbf6f6d
   Type: ExclusiveLevelAlarmController
@@ -56,7 +64,6 @@ Children:
     Id: g=4a3d8a61b702ad74457584b27b371dd7
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=3cb38607615b9d4dce1079a1dec8db06
@@ -94,6 +101,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Presure High"}
+  - Class: Reference
+    Target: ns=23;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=135
+    Direction: Forward
 - Name: TempLowAlarm
   Id: g=b78e5b5f9aa9350eeb6d8ceb2b371dea
   Type: ExclusiveLevelAlarmController
@@ -102,7 +118,6 @@ Children:
     Id: g=5944fe96e16522ea53df6bdc3ef27327
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=c5e76c0cc8779a31ad4f14bf6ab36af4
@@ -140,6 +155,15 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 30.0
+  - Class: Reference
+    Target: ns=23;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=135
+    Direction: Forward
 - Name: PresLowAlarm
   Id: g=ef45f3d50d26fd45f055dc2aaeb5e078
   Type: ExclusiveLevelAlarmController
@@ -148,7 +172,6 @@ Children:
     Id: g=0f3b309233aee886a4c0c421f88c475c
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=32047ebe82f76e4ad6f83198f016f90f
@@ -186,3 +209,12 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 2.0
+  - Class: Reference
+    Target: ns=23;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=135
+    Direction: Forward

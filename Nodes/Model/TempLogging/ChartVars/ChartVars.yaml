@@ -6,24 +6,19 @@ Children:
   Id: g=54bca967ef38847141943770fcde61ac
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
 - Name: Group2Counts
   Id: g=b7f5c98d3d6030c1955987a7579a0e43
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
 - Name: Group3Counts
   Id: g=0e7eda80e0f46572f0be10b09880b643
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
 - Name: Group4Counts
   Id: g=7c533c769ac4a465f7cddb790bf82d52
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
 - Name: Group5Counts
   Id: g=afd438114cfc058f342ba6c38c388677
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0

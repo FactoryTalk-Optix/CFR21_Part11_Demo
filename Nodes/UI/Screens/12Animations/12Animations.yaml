@@ -25,30 +25,28 @@ Children:
         Id: g=64ee487b88569ccc64b5c20493f3d530
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":2,"Id":"ebaeee4f8e82158eb5f93a59163ccc7a","Namespace":42}
+        Value: "/Objects/CFR21_Part11_Demo/UI/Screens/12Animations/Number_Animation"
         Children:
         - Name: Kind
           Id: g=87e00cac8a80746dddadbee07b0b3663
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":71,"Namespace":7}
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
   - Name: CurrentPanel
     Id: g=c935f718f814ce29c94ef8ad08997685
     Type: NodePointer
     DataType: NodeId
     AccessLevel: Read
-    Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
       Id: g=0184d59c7cf917d317b81ba2c5bb2ad0
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":6,"Namespace":7}
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
   - Name: CurrentTabIndex
     Id: g=38ecfef39da820175bd8ea5528c7465b
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Class: Reference
     Target: ns=7;i=1181
     Direction: Forward
@@ -75,13 +73,12 @@ Children:
         Id: g=5a4339feea4bf180d315744c972a17dc
         Type: BaseDataVariableType
         DataType: Double
-        Value: 0.0
         Children:
         - Name: DynamicLink
           Id: g=4adcfdbf11ee98db7bc6fe7c8826555d
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=42;g=64a85d8c-c551-a4de-1015-f4c19d34e688}"
+          Value: "/Objects/CFR21_Part11_Demo/Model/Number of rotation"
           Children:
           - Name: Mode
             Id: g=1505437a9689ebc92fd208f42d6a78bd
@@ -131,7 +128,7 @@ Children:
           Id: g=b671b5f6cb0ba3446bb1f5e6b09cd0fb
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":16,"Namespace":7}
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
         - Name: MethodsToCall
           Id: g=556ea0992a7a63d80085722231c0b108
           Type: BaseObjectType
@@ -144,13 +141,13 @@ Children:
               Id: g=566489216d52917e7c72415f42a24b41
               Type: NodePointer
               DataType: NodeId
-              Value: {"Id":22,"Namespace":5}
+              Value: "/Objects/Commands/VariableCommands"
               Children:
               - Name: Kind
                 Id: g=49c66d8be565a75da9643de2249eef40
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: ns=5;Method
               Id: g=7b0ff6d54b4524352a48a7f982c5e52d
               Type: BaseDataVariableType
@@ -165,7 +162,6 @@ Children:
                 Type: BaseDataVariableType
                 DataType: VariablePointer
                 Description: {"NamespaceIndex":5,"TextId":"SetVariableToModifyDescription"}
-                Value: {"IdType":0,"Id":0,"Namespace":-1}
                 Children:
                 - Name: DynamicLink
                   Id: g=627771b8d9b4a69de9cb1b6b7bf42b31
@@ -191,7 +187,6 @@ Children:
                 DataType: UInt32
                 Description: {"NamespaceIndex":5,"TextId":"SetArrayIndexDescription"}
                 ValueRank: ScalarOrOneDimension
-                Value: 0
           - Name: MethodContainer2
             Id: g=80c751332791f71081e0545a5461ce85
             Type: BaseObjectType
@@ -200,13 +195,13 @@ Children:
               Id: g=8005852aabcc67e81bfb87ade3a833c3
               Type: NodePointer
               DataType: NodeId
-              Value: {"Id":22,"Namespace":5}
+              Value: "/Objects/Commands/VariableCommands"
               Children:
               - Name: Kind
                 Id: g=6ad2750dcb66e45b16944b7ba5edda27
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: ns=5;Method
               Id: g=b0928a26557245b2f3a5009f18507219
               Type: BaseDataVariableType
@@ -221,7 +216,6 @@ Children:
                 Type: BaseDataVariableType
                 DataType: VariablePointer
                 Description: {"NamespaceIndex":5,"TextId":"SetVariableToModifyDescription"}
-                Value: {"IdType":0,"Id":0,"Namespace":-1}
                 Children:
                 - Name: DynamicLink
                   Id: g=16c4375f5b5c3e9c0d415fe48cae6655
@@ -247,7 +241,6 @@ Children:
                 DataType: UInt32
                 Description: {"NamespaceIndex":5,"TextId":"SetArrayIndexDescription"}
                 ValueRank: ScalarOrOneDimension
-                Value: 0
           - Name: MethodContainer3
             Id: g=b5b06611501baf459e66789710f07ad1
             Type: BaseObjectType
@@ -256,13 +249,13 @@ Children:
               Id: g=f3cccef30d8bd742ca234d1694b5e908
               Type: NodePointer
               DataType: NodeId
-              Value: {"Id":22,"Namespace":5}
+              Value: "/Objects/Commands/VariableCommands"
               Children:
               - Name: Kind
                 Id: g=58a186ce27fa4a1721aef4af721f550d
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: ns=5;Method
               Id: g=a83b2bf8b8fab18c77b5f5d299146bf2
               Type: BaseDataVariableType
@@ -277,7 +270,6 @@ Children:
                 Type: BaseDataVariableType
                 DataType: VariablePointer
                 Description: {"NamespaceIndex":5,"TextId":"SetVariableToModifyDescription"}
-                Value: {"IdType":0,"Id":0,"Namespace":-1}
                 Children:
                 - Name: DynamicLink
                   Id: g=b7a376e8e5972b82f7b492f314295193
@@ -303,7 +295,6 @@ Children:
                 DataType: UInt32
                 Description: {"NamespaceIndex":5,"TextId":"SetArrayIndexDescription"}
                 ValueRank: ScalarOrOneDimension
-                Value: 0
           - Name: MethodContainer4
             Id: g=91832c169579562bd091018de47ddf9b
             Type: BaseObjectType
@@ -312,13 +303,13 @@ Children:
               Id: g=1f225b1790a33fd244a6933734992c26
               Type: NodePointer
               DataType: NodeId
-              Value: {"Id":22,"Namespace":5}
+              Value: "/Objects/Commands/VariableCommands"
               Children:
               - Name: Kind
                 Id: g=bd1eed921ae08e773415b958e9d77c2f
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: ns=5;Method
               Id: g=13ea4d10f51c000be6c4fdbc132e4175
               Type: BaseDataVariableType
@@ -333,7 +324,6 @@ Children:
                 Type: BaseDataVariableType
                 DataType: VariablePointer
                 Description: {"NamespaceIndex":5,"TextId":"SetVariableToModifyDescription"}
-                Value: {"IdType":0,"Id":0,"Namespace":-1}
                 Children:
                 - Name: DynamicLink
                   Id: g=4944338c2a8daa2505ffd723a7768a31
@@ -359,7 +349,6 @@ Children:
                 DataType: UInt32
                 Description: {"NamespaceIndex":5,"TextId":"SetArrayIndexDescription"}
                 ValueRank: ScalarOrOneDimension
-                Value: 0
           - Name: MethodContainer5
             Id: g=7932a3498057e1bd66191c71d4c53838
             Type: BaseObjectType
@@ -368,13 +357,13 @@ Children:
               Id: g=efd87a74caaffe78bbb42144dc55aae1
               Type: NodePointer
               DataType: NodeId
-              Value: {"Id":22,"Namespace":5}
+              Value: "/Objects/Commands/VariableCommands"
               Children:
               - Name: Kind
                 Id: g=d52dc56e93b40939c72dc358d0e59387
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: ns=5;Method
               Id: g=4e51fd37f06c83d38c04dbe2fbd3d34f
               Type: BaseDataVariableType
@@ -389,7 +378,6 @@ Children:
                 Type: BaseDataVariableType
                 DataType: VariablePointer
                 Description: {"NamespaceIndex":5,"TextId":"SetVariableToModifyDescription"}
-                Value: {"IdType":0,"Id":0,"Namespace":-1}
                 Children:
                 - Name: DynamicLink
                   Id: g=b5582d3879a29540b76a7e172fd44f52
@@ -415,7 +403,6 @@ Children:
                 DataType: UInt32
                 Description: {"NamespaceIndex":5,"TextId":"SetArrayIndexDescription"}
                 ValueRank: ScalarOrOneDimension
-                Value: 0
         - Name: EventArguments
           Id: g=9e579e13eff74cc1387662ea7f9be778
           Type: MouseClickEvent
@@ -424,42 +411,34 @@ Children:
             Id: g=618094a799d3022320d151b872e33459
             Type: PropertyType
             DataType: ByteString
-            Value: ""
           - Name: EventType
             Id: g=14f32a9e3099163cc70582061ea372e8
             Type: PropertyType
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
           - Name: SourceNode
             Id: g=c84da60bc622c7db0461fdc5768f9bfa
             Type: PropertyType
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
           - Name: SourceName
             Id: g=3093421628910a5f9fc8e137ddecf67e
             Type: PropertyType
             DataType: String
-            Value: ""
           - Name: Time
             Id: g=6bd7518c881ad6e2b20f269754857d86
             Type: PropertyType
             DataType: UtcTime
-            Value: "1601-01-01T00:00:00.0000000"
           - Name: ReceiveTime
             Id: g=f71b38ac650a2b46b7620d8c9238337f
             Type: PropertyType
             DataType: UtcTime
-            Value: "1601-01-01T00:00:00.0000000"
           - Name: Message
             Id: g=4481efb8ee836843dfe4f6aa6cd64c5a
             Type: PropertyType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Severity
             Id: g=aec725d28994a8ca0db3f17fad373aa2
             Type: PropertyType
             DataType: UInt16
-            Value: 0
       - Name: LeftMargin
         Id: g=2c76909c86636392420a875e537dae29
         Type: BaseVariableType
@@ -471,7 +450,6 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
-      Value: "#00000000"
     - Name: FillColor
       Id: g=7dfbb47fdabf68575e52f4a795d23cc9
       Type: BaseDataVariableType
@@ -518,13 +496,12 @@ Children:
           Id: g=11af87ec66ade37316fd5a06d2ad5fdf
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
           Children:
           - Name: Kind
             Id: g=9f19969746cbbe917db8654acbc1627d
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":62}
+            Value: "/Types/VariableTypes/BaseVariableType"
           - Name: DynamicLink
             Id: g=b17daf6cbfd7add33c82397b6be34090
             Type: DynamicLink
@@ -534,7 +511,6 @@ Children:
           Id: g=22cadc12024a6290aee00a35ab427373
           Type: BaseDataVariableType
           DataType: Boolean
-          Value: false
         - Name: Loops
           Id: g=6065996d836c6a2ed871abfbcd13b9cb
           Type: BaseDataVariableType
@@ -551,12 +527,11 @@ Children:
             Id: g=7d6b7a97b0bcc64ab1b83ec4f026400f
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=42;g=64a85d8c-c551-a4de-1015-f4c19d34e688}"
+            Value: "/Objects/CFR21_Part11_Demo/Model/Number of rotation"
       - Name: Rotation
         Id: g=3e9084871ce47625764c52df2e52d3d9
         Type: BaseVariableType
         DataType: Size
-        Value: 0.0
       - Name: Image1
         Id: g=c9d3dbb530c397aaf1673a244d663a88
         Type: Image
@@ -636,13 +611,12 @@ Children:
           Id: g=82863b71eedd38dc56a65e4299729824
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
           Children:
           - Name: Kind
             Id: g=57d5579d619054c4696a8326cbc5725d
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":62}
+            Value: "/Types/VariableTypes/BaseVariableType"
           - Name: DynamicLink
             Id: g=177f2d159d85232c089e2b33d4b24266
             Type: DynamicLink
@@ -652,7 +626,6 @@ Children:
           Id: g=a7202f77801b1c4b2d1a027a3ad792ad
           Type: BaseDataVariableType
           DataType: Boolean
-          Value: false
         - Name: Loops
           Id: g=017d26d3bcb224b7bda73be0ce199c16
           Type: BaseDataVariableType
@@ -669,12 +642,11 @@ Children:
             Id: g=332aa91bfaadfb91cf7e317246269648
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=42;g=64a85d8c-c551-a4de-1015-f4c19d34e688}"
+            Value: "/Objects/CFR21_Part11_Demo/Model/Number of rotation"
       - Name: Rotation
         Id: g=7d3139dd170fa0aba59a0d2bd7516693
         Type: BaseVariableType
         DataType: Size
-        Value: 0.0
       - Name: Image1
         Id: g=1f7e27b56685fd23e474ddce4b0f93ce
         Type: Image
@@ -747,7 +719,6 @@ Children:
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: Optional
-        Value: false
       - Name: Path
         Id: g=fcd61c492d636f2d6d23a30ccb5db851
         Type: BaseDataVariableType
@@ -758,7 +729,6 @@ Children:
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: Optional
-        Value: false
       - Name: Visible
         Id: g=e11b46f1a9f14b147c98ff51759c4dec
         Type: BaseDataVariableType
@@ -788,7 +758,6 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: Width
         Id: g=a9c73beac355019a9e9a5b60762ae561
         Type: BaseVariableType
@@ -799,25 +768,21 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: HorizontalAlignment
         Id: g=bded9d455dc111bb249f55c07308aabf
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: VerticalAlignment
         Id: g=ce5e9522b802666b8d43faf2e5c901b7
         Type: BaseVariableType
         DataType: VerticalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: Rotation
         Id: g=e904006068855bcabb23eb08a50d3468
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: NumberAnimation1
         Id: g=cc52919c3f5b0c7eb9d20c7acdd07af4
         Type: NumberAnimation
@@ -831,13 +796,12 @@ Children:
           Id: g=ddd772cc5b9fcb5b82ed6052c6c01fec
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
           Children:
           - Name: Kind
             Id: g=06efc637a5e643343b1cc3e24ea7e376
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":62}
+            Value: "/Types/VariableTypes/BaseVariableType"
           - Name: DynamicLink
             Id: g=0e6a4599eee445cd8060a88f35a811d6
             Type: DynamicLink
@@ -848,18 +812,15 @@ Children:
             Type: PropertyType
             DataType: NodePointerNodeClass
             ModellingRule: Optional
-            Value: 0
         - Name: Running
           Id: g=26f7b04179fad8d6bb7c368d58ce3aa7
           Type: BaseDataVariableType
           DataType: Boolean
-          Value: false
         - Name: EasingCurve
           Id: g=3fb64d24aeb91504fccba6dc1c9e839f
           Type: BaseDataVariableType
           DataType: EasingCurveEnum
           ModellingRule: Optional
-          Value: 0
         - Name: From
           Id: g=a0ee6d36b3f9fc99d2cb4ee61587c311
           Type: BaseDataVariableType
@@ -882,13 +843,12 @@ Children:
             Id: g=db02633b1f3e12741d3b5a6a81db687b
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=42;g=64a85d8c-c551-a4de-1015-f4c19d34e688}"
+            Value: "/Objects/CFR21_Part11_Demo/Model/Number of rotation"
       - Name: RightMargin
         Id: g=ed5f27ef9cc9e10fd5960953860edd41
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: LeftMargin
         Id: g=983571ef9357ba3b28952333d7a14421
         Type: BaseVariableType
@@ -921,7 +881,6 @@ Children:
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: Optional
-        Value: false
       - Name: Path
         Id: g=a4e4946d39246b2b30c5782ee86a3d41
         Type: BaseDataVariableType
@@ -932,7 +891,6 @@ Children:
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: Optional
-        Value: false
       - Name: Visible
         Id: g=f652953e3f221f71f196e00bfdb29e03
         Type: BaseDataVariableType
@@ -962,7 +920,6 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: Width
         Id: g=f2d3dc802d019282a77f98950846c684
         Type: BaseVariableType
@@ -973,25 +930,21 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: HorizontalAlignment
         Id: g=f9b818efab42863504a4b73f514e137e
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: VerticalAlignment
         Id: g=ec2b7de152fcb6b55b21ab34b790c931
         Type: BaseVariableType
         DataType: VerticalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: Rotation
         Id: g=9a6120e1383ed9179917a6594fc5c5fb
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: NumberAnimation1
         Id: g=e082489579f93ab004a5b52898f0457e
         Type: NumberAnimation
@@ -1005,13 +958,12 @@ Children:
           Id: g=f327e5a184e926c58238366bb3351213
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
           Children:
           - Name: Kind
             Id: g=e384fb1aef076c6d2e7cf25aea13606b
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":62}
+            Value: "/Types/VariableTypes/BaseVariableType"
           - Name: DynamicLink
             Id: g=21f2875840f5c5a32941403a78dfaa67
             Type: DynamicLink
@@ -1022,18 +974,15 @@ Children:
             Type: PropertyType
             DataType: NodePointerNodeClass
             ModellingRule: Optional
-            Value: 0
         - Name: Running
           Id: g=0d6f38b6563741b1610c5be68eb59d28
           Type: BaseDataVariableType
           DataType: Boolean
-          Value: false
         - Name: EasingCurve
           Id: g=096fb131e3969d16cce7536b27472c61
           Type: BaseDataVariableType
           DataType: EasingCurveEnum
           ModellingRule: Optional
-          Value: 0
         - Name: From
           Id: g=6dcefc0dd28a2a81b71b61b29e29171c
           Type: BaseDataVariableType
@@ -1056,13 +1005,12 @@ Children:
             Id: g=70d3607742f5b7b3c76b42a6a025a14b
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=42;g=64a85d8c-c551-a4de-1015-f4c19d34e688}"
+            Value: "/Objects/CFR21_Part11_Demo/Model/Number of rotation"
       - Name: RightMargin
         Id: g=b5475ead8216c5f45e46c68570a4d26e
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: LeftMargin
         Id: g=3be77ca990fccf74c107abbf2dc38cdc
         Type: BaseVariableType
@@ -1108,13 +1056,12 @@ Children:
           Id: g=24ff0d27605ee6d60459a74ea3abfaa1
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
           Children:
           - Name: Kind
             Id: g=ab462d44482082bec96b59f8b7d8e5fc
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":62}
+            Value: "/Types/VariableTypes/BaseVariableType"
           - Name: DynamicLink
             Id: g=cbfb74cee26463e04e2e36df6ad924c3
             Type: DynamicLink
@@ -1124,7 +1071,6 @@ Children:
           Id: g=e39e99bcbac8a81b63dfe616aead76a7
           Type: BaseDataVariableType
           DataType: Boolean
-          Value: false
         - Name: Loops
           Id: g=6cc46fe02e0bc6c50aeebf94e7790542
           Type: BaseDataVariableType
@@ -1141,12 +1087,11 @@ Children:
             Id: g=3d9efc1fb9a1c8516c3f73548e9c6053
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=42;g=64a85d8c-c551-a4de-1015-f4c19d34e688}"
+            Value: "/Objects/CFR21_Part11_Demo/Model/Number of rotation"
       - Name: Rotation
         Id: g=4936493fe3b2d91723e271a8a1932656
         Type: BaseVariableType
         DataType: Size
-        Value: 0.0
       - Name: FillMode
         Id: g=28f487ca942e25df0bef653c5c66ebe7
         Type: BaseDataVariableType
@@ -1158,7 +1103,6 @@ Children:
         Type: BaseDataVariableType
         DataType: ColorizationModeEnum
         ModellingRule: Optional
-        Value: 0
       - Name: LeftMargin
         Id: g=1abefc157e4b7ea998e1cbbc0fd0fa18
         Type: BaseVariableType
@@ -1192,7 +1136,6 @@ Children:
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: Optional
-        Value: false
       - Name: Path
         Id: g=d962f49a76c0503c581af83249811e05
         Type: BaseDataVariableType
@@ -1203,7 +1146,6 @@ Children:
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: Optional
-        Value: false
       - Name: Visible
         Id: g=48c423b7f8d9325980eebfff8e40d357
         Type: BaseDataVariableType
@@ -1233,7 +1175,6 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: Width
         Id: g=789a83cde784381ae21e458bd84dab61
         Type: BaseVariableType
@@ -1244,31 +1185,26 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: HorizontalAlignment
         Id: g=2c3dfeff3cb3a56eb0d5e6e5a572a28a
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: VerticalAlignment
         Id: g=13ecde4982c892dfad899471e37a35fd
         Type: BaseVariableType
         DataType: VerticalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: Rotation
         Id: g=73ba2811bc7aa289b12b175e80dc6f73
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: RightMargin
         Id: g=d9ac4f3f5348d1a9a44f49253de56fdb
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: LeftMargin
         Id: g=b96fb2a530e93ba49d22f9b10a360d9c
         Type: BaseVariableType
@@ -1313,13 +1249,11 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: RightMargin
         Id: g=2a1502fed841de73662535bc8658fdc6
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: FontSize
         Id: g=e472d1ea21c3f03087c5189723e53eec
         Type: BaseDataVariableType

@@ -25,30 +25,28 @@ Children:
         Id: g=5ac7c9cc46c0feafea439c0dabe53170
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":2,"Id":"a6d7c44a7b96d3547ebc62272d4fea8f","Namespace":42}
+        Value: "/Objects/CFR21_Part11_Demo/UI/Screens/10NetLogic/NetLogic_Control"
         Children:
         - Name: Kind
           Id: g=b5b898f6f1272091f9de1e1c10b5039d
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":71,"Namespace":7}
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
   - Name: CurrentPanel
     Id: g=ed48bf28afcc8b3bf76a2dab8a22e90e
     Type: NodePointer
     DataType: NodeId
     AccessLevel: Read
-    Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
       Id: g=990d6cc362d195dfe793693b03e7001f
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":6,"Namespace":7}
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
   - Name: CurrentTabIndex
     Id: g=8b61aa594263457fb3846f168993ab67
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Class: Reference
     Target: ns=7;i=1181
     Direction: Forward
@@ -100,13 +98,11 @@ Children:
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: Optional
-        Value: false
       - Name: Blink
         Id: g=8a9fb021ff1ee8ea9c1cd357144cf3d8
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: Optional
-        Value: false
       - Name: Visible
         Id: g=591fafb05da2fff299f6c629d626965e
         Type: BaseDataVariableType
@@ -142,13 +138,11 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: BottomMargin
         Id: g=59f6a3b890a2f9b5760755300554a13b
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: Width
         Id: g=af0fac87e77778968cc0d6acedaa01c1
         Type: BaseVariableType
@@ -166,19 +160,16 @@ Children:
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: VerticalAlignment
         Id: g=955c300f5c78912e8146af1c18cfa45d
         Type: BaseVariableType
         DataType: VerticalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: Rotation
         Id: g=0afdfff92dc434ca0919e277e670f5e9
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: TextBox8
         Id: g=ba610ef71f2ef30047324cccfa80237a
         Type: TextBox
@@ -187,13 +178,12 @@ Children:
           Id: g=e39b2f05ea48c109fe5ebd1085968b3d
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=a4e597f7fa0673941fa090443f17bebc
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=42;g=169ca6e7-4edc-98f5-5572-5e6bd699d3ac}"
+            Value: "/Objects/CFR21_Part11_Demo/Model/NetLogic/SetText"
             Children:
             - Name: Mode
               Id: g=ff777ce41459bff93e9425eb7f949e1c
@@ -246,13 +236,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=139729aa8135d5166b656ea86daef4fa
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=b12f9b3a56d8393285f897d70d5cbe64
           Type: BaseVariableType
@@ -267,13 +255,12 @@ Children:
           Id: g=940a0c4c5f5ffda1273303f3cc296548
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=bfc042297e876b9ece8ab0d40e54575b
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=42;g=71e9ec4f-7abb-8066-7ad4-a36e42593a31}"
+            Value: "/Objects/CFR21_Part11_Demo/Model/NetLogic/SetVariable"
             Children:
             - Name: Mode
               Id: g=03721a7b1021af22277a088cec14fb3c
@@ -307,13 +294,12 @@ Children:
           Id: g=fb4dd1a4eb2a780f89afc3f8e25f33f3
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=7996e3a702c6803c0e200234b9d9ad4d
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=42;g=0e3605b6-6088-5de9-de59-02ead40c5901}"
+            Value: "/Objects/CFR21_Part11_Demo/Model/NetLogic/ActualVariable"
         - Name: LeftMargin
           Id: g=7647c282e9c79bba72bddaa3070202eb
           Type: BaseVariableType
@@ -331,13 +317,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=f563c666997efbfeccf4a56bb0c607c9
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=c7eedad61255a2aa0fc4199d587cdf63
           Type: BaseVariableType
@@ -377,13 +361,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=afd31443308a5225d89ce23d30ec2956
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=37491fb684c410b0897fecb59689bae7
           Type: BaseVariableType
@@ -398,13 +380,12 @@ Children:
           Id: g=f186c21682e9c301312fd14b73c0e8ec
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=e7122ff0b7d4e6210e3333c8d77e33cb
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=42;g=37877d04-1ef6-b41c-f247-2d36d47ca395}"
+            Value: "/Objects/CFR21_Part11_Demo/Model/NetLogic/ActualText"
         - Name: LeftMargin
           Id: g=e9826704d02f1131b75a4ed906b97464
           Type: BaseVariableType
@@ -422,13 +403,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=3b7474e440787aff8f1491b87387a3d9
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=818fba4f15f5904367651b60b83cfc75
           Type: BaseVariableType
@@ -468,13 +447,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=87e122cc329951572d6839c236e03eca
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=997ce11b877db1b21d8c0d388b88235e
           Type: BaseVariableType
@@ -508,13 +485,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=fa3892fd988c0f2fcd12bd8758917755
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=20a843d935ebb4af9084935132a06c5c
           Type: BaseVariableType
@@ -548,13 +523,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=2eba804bda8eb2b612f41fa1ad1a9e26
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=4ed4e3411a62a33dba18259dee6cd72a
           Type: BaseVariableType
@@ -578,7 +551,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Font
           ModellingRule: Optional
-          Value: ""
         - Name: FontSize
           Id: g=dc90feed861c94cb815bbb17790a8254
           Type: BaseDataVariableType
@@ -599,13 +571,12 @@ Children:
           Id: g=c241aa9da0d4c10e3c66f8d092653d03
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=5e95bf12fb4365c44ae2de45dc2c1c87
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=42;g=684abc7a-472a-0e88-13c0-eadf18a67750}"
+            Value: "/Objects/CFR21_Part11_Demo/Model/NetLogic/SubOper1"
             Children:
             - Name: Mode
               Id: g=69dd744456e24a76d46579ac77d79a1f
@@ -645,13 +616,12 @@ Children:
           Id: g=b328ea4fee2cba5e217393065e9d3521
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=7cd32f3b2956618c6e70a93e2246d3c6
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=42;g=5930a0c3-f9b7-03f9-cb24-306176cd96b2}"
+            Value: "/Objects/CFR21_Part11_Demo/Model/NetLogic/SubOper2"
             Children:
             - Name: Mode
               Id: g=3e5c22e6716d70e0531534f9f003ad23
@@ -691,13 +661,12 @@ Children:
           Id: g=4217707898c87bb4f1a7e2014b87ecf7
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=8e24f33e94fdf9da4923b25572a6eb5c
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=42;g=1c24f491-d512-4297-de10-273afd621ca0}"
+            Value: "/Objects/CFR21_Part11_Demo/Model/NetLogic/SubResult"
         - Name: LeftMargin
           Id: g=802dd467113598bff3c28d68a66da5ea
           Type: BaseVariableType
@@ -715,13 +684,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=da4668a0fede29f6c4297a1907a95d00
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=1211514ff6c25ade2706b0eacc67eebb
           Type: BaseVariableType
@@ -767,13 +734,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=bed983639d8a4e39857a9fae691fe338
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=77bb54daa9ef589b07fdef37ac88b2fb
           Type: BaseVariableType
@@ -819,13 +784,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=663a8e0ef44483829072863ff1a59a42
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=d50c240ef662ad8750fdd5e715e97033
           Type: BaseVariableType
@@ -852,13 +815,12 @@ Children:
           Id: g=a48be70fb462d440c7724c5651387c14
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=df11a862a6054faa0204a423684b982f
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=42;g=dc5a27d7-f7c1-05a8-2574-e294eeb07e99}"
+            Value: "/Objects/CFR21_Part11_Demo/Model/NetLogic/DivOper1"
             Children:
             - Name: Mode
               Id: g=edb5e785b3adc08c72603b26eb1e7b88
@@ -917,13 +879,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=c50d02d7e73254eddba7b0419c843219
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=9ce05ded63a43a0062ff05d1bc848688
           Type: BaseVariableType
@@ -969,13 +929,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=810154cb0663c5b032b73dc061cb451d
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=35f66fb963400e4d71587d5d29c34076
           Type: BaseVariableType
@@ -1002,13 +960,12 @@ Children:
           Id: g=44414784cb5b0a9f7baac73f19223030
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=33541d43ddc96529583d7948bf451f0f
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=42;g=2d69d4b1-5134-a7ad-e414-1339bf9a5b7d}"
+            Value: "/Objects/CFR21_Part11_Demo/Model/NetLogic/DivOper2"
             Children:
             - Name: Mode
               Id: g=110f0f70ada7d477d96b638946364a84
@@ -1048,13 +1005,12 @@ Children:
           Id: g=b6978a53aa1f058823255cce35202289
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=1c00f342c20ad7771b24aaca39c2cac4
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=42;g=3416d55d-8bc0-fcd1-6be3-836800407925}"
+            Value: "/Objects/CFR21_Part11_Demo/Model/NetLogic/DivResult"
         - Name: LeftMargin
           Id: g=7955c81dbca121259a1fd0894941ad35
           Type: BaseVariableType
@@ -1072,13 +1028,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=0dcd014624fb698454384a0116e9a5ff
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=20999e4b4b4c38405c14863d4cb8ca05
           Type: BaseVariableType
@@ -1124,13 +1078,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=024a8001b1c7b0bad5cec63aaf18a9a7
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=2b639d59b2cc6c70df1cfd14e9dd3c98
           Type: BaseVariableType
@@ -1157,13 +1109,12 @@ Children:
           Id: g=0289f717d7ab7baea3faf9cda21494bb
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=f3feb871787eff60e5389b987077ddc7
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=42;g=d64aa686-4c48-2d6c-f6ef-15f262962281}"
+            Value: "/Objects/CFR21_Part11_Demo/Model/NetLogic/MulOper1"
             Children:
             - Name: Mode
               Id: g=704654b3a0d4cf2b2a62653a428ce44d
@@ -1203,13 +1154,12 @@ Children:
           Id: g=6e54a0aa5992e8fea253ca7f33858a8a
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=20adaaf9aff8ab756f4ffc9321c9b48d
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=42;g=c4be0342-0857-8697-6bc6-88a662f7834e}"
+            Value: "/Objects/CFR21_Part11_Demo/Model/NetLogic/MulOper2"
             Children:
             - Name: Mode
               Id: g=f1dc0a986f9b69bdeb82405ebf52f559
@@ -1268,13 +1218,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=75e5616a2a2d0aee69eba7d750a8181a
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=291b39a26bead24b5a75a682fd7998cb
           Type: BaseVariableType
@@ -1301,13 +1249,12 @@ Children:
           Id: g=c74567dbab722266ddf47cf6f41e3c9a
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=79713100466fb8d6583ae07101474d24
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=42;g=afd00f95-3634-a9f9-29cb-beab0a9fee26}"
+            Value: "/Objects/CFR21_Part11_Demo/Model/NetLogic/MulResult"
         - Name: LeftMargin
           Id: g=62131ef4b205200bd64c36425a7b56df
           Type: BaseVariableType
@@ -1325,13 +1272,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=44b97ededc28f6439e78491bf8e3fe5b
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=3f38220b1abedc9d1ad92de05a10b5e6
           Type: BaseVariableType
@@ -1358,13 +1303,12 @@ Children:
           Id: g=1b695ac37542eed74b1e0e5a6876245b
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=04ec10b1ce458cc7906ccf89526dccfe
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=42;g=9695f5ab-a5ba-754f-b55e-05e7e17ff08d}"
+            Value: "/Objects/CFR21_Part11_Demo/Model/NetLogic/AddOper1"
             Children:
             - Name: Mode
               Id: g=0f330078ae8cc11a625172de05c4070c
@@ -1423,13 +1367,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=eaddbf5500cbfd637ac16f652d9edd84
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=f969a4fe3cc579d3483ee950f7bbd095
           Type: BaseVariableType
@@ -1475,13 +1417,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=7e03c28daea750a3fccb3ddf5aabd822
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=496e534fb48802ce4880d3559568c356
           Type: BaseVariableType
@@ -1508,13 +1448,12 @@ Children:
           Id: g=78148b6d1050cd3dd7b4a3e880e7a27a
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=da2f9c0241e5d5f3ebbd1d45a4aaf613
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=42;g=fc7b0c8f-3ad0-3f02-f72a-332937680def}"
+            Value: "/Objects/CFR21_Part11_Demo/Model/NetLogic/AddOper2"
             Children:
             - Name: Mode
               Id: g=d307121c25020157f6a7fbd7095154cd
@@ -1554,13 +1493,12 @@ Children:
           Id: g=fb11ca50902eb752bf057c4d445fb6c9
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=f958be19c564d721693b7b177c4b936c
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=42;g=a41a89cf-4f3f-217a-fd09-65995055035c}"
+            Value: "/Objects/CFR21_Part11_Demo/Model/NetLogic/AddResult"
         - Name: LeftMargin
           Id: g=100848eaaa12924b84db6e3de77a9482
           Type: BaseVariableType
@@ -1578,13 +1516,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=e1354037eb13703ec216306703e7dff9
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=fb7d5a4266f1b9406dd347abe5656dcf
           Type: BaseVariableType
@@ -1630,13 +1566,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=c8d54bf6d3097a93f764baec3671cb19
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=b68df0db7b2c0769d5a724c6b883c5ca
           Type: BaseVariableType
@@ -1676,13 +1610,11 @@ Children:
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: Optional
-        Value: false
       - Name: Blink
         Id: g=2e056949aaab67d1f17bc337529cfe9f
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: Optional
-        Value: false
       - Name: Visible
         Id: g=2e78ef8e1fb0c4348db32388e7d9c12b
         Type: BaseDataVariableType
@@ -1718,13 +1650,11 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: BottomMargin
         Id: g=5dfe480a5065904f0635ccd72233b9d8
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: Width
         Id: g=9f80a9ab0c4392e8063d348bed24819c
         Type: BaseVariableType
@@ -1742,19 +1672,16 @@ Children:
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: VerticalAlignment
         Id: g=8eea8e8c647609088fab3ea7ddbdbfd0
         Type: BaseVariableType
         DataType: VerticalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: Rotation
         Id: g=c56c46949d471602d32a8cf64954b0a6
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: Button1
         Id: g=ba4b084c7062daabbcd4d73a048998b4
         Type: Button
@@ -1803,7 +1730,7 @@ Children:
             Id: g=a3f5b7754d7ffb4b1106b7b49ef247e6
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":7}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Id: g=2c383dab5ec2bdf156122debd5a15bcf
             Type: BaseObjectType
@@ -1816,13 +1743,13 @@ Children:
                 Id: g=bc97472d774868f744c0005e5c8f03e5
                 Type: NodePointer
                 DataType: NodeId
-                Value: {"IdType":2,"Id":"d29b4c6a534d8056b730fa43ee03a280","Namespace":42}
+                Value: "/Objects/CFR21_Part11_Demo/NetLogic/ChnageLabelText"
                 Children:
                 - Name: Kind
                   Id: g=5c4edcf670d404ea2a202517211f4b05
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: ns=5;Method
                 Id: g=ec38a7e4aee477548e0e107221baeacf
                 Type: BaseDataVariableType
@@ -1836,7 +1763,6 @@ Children:
                   Id: g=5a9d084105e1e33ab14bd152c3ca2fcf
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":0,"Id":0,"Namespace":-1}
                   Children:
                   - Name: DynamicLink
                     Id: g=c4bc8a711773f70f78d1278351191502
@@ -1854,7 +1780,6 @@ Children:
                   Id: g=56043a802b4a500b452d73fb5f11835f
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":0,"Id":0,"Namespace":-1}
                   Children:
                   - Name: DynamicLink
                     Id: g=a77156c58b451b477b9d2f227d1dec28
@@ -1876,42 +1801,34 @@ Children:
               Id: g=f31c8309bc3e34a9b6a09b45d8f3ab03
               Type: PropertyType
               DataType: ByteString
-              Value: ""
             - Name: EventType
               Id: g=7d1a8cde389f2e7eb316ad3a758bfa09
               Type: PropertyType
               DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
             - Name: SourceNode
               Id: g=5357b82d5704f579666a49101490be92
               Type: PropertyType
               DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
             - Name: SourceName
               Id: g=750cc9d62921a56091ae93b02669cc1a
               Type: PropertyType
               DataType: String
-              Value: ""
             - Name: Time
               Id: g=f56aec9e7445d9af8e9dfdc4e8a8660a
               Type: PropertyType
               DataType: UtcTime
-              Value: "1601-01-01T00:00:00.0000000"
             - Name: ReceiveTime
               Id: g=4774855f371bec9648f7cc86e994553a
               Type: PropertyType
               DataType: UtcTime
-              Value: "1601-01-01T00:00:00.0000000"
             - Name: Message
               Id: g=76215e3d4cd7cabc71c85662581e313e
               Type: PropertyType
               DataType: LocalizedText
-              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             - Name: Severity
               Id: g=001dfe65cf8d3f852e2942e70d4e0229
               Type: PropertyType
               DataType: UInt16
-              Value: 0
       - Name: Label1
         Id: g=b28a36bc35cc96be17b483a6634b037c
         Type: Label
@@ -1939,13 +1856,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=b139c2ec2913c2032cf0f5701a3e0d37
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=dcb52d382d8a1c17153aa22354dfe491
           Type: BaseVariableType
@@ -1969,7 +1884,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Font
           ModellingRule: Optional
-          Value: ""
         - Name: FontSize
           Id: g=c07e952547c1e44b57ff5209a927fcca
           Type: BaseDataVariableType
@@ -2036,19 +1950,16 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=fc1b72ca1d7b628db260ad3482ce709e
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: RightMargin
           Id: g=6bfda2d5f1526df2197228b540815a77
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: TextVerticalAlignment
           Id: g=2dfd40c8a782e9b06de94fd9e17c3c79
           Type: BaseVariableType
@@ -2094,13 +2005,11 @@ Children:
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: Optional
-        Value: false
       - Name: Blink
         Id: g=0ac778ed042cfb091c9ee62f01a68665
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: Optional
-        Value: false
       - Name: Visible
         Id: g=79b557edd653d3c77a82f997b6aee1eb
         Type: BaseDataVariableType
@@ -2136,13 +2045,11 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: BottomMargin
         Id: g=21f6750fea0edd29591a3cacf31e4deb
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: Width
         Id: g=85d68bf07c82509e4ada669afc18f8bf
         Type: BaseVariableType
@@ -2160,19 +2067,16 @@ Children:
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: VerticalAlignment
         Id: g=29d2ecd82e77a722507ec2c9a4c579a0
         Type: BaseVariableType
         DataType: VerticalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: Rotation
         Id: g=48d065b4b242720534c6c1286729f1b4
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: TextBox1
         Id: g=1687677e05fa0f08c601410b4ea4627a
         Type: TextBox
@@ -2181,13 +2085,12 @@ Children:
           Id: g=d1668d11b7e0d414a15dd157f754e299
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=6a15a17417cd9e300e0699b6698bcc03
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=42;g=71229858-805d-f66b-5f71-9250a42e791b}"
+            Value: "/Objects/CFR21_Part11_Demo/Model/NetLogic/SourceVar"
             Children:
             - Name: Mode
               Id: g=e441623d5be7d0572a48ad8ac04ba156
@@ -2240,13 +2143,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=4b66ca762ae3f3ef316381a80a10efb7
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=25d04add43a981db1d22ab58be07a962
           Type: BaseVariableType
@@ -2301,7 +2202,7 @@ Children:
             Id: g=f67c55dfea24b804f41349376385ebb4
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":7}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Id: g=b08c42b120011990c16cbeb8ee8ac61c
             Type: BaseObjectType
@@ -2314,13 +2215,13 @@ Children:
                 Id: g=74318f40e9dd2abbd69e331ffcba8fea
                 Type: NodePointer
                 DataType: NodeId
-                Value: {"IdType":2,"Id":"22ec539b6e7319243099b27e6165a7cc","Namespace":42}
+                Value: "/Objects/CFR21_Part11_Demo/NetLogic/VarCopyScript"
                 Children:
                 - Name: Kind
                   Id: g=7f9b6a75fbb698e13bda3dc6609c88a2
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: ns=5;Method
                 Id: g=fc927fba52f5edb23fbab3aadb951156
                 Type: BaseDataVariableType
@@ -2334,42 +2235,34 @@ Children:
               Id: g=a904d03d54d2ce284af12a40d34497cf
               Type: PropertyType
               DataType: ByteString
-              Value: ""
             - Name: EventType
               Id: g=541d2301ba656aec88dcf61b4ed1ad93
               Type: PropertyType
               DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
             - Name: SourceNode
               Id: g=296277832b622215bbc052d9bfcc8445
               Type: PropertyType
               DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
             - Name: SourceName
               Id: g=f59a027a4ed08e70e0500b11b7e191ad
               Type: PropertyType
               DataType: String
-              Value: ""
             - Name: Time
               Id: g=646c7a23a97db269b6b14a4e63fb656b
               Type: PropertyType
               DataType: UtcTime
-              Value: "1601-01-01T00:00:00.0000000"
             - Name: ReceiveTime
               Id: g=f94e391e664a2730573ac3434cda663f
               Type: PropertyType
               DataType: UtcTime
-              Value: "1601-01-01T00:00:00.0000000"
             - Name: Message
               Id: g=7850ed5ece6b1445838ca545e38ebede
               Type: PropertyType
               DataType: LocalizedText
-              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             - Name: Severity
               Id: g=910a199862f25877071f90a66dbfdfd5
               Type: PropertyType
               DataType: UInt16
-              Value: 0
       - Name: TextBox2
         Id: g=c2b3e105d57f45f6f148dfb2ff06a644
         Type: TextBox
@@ -2378,13 +2271,12 @@ Children:
           Id: g=338e8ea102113d324fed31b6d2926452
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=ad760a4c62bbd46f4e267e46b8aff827
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=42;g=439d4406-6acc-0ff6-3bcd-c32317bbf53f}"
+            Value: "/Objects/CFR21_Part11_Demo/Model/NetLogic/DestVar"
             Children:
             - Name: Mode
               Id: g=20ee4f9064626ccba209637298b9031f
@@ -2437,13 +2329,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=e40ef2418cef07d975bd62f36316ecc9
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=3c1620de62f6991b1e417943fa08b3bd
           Type: BaseVariableType
@@ -2467,7 +2357,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Font
           ModellingRule: Optional
-          Value: ""
         - Name: FontSize
           Id: g=306bbc5ecf4b2b86e663b2e91d33290f
           Type: BaseDataVariableType
@@ -2507,13 +2396,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=8d29798a222731014829871a5b37a30c
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=1e27beeb740f248142e3ee7c2c4c0d91
           Type: BaseVariableType
@@ -2553,13 +2440,11 @@ Children:
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: Optional
-        Value: false
       - Name: Blink
         Id: g=8fb89f182b8ce00560f828ab8eea3b9b
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: Optional
-        Value: false
       - Name: Visible
         Id: g=a56bcbad0a7491feab93338b6e98a8e9
         Type: BaseDataVariableType
@@ -2595,13 +2480,11 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: BottomMargin
         Id: g=5e24b255d2e2a80894e2628bb4d78def
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: Width
         Id: g=223054e59e4defb5c2eab94fd37ac209
         Type: BaseVariableType
@@ -2619,19 +2502,16 @@ Children:
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: VerticalAlignment
         Id: g=037c22b448430ee5ad233e51e62754be
         Type: BaseVariableType
         DataType: VerticalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: Rotation
         Id: g=5abf536999833d4d6d0214c84952af39
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: TextBox4
         Id: g=81ad7b6c73342e8c9b710420c1d672cb
         Type: TextBox
@@ -2640,13 +2520,12 @@ Children:
           Id: g=40704a51bcad3491f2d1aaecc6581f5d
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=105dac353874db5ddc3f4c0848808fcc
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=42;g=d315daec-7e9e-4d6c-0d1c-95e88863dc38}"
+            Value: "/Objects/CFR21_Part11_Demo/Model/DateTime/DateOperator"
             Children:
             - Name: Mode
               Id: g=d40e422d5290015d9cfb84d32a054257
@@ -2699,13 +2578,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=363b0778d7b7c564089e3a97345714dd
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=b680d95badb3cad22c5c7c8356dc45e0
           Type: BaseVariableType
@@ -2721,13 +2598,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=0756a5e824e7d5587c0233835d3dc6d0
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TopMargin
           Id: g=ee05a9c0ee5ba368b113159633f315f9
           Type: BaseVariableType
@@ -2739,7 +2614,6 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: FontSize
           Id: g=c1121cad897cc318128bbd7967ff3b51
           Type: BaseDataVariableType
@@ -2769,7 +2643,6 @@ Children:
           Type: BaseVariableType
           DataType: TextHorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextColor
           Id: g=12a7e4de0586f9adca03200ee3ebb760
           Type: BaseDataVariableType
@@ -2781,12 +2654,10 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: Text
           Id: g=784f4707da1b0595ba891410997fe81f
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=41458c45f68abbcbd05f2262876f0c23
@@ -2826,13 +2697,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=765978bfd9d6b0f4011832bb85cdc33e
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=b3a4c105ef6819aac1fdd4c4ea21951b
           Type: BaseVariableType
@@ -2848,13 +2717,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=be52130451c4e679c1ec65a754719543
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TopMargin
           Id: g=82a8478d3b1f2537079694c0c6523258
           Type: BaseVariableType
@@ -2866,7 +2733,6 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: FontSize
           Id: g=cb610fbfc7a4827c04ccb6271c00a57d
           Type: BaseDataVariableType
@@ -2896,7 +2762,6 @@ Children:
           Type: BaseVariableType
           DataType: TextHorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextColor
           Id: g=cf92377b0c0e0a89405b1cfd22196d05
           Type: BaseDataVariableType
@@ -2908,12 +2773,10 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: Text
           Id: g=99117bad0061544ee7c27f8792115db0
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=ff7e303138faedd2de9fbc20f220c758
@@ -2953,13 +2816,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=c0f74d233d349bc2d24df0f3e1a0ce7d
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=991540140c92dce8988c1fd6674d0971
           Type: BaseVariableType
@@ -2993,13 +2854,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=d257c68a49912638a2fa2c18c19da9ad
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=fd585540cba4b92917dfdda6f3a470c1
           Type: BaseVariableType
@@ -3033,13 +2892,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=4cc2fad2f5881c33251e81bcb954ce62
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=f0b15d5231e3f177bb075db755ed7ecc
           Type: BaseVariableType
@@ -3054,7 +2911,6 @@ Children:
           Id: g=1da60a80eaf59f9b3a6b2f537b3f042b
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=d194606debb7372be7bc365ed05cf5d3
@@ -3094,7 +2950,6 @@ Children:
           Id: g=6dfb15273ba5c94c37f8a61786ac01a5
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=ad7c06d7b6f1d76c940392c36c0eb81f
@@ -3153,13 +3008,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=b574f4ef22f64c31d8741f7f99350f84
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=b47e9b324b7a55cb3afad614973c0311
           Type: BaseVariableType
@@ -3175,13 +3028,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=c4ed75794f0f824b6c1ac2dbcead1a1e
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TopMargin
           Id: g=112abaf8164fbe43931ee8a7ed5d5a93
           Type: BaseVariableType
@@ -3193,7 +3044,6 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: FontSize
           Id: g=51f64d57e2dd2c0ca3d2f2e082125662
           Type: BaseDataVariableType
@@ -3223,7 +3073,6 @@ Children:
           Type: BaseVariableType
           DataType: TextHorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextColor
           Id: g=2711caa01d0ce7b9bb3e7d412de6672c
           Type: BaseDataVariableType
@@ -3235,12 +3084,10 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: Text
           Id: g=66bee09267e0d6d2dd4ecea9730a3c0a
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=3e40e8256418a02f4ed106e564c39d5d
@@ -3280,13 +3127,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=28cdabb38dfdb1509eef2a76aa1041d9
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=ed5ce21d74800ddf1822da696b214dfc
           Type: BaseVariableType
@@ -3320,13 +3165,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=67fefe95691592b271f87ec0b7ce3aa8
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=2b53bf875e247141e1e72a48184013d6
           Type: BaseVariableType
@@ -3350,7 +3193,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Font
           ModellingRule: Optional
-          Value: ""
         - Name: FontSize
           Id: g=6032aff59a4c0fb250b6ece8f0a356e8
           Type: BaseDataVariableType
@@ -3396,13 +3238,11 @@ Children:
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: Optional
-        Value: false
       - Name: Blink
         Id: g=b67b668c154d4c8e10fc0ae02d77d730
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: Optional
-        Value: false
       - Name: Visible
         Id: g=f72f24c1d0481970daeac735725d88ae
         Type: BaseDataVariableType
@@ -3438,13 +3278,11 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: BottomMargin
         Id: g=7885f3ecc74fcb7cf94b142187de8497
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: Width
         Id: g=edfdd20a6d9e6dadc1fc4d5e0090a0e2
         Type: BaseVariableType
@@ -3462,19 +3300,16 @@ Children:
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: VerticalAlignment
         Id: g=8fc5025d5001947466c2f3c12353e30a
         Type: BaseVariableType
         DataType: VerticalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: Rotation
         Id: g=ba0ee44932899ce3f0801d2d61ae7db7
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: Button1
         Id: g=25d1a621a42a1a73e3e56f7c88ca9548
         Type: Button
@@ -3517,7 +3352,7 @@ Children:
             Id: g=d8518225dc5f12f2ae6be317933a7ff9
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":7}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Id: g=5b456a206ec707ccdc7d9425ed7029ed
             Type: BaseObjectType
@@ -3530,13 +3365,13 @@ Children:
                 Id: g=51efbf3b2ae86ab60aff372ab74aeb9d
                 Type: NodePointer
                 DataType: NodeId
-                Value: {"IdType":2,"Id":"4ae871ae9c4b1f3c68bc27ec45d7ca88","Namespace":42}
+                Value: "/Objects/CFR21_Part11_Demo/NetLogic/ASCIIToStringConv"
                 Children:
                 - Name: Kind
                   Id: g=bc7009eaac814caaed330affc3ebeb9c
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: ns=5;Method
                 Id: g=0c4371651689b1dffe51a7517495c807
                 Type: BaseDataVariableType
@@ -3550,42 +3385,34 @@ Children:
               Id: g=4f3790254cd1ebd8eced28873e1ece4e
               Type: PropertyType
               DataType: ByteString
-              Value: ""
             - Name: EventType
               Id: g=df7953e9eae2e578abe6a9c5df2225a0
               Type: PropertyType
               DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
             - Name: SourceNode
               Id: g=5ff5f3c238e07521a01f6032c5edf293
               Type: PropertyType
               DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
             - Name: SourceName
               Id: g=63a65426aae67588e76cba21d362a266
               Type: PropertyType
               DataType: String
-              Value: ""
             - Name: Time
               Id: g=0ace2fe5a51c15c5b623ccece62e70b0
               Type: PropertyType
               DataType: UtcTime
-              Value: "1601-01-01T00:00:00.0000000"
             - Name: ReceiveTime
               Id: g=8b5ee6d3219888b52a42ea50e22c7110
               Type: PropertyType
               DataType: UtcTime
-              Value: "1601-01-01T00:00:00.0000000"
             - Name: Message
               Id: g=fe3d51ba35c14909f4fa5e45cb386b46
               Type: PropertyType
               DataType: LocalizedText
-              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             - Name: Severity
               Id: g=b64458e530ef67ed04339c56b2c3d650
               Type: PropertyType
               DataType: UInt16
-              Value: 0
       - Name: TextBox2
         Id: g=19edc48920a46557e7bf8078255030ea
         Type: TextBox
@@ -3594,13 +3421,12 @@ Children:
           Id: g=5c21e1e16e3ab1ec4c150febc0d55b57
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=79e836ef0b370f70f53030f66e78b03f
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=42;g=ffe108bb-ee2b-74f2-c252-515cf363a63a}"
+            Value: "/Objects/CFR21_Part11_Demo/Model/OutString"
             Children:
             - Name: Mode
               Id: g=397d3ee78ec5662cd7d99ed35af30315
@@ -3653,19 +3479,16 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=ae5dc1c1f8c87dc3ab1107ed0dd76d05
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: RightMargin
           Id: g=0c79aab895b1c5a5b1ff6c7d4861498e
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: TextVerticalAlignment
           Id: g=0cbe76a40c92fcc683706cd30b79695a
           Type: BaseVariableType
@@ -3699,13 +3522,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=cb5af1534eec22631f8c9752c80c1099
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=70b09853d36991467033a97d9af05a0f
           Type: BaseVariableType
@@ -3729,7 +3550,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Font
           ModellingRule: Optional
-          Value: ""
         - Name: FontSize
           Id: g=ca6142b3873a7aba9d498dfedd114e73
           Type: BaseDataVariableType
@@ -3750,13 +3570,12 @@ Children:
           Id: g=378288ddbc199c6ac05c070f51378ac4
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=b1ffb0585657ed279fb60a9908879d8f
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=42;g=46d9ff97-720e-46ec-77db-3d4736d7907f}"
+            Value: "/Objects/CFR21_Part11_Demo/Model/InInt1"
             Children:
             - Name: Mode
               Id: g=3aa578e650dead874c1375913aa5bc8e
@@ -3809,19 +3628,16 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=2d230a55c36b49568e5699966da98c0e
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: RightMargin
           Id: g=53c8ac46ba349e8c64f9bd4a372e431d
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: TextVerticalAlignment
           Id: g=a285e42f7f1b491db6cea9f4285ff946
           Type: BaseVariableType
@@ -3836,13 +3652,12 @@ Children:
           Id: g=c2b01eea92fa33b708ad5c3bd3d64679
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=6b54bdbb3fef356df92993acd0f4785e
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=42;g=2735c4d5-a338-6d6a-ea24-f0200bc6923c}"
+            Value: "/Objects/CFR21_Part11_Demo/Model/InInt2"
             Children:
             - Name: Mode
               Id: g=c02c9d37995659e506afe7ca0fbcbddb
@@ -3876,13 +3691,12 @@ Children:
           Id: g=6acdc44ab00dfb95801d0a8c97ded804
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=0df4d8e3ccecff063ce6ef7a41f605b7
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=42;g=fcaed601-a327-6329-09c7-5f7303ccee70}"
+            Value: "/Objects/CFR21_Part11_Demo/Model/InInt3"
             Children:
             - Name: Mode
               Id: g=0bc9dfde7a551cc65235c9c2af7ca1c1
@@ -3916,13 +3730,12 @@ Children:
           Id: g=d2aa814eeaf888a1a6a353928e30e3ef
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=17cba1bbf617774cd5e7c569acd9b4af
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=42;g=2ac5c24f-c3dc-47f4-9465-9f0eeccb5a38}"
+            Value: "/Objects/CFR21_Part11_Demo/Model/InInt4"
             Children:
             - Name: Mode
               Id: g=74bb861fec36c9c68b6ab37fa1d7c3f0
@@ -3956,13 +3769,12 @@ Children:
           Id: g=94dce07ac9b29347564cf728463a7e43
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=54c633e3929ba2b7081240a99e95bf34
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=42;g=ade6bafe-c852-90ae-4cf4-f555f20fcc39}"
+            Value: "/Objects/CFR21_Part11_Demo/Model/InInt5"
             Children:
             - Name: Mode
               Id: g=467ecd1907e816ef336504f5c07f360d
@@ -4021,13 +3833,11 @@ Children:
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: Optional
-        Value: false
       - Name: Blink
         Id: g=41d16335ce95042294652c953b110563
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: Optional
-        Value: false
       - Name: Visible
         Id: g=b2232e517d4da0a35fa7a2e0cb06666b
         Type: BaseDataVariableType
@@ -4063,13 +3873,11 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: BottomMargin
         Id: g=3132226469f2f37039ba92cf5358a22e
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: Width
         Id: g=c4dbf635251df9a113a7568c0d8f4840
         Type: BaseVariableType
@@ -4087,19 +3895,16 @@ Children:
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: VerticalAlignment
         Id: g=f340e8a04728acd07f29ebff47b9fbac
         Type: BaseVariableType
         DataType: VerticalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: Rotation
         Id: g=bb23e33f212d942996db645ca0f2ffdc
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: Button1
         Id: g=92b23decb72990f7e516afee439bb777
         Type: Button
@@ -4142,7 +3947,7 @@ Children:
             Id: g=3cbdc6c59d3bc2d27e39405efcb30289
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":7}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Id: g=b98e0809a85e6fc32f67ddd9b022c6af
             Type: BaseObjectType
@@ -4155,13 +3960,13 @@ Children:
                 Id: g=1bd9a6ffd164f32779ce6c8f23234ae3
                 Type: NodePointer
                 DataType: NodeId
-                Value: {"IdType":2,"Id":"19d3211d2b25b55afaf01528560e2fe5","Namespace":42}
+                Value: "/Objects/CFR21_Part11_Demo/NetLogic/StringToASCIIConv"
                 Children:
                 - Name: Kind
                   Id: g=f3c80dbd02453e59a46795a04760c015
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: ns=5;Method
                 Id: g=e8de6f45acdcaa9ec0f1b829fca24471
                 Type: BaseDataVariableType
@@ -4175,42 +3980,34 @@ Children:
               Id: g=84218872bf7dcffc945c997d232c49b8
               Type: PropertyType
               DataType: ByteString
-              Value: ""
             - Name: EventType
               Id: g=2da84d0442ad881f7a65be7a2fd8f235
               Type: PropertyType
               DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
             - Name: SourceNode
               Id: g=6ebaf9f39b6ea50b4c94a1b132641eb6
               Type: PropertyType
               DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
             - Name: SourceName
               Id: g=e3033497a17dc16e0785e18cdfdf75fb
               Type: PropertyType
               DataType: String
-              Value: ""
             - Name: Time
               Id: g=2db9fda5020c35543b2eea6ca675c0fd
               Type: PropertyType
               DataType: UtcTime
-              Value: "1601-01-01T00:00:00.0000000"
             - Name: ReceiveTime
               Id: g=e53508cb55c488f31103ad1256266fd5
               Type: PropertyType
               DataType: UtcTime
-              Value: "1601-01-01T00:00:00.0000000"
             - Name: Message
               Id: g=f9af3e301b29b7b9e67715144aac71c8
               Type: PropertyType
               DataType: LocalizedText
-              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             - Name: Severity
               Id: g=2c4832de8b1c26c62d50272a44ac127d
               Type: PropertyType
               DataType: UInt16
-              Value: 0
       - Name: TextBox2
         Id: g=b74226b316d27fee162cf8c3925afa00
         Type: TextBox
@@ -4219,13 +4016,12 @@ Children:
           Id: g=e9ea3c3ecedaad926f6fea3a951ec831
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=52ab6dca88f28a3a763c81c3564849e0
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=42;g=b99c7b40-dbdd-0c99-38b4-ba72c80cbebe}[0]"
+            Value: "/Objects/CFR21_Part11_Demo/Model/OutIntArray[0]"
             Children:
             - Name: Mode
               Id: g=e326322451dd00092e708c78a0073803
@@ -4259,13 +4055,12 @@ Children:
           Id: g=e86caaf876312f9d1139975143cdeb79
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=23037a012446f938d251b950f3a3cc4f
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=42;g=7ee6236c-3b66-eba8-2554-33b54a0ea87d}"
+            Value: "/Objects/CFR21_Part11_Demo/Model/InpString"
             Children:
             - Name: Mode
               Id: g=852366fdb142fe07802286dd4e05748a
@@ -4318,19 +4113,16 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=80fde239d7e92c4d76b44d5eb8cc2193
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: RightMargin
           Id: g=4a6e751c68782d54dab4d4f32b90d584
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: TextVerticalAlignment
           Id: g=7a476aeb0fedbdd815937cced3967d76
           Type: BaseVariableType
@@ -4364,19 +4156,16 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=486b16526cab31a6cc36ba02603d1222
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: RightMargin
           Id: g=fd6b6001379f02017e127ad830cd5db0
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: TextVerticalAlignment
           Id: g=9a858e9f213c3da5c2a8b8fda76a2461
           Type: BaseVariableType
@@ -4410,13 +4199,11 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Id: g=0013ba7a4bfaa1f267049a1f3bd83758
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: TextVerticalAlignment
           Id: g=dd94e0ce31fc1d3762afb26d7b8d5b5b
           Type: BaseVariableType
@@ -4440,7 +4227,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Font
           ModellingRule: Optional
-          Value: ""
         - Name: FontSize
           Id: g=99a5458cb421f293039c4998cd1d6341
           Type: BaseDataVariableType
@@ -4461,7 +4247,6 @@ Children:
           Id: g=ea9aa33e46c0f0be9fff526cd0634528
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=158cf1aee35be282b9c71b15c218ff8d
@@ -4501,7 +4286,6 @@ Children:
           Id: g=04f79744fa4120e77061752d9a36d2c0
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=94ebc66cb44a355898999b6484560cbf
@@ -4541,7 +4325,6 @@ Children:
           Id: g=03067983070448adb3956b6c6f978cf6
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=b46da3726bc5593a162d3be75080b7f3
@@ -4581,7 +4364,6 @@ Children:
           Id: g=d969e8cf8b088849db8f2f0d7a2dc248
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=28b07bdf4f69f1b879397edf9dc880c5
@@ -4621,7 +4403,6 @@ Children:
           Id: g=9ad4d5a1badc01c28bae0c73a41caaa9
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=af9f7600a022ce7b2b8419da0e3d0c26
@@ -4661,7 +4442,6 @@ Children:
           Id: g=a0bfec912486803df9754c52c11c0e7e
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=9d9a86b384571138950c595808f7f9e5
@@ -4701,7 +4481,6 @@ Children:
           Id: g=8833737b32b3c0a0c5fea56109a7faa0
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=613c6bcd8e9db673f8d87b8774a19444
@@ -4741,7 +4520,6 @@ Children:
           Id: g=0cdee83e09d8a2092bfadb9549b1ae27
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
             Id: g=dd6af78ec53105293bc22bec15d7c8a2

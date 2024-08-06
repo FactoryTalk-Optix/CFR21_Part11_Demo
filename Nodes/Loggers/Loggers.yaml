@@ -16,18 +16,17 @@ Children:
     Id: g=cbdf99a301f888c9b9804cb1ce05d888
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"6c65a62033a292f14f7073f40a38ba38","Namespace":42}
+    Value: "/Objects/CFR21_Part11_Demo/DataStores/EDB_AlarmLogging"
     Children:
     - Name: Kind
       Id: g=d05395581af917c9259addcad2ad617f
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":1,"Namespace":27}
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
     - Name: NodeClass
       Id: g=280090ccd09686731422b41b56854a9b
       Type: PropertyType
       DataType: NodePointerNodeClass
-      Value: 0
   - Name: EventFieldPaths
     Id: g=3ad586e8972f1a171eb569240e0b711f
     Type: BaseObjectType
@@ -94,19 +93,18 @@ Children:
         Id: g=901c2f5dbba88cb5493a9b2c074cdfb7
         Type: PropertyType
         DataType: Boolean
-        Value: false
       - Name: EventType
         Id: g=c7516dc610b7e587deb08c69029e31df
         Type: NodePointer
         DataType: NodeId
         ReferenceType: HasProperty
-        Value: {"Id":2915}
+        Value: "/Types/EventTypes/BaseEventType/ConditionType/AcknowledgeableConditionType/AlarmConditionType"
         Children:
         - Name: Kind
           Id: g=c9ce87f5e9f0b60617cb40c5257c156d
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":2041}
+          Value: "/Types/EventTypes/BaseEventType"
         - Name: NodeClass
           Id: g=863dbf3e173360c3a289d5682e2120f2
           Type: PropertyType
@@ -120,66 +118,46 @@ Children:
       Id: g=291e66025895931f9b0e972766fe6ce8
       Type: BaseDataVariableType
       DataType: Boolean
-      Value: false
     - Name: AckedState_Id
       Id: g=c7f0b526583bcec17bb02d1fd4b2a14a
       Type: BaseDataVariableType
       DataType: Boolean
-      Value: false
     - Name: ConfirmedState_Id
       Id: g=41951117f374a0b6f1567838a704a5b9
       Type: BaseDataVariableType
       DataType: Boolean
-      Value: false
     - Name: ConditionName
       Id: g=1a79530d35b79a4df15c2ffb5597990e
       Type: BaseDataVariableType
       DataType: String
-      Value: ""
     - Name: EnabledState_Id
       Id: g=eebefd69d5682d03e240fc9707cec41d
       Type: BaseDataVariableType
       DataType: Boolean
-      Value: false
     - Name: SourceName
       Id: g=5b162ffc5966661e980afd31326e7d2f
       Type: BaseDataVariableType
       DataType: String
-      Value: ""
     - Name: Time
       Id: g=7732ca8a49b9e10f5f64192cf3003640
       Type: BaseDataVariableType
       DataType: UtcTime
-      Value: "1601-01-01T00:00:00.0000000"
     - Name: Message
       Id: g=27ea8e2edf348effefe9a5c2e3a70102
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: Severity
       Id: g=6387fb780a495dd336cea9bd3b1ed0d2
       Type: BaseDataVariableType
       DataType: UInt16
-      Value: 0
     - Name: EventTypeId
       Id: g=e95f8e6dc88c62de230f5c76dd0e4714
       Type: BaseDataVariableType
       DataType: NodeId
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
     - Name: LocalTime
       Id: g=3cd225fc6d4b5e159746fb29b8f0e41c
       Type: BaseDataVariableType
       DataType: TimeZoneDataType
-      Value: 
-       {
-        "TypeId": {
-         "Id": 8912
-        },
-        "Body": {
-         "offset": 0,
-         "daylightSavingInOffset": false
-        }
-       }
   - Name: EventFieldsToLog
     Id: g=d9daff293b067abb5ac93144c40f4b0a
     Type: BaseObjectType
@@ -188,7 +166,6 @@ Children:
       Id: g=60ba542cff0e914a3a42793f1837b37f
       Type: EventFieldToLog
       DataType: Boolean
-      Value: false
       Children:
       - Name: DynamicLink
         Id: g=f4ca64c44d68fc9f59f421c167db8429
@@ -205,7 +182,6 @@ Children:
       Id: g=66b40ec0bf3fef41db329b92bac6917b
       Type: EventFieldToLog
       DataType: Boolean
-      Value: false
       Children:
       - Name: DynamicLink
         Id: g=d0f2971268a106abd3d3844ae1c53663
@@ -222,7 +198,6 @@ Children:
       Id: g=03cf4c5d39ee3489d64a749f29af5eb1
       Type: EventFieldToLog
       DataType: Boolean
-      Value: false
       Children:
       - Name: DynamicLink
         Id: g=a3992e6b373a92bd3469085e1bc5961e
@@ -239,7 +214,6 @@ Children:
       Id: g=69284d43da724e4cf9615bfd4532d1c9
       Type: EventFieldToLog
       DataType: String
-      Value: ""
       Children:
       - Name: DynamicLink
         Id: g=1115f986650a3c915c19f37deddbdd57
@@ -256,7 +230,6 @@ Children:
       Id: g=c231609eeb23854b7cb41b937bb93a78
       Type: EventFieldToLog
       DataType: Boolean
-      Value: false
       Children:
       - Name: DynamicLink
         Id: g=5318335aca54ca0055b96c44eda0f0d9
@@ -273,7 +246,6 @@ Children:
       Id: g=63f725cae77f327f503ef932256365ee
       Type: EventFieldToLog
       DataType: String
-      Value: ""
       Children:
       - Name: DynamicLink
         Id: g=87cd3f9874d70f39b4a9d17bf512f17d
@@ -290,7 +262,6 @@ Children:
       Id: g=be8acd0dd62800eb2fe916e5e5517095
       Type: EventFieldToLog
       DataType: UtcTime
-      Value: "1601-01-01T00:00:00.0000000"
       Children:
       - Name: DynamicLink
         Id: g=5b9c07a06383dbcab786b770d36526ee
@@ -307,7 +278,6 @@ Children:
       Id: g=35c711dcfb4e267961ef3167795565d3
       Type: EventFieldToLog
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: DynamicLink
         Id: g=42435fcd21157968c0c9b20962e05cfd
@@ -324,7 +294,6 @@ Children:
       Id: g=37f22e45c93dc22026a5c89522040601
       Type: EventFieldToLog
       DataType: UInt16
-      Value: 0
       Children:
       - Name: DynamicLink
         Id: g=0012a930f1ca8ff4f4ed0d5c336bd605
@@ -341,7 +310,6 @@ Children:
       Id: g=f57ac68fd02572b5e94b7dba90c30f7c
       Type: EventFieldToLog
       DataType: DateTime
-      Value: "1601-01-01T00:00:00.0000000"
       Children:
       - Name: ExpressionEvaluator1
         Id: g=f01cfb7e451b0918b779b8efc17da9cc
@@ -378,7 +346,7 @@ Children:
   - Name: Locales
     Id: g=dac3d17c9a4269ac6a6f1b989fc24e72
     Type: BaseDataVariableType
-    DataType: String
+    DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
@@ -395,13 +363,13 @@ Children:
     Id: g=69822b00e689820e0e4ebd74eb83565c
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"fb8838ce9533c1a269f86c0480ef8767","Namespace":42}
+    Value: "/Objects/CFR21_Part11_Demo/DataStores/EDB_DataLogging"
     Children:
     - Name: Kind
       Id: g=6f362ab1a71d0c5b85160d746a058533
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":1,"Namespace":27}
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
   - Name: VariablesToLog
     Id: g=63c9e6856297485736a98d3cd21821b0
     Type: BaseObjectType
@@ -421,13 +389,11 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Id: g=eab6b68dca37f994b606e44a8ca1f710
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Id: g=c40e17e744f9b7f05d2af246e9bc54ea
         Type: DynamicLink
@@ -454,13 +420,11 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Id: g=36126c69ffa79d2b82b4031c42a778dc
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Id: g=f01353d1ad0fa2ccad5ec370c4781748
         Type: DynamicLink
@@ -487,13 +451,11 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Id: g=c512ed4dabecf29099159526ae19f51d
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Id: g=08aff2eaa393aa6146041a831c6679ec
         Type: DynamicLink
@@ -520,13 +482,11 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Id: g=dc75c044b4798937899ec7befb2fdd59
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Id: g=92550f1af8d1d119afb45b0d5108cc83
         Type: DynamicLink
@@ -553,13 +513,11 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Id: g=a91faa3baa466d46328f5bab74b663ff
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Id: g=8f41ee657b6c465e7051ec01b8e4bcf6
         Type: DynamicLink
@@ -597,13 +555,13 @@ Children:
     Id: g=8467c7977a1bf0ee69ac942fdcbaf361
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"5223e249b16a4a2698b818dbd223447e","Namespace":42}
+    Value: "/Objects/CFR21_Part11_Demo/DataStores/EDB_BatchEvents"
     Children:
     - Name: Kind
       Id: g=254c52a6857d7e1ee0a31275fd52be48
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":1,"Namespace":27}
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
   - Name: VariablesToLog
     Id: g=305c7285ec13bf33570949596550b08c
     Type: BaseObjectType
@@ -623,13 +581,11 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Id: g=52ac0455c984d189de3dd4960e3616d6
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Id: g=a49923ac25149f09122f8c51f32835aa
         Type: DynamicLink
@@ -662,13 +618,13 @@ Children:
     Id: g=033910b287710d81219533bdca7e0973
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"754835ca96925186913192dc7542a5a3","Namespace":42}
+    Value: "/Objects/CFR21_Part11_Demo/DataStores/EmulatorLog"
     Children:
     - Name: Kind
       Id: g=a33f2abf59714d260c22c437ca329048
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":1,"Namespace":27}
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
   - Name: EventConfigurations
     Id: g=14986e4eaa6696d36c03a294de0f7e4e
     Type: BaseObjectType
@@ -682,13 +638,13 @@ Children:
         Type: NodePointer
         DataType: NodeId
         ReferenceType: HasProperty
-        Value: {"Id":129,"Namespace":1}
+        Value: "/Types/EventTypes/BaseEventType/LogEvent"
         Children:
         - Name: Kind
           Id: g=0126011232f0de542e9435568648772e
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":2041}
+          Value: "/Types/EventTypes/BaseEventType"
   - Name: EventFieldPaths
     Id: g=ef447fcb4fce5fab472a88fb4cabe4a0
     Type: BaseObjectType
@@ -726,41 +682,26 @@ Children:
       Id: g=50b974f9f65fc9e8edd9733467413905
       Type: BaseDataVariableType
       DataType: NodeId
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
     - Name: Message
       Id: g=e28473c04b3f10f45546779b9d048f0b
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: ErrorCode
       Id: g=16fb19c99d6741c379489a26cc1e172e
       Type: BaseDataVariableType
       DataType: UInt16
-      Value: 0
     - Name: ModuleName
       Id: g=cad1d8db2496023ff7834698b6ecb0d5
       Type: BaseDataVariableType
       DataType: String
-      Value: ""
     - Name: Time
       Id: g=3a170fd19044ce2f42c272ca0752a2d2
       Type: BaseDataVariableType
       DataType: UtcTime
-      Value: "1601-01-01T00:00:00.0000000"
     - Name: LocalTime
       Id: g=a328ca143230f69d31ee97d98558a799
       Type: BaseDataVariableType
       DataType: TimeZoneDataType
-      Value: 
-       {
-        "TypeId": {
-         "Id": 8912
-        },
-        "Body": {
-         "offset": 0,
-         "daylightSavingInOffset": false
-        }
-       }
   - Name: EventFieldsToLog
     Id: g=459d7f9b94813934e60925288da5bdcc
     Type: BaseObjectType
@@ -769,7 +710,6 @@ Children:
       Id: g=ea72b08365ca5dcb6956531686497864
       Type: EventFieldToLog
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: DynamicLink
         Id: g=cba5815c6c34118a08b03d98dbb4ca48
@@ -780,7 +720,6 @@ Children:
       Id: g=142abb48ee6eb43137aff8a71fa39f55
       Type: EventFieldToLog
       DataType: UInt16
-      Value: 0
       Children:
       - Name: DynamicLink
         Id: g=fdfad41114428582f07e9f49b74150c1
@@ -791,7 +730,6 @@ Children:
       Id: g=e66bb7b4b1ac7772553a80638cb6db7c
       Type: EventFieldToLog
       DataType: String
-      Value: ""
       Children:
       - Name: DynamicLink
         Id: g=d86f32d07490d312206b3ea863406062
@@ -802,7 +740,6 @@ Children:
       Id: g=b6ca3798062ca421769108ed1ef31148
       Type: EventFieldToLog
       DataType: UtcTime
-      Value: "1601-01-01T00:00:00.0000000"
       Children:
       - Name: DynamicLink
         Id: g=2e6dfae02966bfc38aec527cbb57ca4c
@@ -814,7 +751,6 @@ Children:
       Type: EventFieldToLog
       DataType: DateTime
       ValueRank: Any
-      Value: "1601-01-01T00:00:00.0000000"
       Children:
       - Name: ExpressionEvaluator1
         Id: g=6f67b0cb39af9dd930fe52529a2dd95f
@@ -852,16 +788,6 @@ Children:
       Id: g=11c6f46480a05c7fb9b42197e1ec8643
       Type: EventFieldToLog
       DataType: TimeZoneDataType
-      Value: 
-       {
-        "TypeId": {
-         "Id": 8912
-        },
-        "Body": {
-         "offset": 0,
-         "daylightSavingInOffset": false
-        }
-       }
       Children:
       - Name: DynamicLink
         Id: g=4f9f71025d70b255f22137e2ef4afb22

@@ -18,6 +18,7 @@ using FTOptix.WebUI;
 using FTOptix.Store;
 using FTOptix.ODBCStore;
 using FTOptix.OPCUAServer;
+using FTOptix.EdgeAppPlatform;
 #endregion
 
 public class LoginButtonLogic : BaseNetLogic

@@ -10,12 +10,10 @@ Children:
     Id: g=9f14ab73393cc986cad5a88161b33a29
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=9b536d82283cfd8dc978a79d24938ccb
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=834cc99e9544ae424ccbbf1c29c7b185
@@ -48,6 +46,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Emergency Stop Active"}
+  - Class: Reference
+    Target: ns=23;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=135
+    Direction: Forward
 - Name: SafetyDoorOpen
   Id: g=ef81d9010d2c73acf443af657d5dab94
   Type: OffNormalAlarmController
@@ -56,12 +63,10 @@ Children:
     Id: g=3f5749db0d124595103fd29ce61b1a1a
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=47f837a69f33a2fb37c2226b582a61f9
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=35204a6e79b96a9fa886001083c93c87
@@ -94,6 +99,15 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Safety Door Opened"}
+  - Class: Reference
+    Target: ns=23;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=135
+    Direction: Forward
 - Name: CommLost
   Id: g=dc86b8ae0436b5d496e92ec57dbc92d3
   Type: OffNormalAlarmController
@@ -102,12 +116,10 @@ Children:
     Id: g=a154fcc2a6fef9cc69404b277bcff5f5
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=fc3ef88f01d0a2632a9f79abc2a7799c
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=0d6d3b5c373e130e35cdd7539796099d
@@ -140,3 +152,12 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Communication Lost"}
+  - Class: Reference
+    Target: ns=23;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=135
+    Direction: Forward

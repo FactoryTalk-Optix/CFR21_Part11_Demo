@@ -15,6 +15,7 @@ using FTOptix.SQLiteStore;
 using FTOptix.Core;
 using FTOptix.WebUI;
 using FTOptix.ODBCStore;
+using FTOptix.EdgeAppPlatform;
 #endregion
 
 public class AuditTrailTableExport : BaseNetLogic

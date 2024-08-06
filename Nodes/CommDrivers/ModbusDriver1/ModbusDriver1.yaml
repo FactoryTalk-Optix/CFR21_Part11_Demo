@@ -6,7 +6,6 @@ Children:
   Id: g=f5c643b42f6b906bc5abae1e76f4e4c9
   Type: BaseDataVariableType
   DataType: ModbusProtocol
-  Value: 0
 - Name: SerialPort
   Id: g=a3020b774a4384f9d8fdcdee37aeca87
   Type: BaseDataVariableType
@@ -26,15 +25,12 @@ Children:
   Id: g=27dbe6e355378afa0c0faf87afcc43ea
   Type: BaseDataVariableType
   DataType: Parity
-  Value: 0
 - Name: StopBits
   Id: g=e1769be8c84417386c84c2f297eee36c
   Type: BaseDataVariableType
   DataType: StopBits
-  Value: 0
 - Name: FlowControl
   Id: g=c42e2ed52b1ea10f673064458326e811
   Type: BaseDataVariableType
   DataType: FlowControl
-  Value: 0
 - File: ModbusStation1/ModbusStation1.yaml

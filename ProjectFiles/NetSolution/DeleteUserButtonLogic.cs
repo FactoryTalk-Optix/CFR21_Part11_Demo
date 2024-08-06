@@ -16,6 +16,7 @@ using FTOptix.Recipe;
 using FTOptix.Report;
 using FTOptix.ODBCStore;
 using FTOptix.OPCUAServer;
+using FTOptix.EdgeAppPlatform;
 #endregion
 
 public class DeleteUserButtonLogic : BaseNetLogic

@@ -11,7 +11,6 @@ Children:
     Id: g=c53fcb7ea5b29e6e1bef47eba67d347c
     Type: BaseDataVariableType
     DataType: DateTime
-    Value: "1601-01-01T00:00:00.0000000"
   - Class: Method
     Name: Method1
     Id: g=8b0809b5dfad7050391fe0c73210513f
@@ -37,13 +36,13 @@ Children:
     Id: g=14e1bd7f26cbb899553549ec0a9d3882
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"4ebb986977c0f948e616cb44b9812017","Namespace":42}
+    Value: "/Objects/CFR21_Part11_Demo/DataStores/EDB_DataLogging/Tables/DataLogging"
     Children:
     - Name: Kind
       Id: g=cf3323964f3fe2ae25a668319a010ed3
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":3,"Namespace":27}
+      Value: "/Types/ObjectTypes/BaseObjectType/Table"
   - Name: Query
     Id: g=b663988fb2223c2a46bbc9f61acee2ed
     Type: BaseDataVariableType
@@ -97,7 +96,6 @@ Children:
     Id: g=df40bd0c0c944c3ff47989e9f25a4ae2
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Class: Method
     Name: Method1
     Id: g=7dee1f4e49abc7bb2540268e737fef0b
@@ -123,13 +121,13 @@ Children:
     Id: g=11bc57094b5d10b857892ccf0235d94a
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"f7cf72d916638c3d59be46adb007ed23","Namespace":42}
+    Value: "/Objects/CFR21_Part11_Demo/DataStores/EDB_AlarmLogging/Tables/AlarmsEventLogger1"
     Children:
     - Name: Kind
       Id: g=c04038d4e4d7d27f6b52220d9a29a87c
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":3,"Namespace":27}
+      Value: "/Types/ObjectTypes/BaseObjectType/Table"
   - Name: Query
     Id: g=09239d4f8298ed1b678dd525bd51981c
     Type: BaseDataVariableType
@@ -183,7 +181,6 @@ Children:
     Id: g=1ba6a7db141f9b413bde0b778e6bea32
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
 - Name: AuditTrailTableExport
   Id: g=0f2cc2b23e6fc35236b5bad7f4a03407
   Type: ns=33;NetLogic
@@ -206,13 +203,13 @@ Children:
     Id: g=9dae4ab55f88ab813aa0e989ffc44100
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"f016da7e87aa7d2b147750435cb43a50","Namespace":42}
+    Value: "/Objects/CFR21_Part11_Demo/DataStores/EDB_AuditTrail/Tables/SigningEventLogger"
     Children:
     - Name: Kind
       Id: g=2245ce02c4efc216e12cf47113302f5f
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":3,"Namespace":27}
+      Value: "/Types/ObjectTypes/BaseObjectType/Table"
   - Name: Query
     Id: g=9f945f865237ec9bd431989761eb4883
     Type: BaseDataVariableType
@@ -266,7 +263,6 @@ Children:
     Id: g=39088d0e22e9f58a6af23758d0a13f69
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
 - Name: ASCIIToStringConv
   Id: g=4ae871ae9c4b1f3c68bc27ec45d7ca88
   Type: ns=33;NetLogic
@@ -290,12 +286,10 @@ Children:
     Id: g=191c7a2dc118b329f5059c7fd2fc2ec5
     Type: BaseDataVariableType
     DataType: DateTime
-    Value: "1601-01-01T00:00:00.0000000"
   - Name: UTCTime
     Id: g=57ac3fd55fe58506a50cd41cd6ac4b37
     Type: BaseDataVariableType
     DataType: DateTime
-    Value: "1601-01-01T00:00:00.0000000"
 - Name: DesignTimeNetLogicGenerateMessages
   Id: g=97d9cd9ac551e817946ce6eed88cfff0
   Type: ns=33;NetLogic

@@ -11,13 +11,12 @@ Children:
     Id: g=8b81ffc76962b9f9283634d23da82a42
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
       Id: g=7bca1f3eba869b19b9f2a41500feb452
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":71,"Namespace":7}
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
     - Name: ConditionalConverter1
       Id: g=75ec26991165c118ce6228c9097c51ad
       Type: ConditionalConverter
@@ -27,7 +26,6 @@ Children:
         Type: BaseDataVariableType
         DataType: Boolean
         ReferenceType: HasSource
-        Value: false
         Children:
         - Name: DynamicLink
           Id: g=35e9be2a01cb60432cce2262482160e2
@@ -40,26 +38,25 @@ Children:
         DataType: NodeId
         ReferenceType: HasParameter
         ModellingRule: Optional
-        Value: {"IdType":2,"Id":"2eebfd3def044e747aa57952fc13c70d","Namespace":42}
+        Value: "/Objects/CFR21_Part11_Demo/UI/Templates/LoginForm/LoginFormComponents/Logout"
       - Name: FalseValue
         Id: g=49fb635bfb66b3fe5c5f388cb6df958d
         Type: BaseDataVariableType
         DataType: NodeId
         ReferenceType: HasParameter
         ModellingRule: Optional
-        Value: {"IdType":2,"Id":"ce814fddddd607c776a3b9a6e0b90c27","Namespace":42}
+        Value: "/Objects/CFR21_Part11_Demo/UI/Templates/LoginForm/LoginFormComponents/Login"
   - Name: CurrentPanel
     Id: g=0fc8c0c885f120ad5fc141d977bd9bfe
     Type: NodePointer
     DataType: NodeId
     AccessLevel: Read
-    Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
       Id: g=00fc37d5a0b4f71ec01894d0c2b81d90
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":6,"Namespace":7}
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
   - Class: Reference
     Target: ns=7;i=478
   - Name: Width
@@ -78,18 +75,17 @@ Children:
     Id: g=7d04a243c6791327246f93eba53cdde5
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
       Id: g=b17c3b4e106a5166ac0d508426654c97
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":61}
+      Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
   - Name: PanelAliasNode
     Id: g=7aa2579a56eeb4c0e895908022512bae
     Type: BaseDataVariableType
     DataType: NodeId
-    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    ValueRank: ScalarOrOneDimension
     Children:
     - Name: DynamicLink
       Id: g=8f47795282c3fcb473db9a47b42b2510
@@ -141,13 +137,11 @@ Children:
       Type: BaseDataVariableType
       DataType: Boolean
       ModellingRule: Optional
-      Value: false
     - Name: Blink
       Id: g=fac8856c15e34c38aca3256bda6ded25
       Type: BaseDataVariableType
       DataType: Boolean
       ModellingRule: Optional
-      Value: false
     - Name: Visible
       Id: g=f6c3d31e208a589b681fad9a7cafb34a
       Type: BaseDataVariableType
@@ -171,25 +165,21 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: TopMargin
       Id: g=0b9093c53e27fc67a817734cdc589c1e
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: RightMargin
       Id: g=cfc7d356282d4cee8241ba85c678d9e2
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: BottomMargin
       Id: g=f66411637bac0000f2d1512ab5690575
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: Width
       Id: g=f0933ad64436ea82c238d6075993c157
       Type: BaseVariableType
@@ -219,5 +209,4 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
 - File: LoginFormComponents/LoginFormComponents.yaml

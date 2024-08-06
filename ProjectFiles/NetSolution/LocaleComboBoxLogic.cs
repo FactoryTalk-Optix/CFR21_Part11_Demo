@@ -16,6 +16,7 @@ using FTOptix.Recipe;
 using FTOptix.Report;
 using FTOptix.WebUI;
 using FTOptix.ODBCStore;
+using FTOptix.EdgeAppPlatform;
 #endregion
 
 public class LocaleComboBoxLogic : BaseNetLogic

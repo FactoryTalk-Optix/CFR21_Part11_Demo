@@ -31,45 +31,37 @@ Children:
         Type: BaseObjectType
         Children:
         - Name: LocalTimeStamp
-          Id: g=960b1cc76faa1f18862de77885cabb21
+          Id: g=2b6defb275b62a44cefdd89a3f553780
           Type: StoreColumn
           DataType: DateTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: SourceName
-          Id: g=631bcb8d7fb6342821da999fdbf1a388
+          Id: g=88d8ed9f40a74b5405fe6f845a9fb854
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: Message
-          Id: g=ede6b89b75ca5f5487125290d4f6396f
+          Id: g=0d575d5cfcaa2189c8dbdbf979b385f8
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: ClientUserId
-          Id: g=2df3bb9d54cde8d57896e67fa5e1350d
+          Id: g=97421d4ad6a898aaf89f5f00df511a37
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: ClientUserNote
-          Id: g=f2b335cdaaaeb83df8185bffe9e44e4d
+          Id: g=0154ec32e8c372f73e1ba44ca55992a0
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: SecondClientUserId
-          Id: g=063abd3c5abb59142f1e72dad062f04f
+          Id: g=639ac662b3d81c6f641a58844b1195a4
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: SecondClientUserNote
-          Id: g=7ceeb7f431e08f5fa4a05264dad46e8a
+          Id: g=d76b323ea5fe082b834e9287dcbdafe5
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: EventType
-          Id: g=79cc16a6b77d4c42d51ba16cd9c69768
+          Id: g=d89a8f22e45b93793e950c85c5bbf5e0
           Type: StoreColumn
           DataType: String
-          Value: ""
   - Class: Reference
     Target: ns=29;i=30
     Direction: Forward
@@ -81,13 +73,11 @@ Children:
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: MaxColumnCount
     Id: g=daa4ff873c31153c3a0a8ac8a817fcbb
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: DataTypeCompatibilityMap
     Id: g=2929745dd643d38df1c62aea1c3db5ed
     Type: BaseDataVariableType
@@ -95,7 +85,6 @@ Children:
     AccessLevel: Read
     ValueRank: OneOrMoreDimensions
     ArrayDimensions: [0,0]
-    Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
   - Name: Status
     Id: g=dd6b5f9781086419c1f14c27a5737c4c
     Type: PropertyType
@@ -164,55 +153,45 @@ Children:
         Type: BaseObjectType
         Children:
         - Name: ActiveState_Id
-          Id: g=c2ff06bfc624502e9742f87eca255b90
+          Id: g=55045dfc9676161c0d876d99e49a7403
           Type: StoreColumn
           DataType: Boolean
-          Value: false
         - Name: AckedState_Id
-          Id: g=652045705e2c639da106dcaaece42026
+          Id: g=5c1a213e47b1c436b3fd69699ff94bc4
           Type: StoreColumn
           DataType: Boolean
-          Value: false
         - Name: ConfirmedState_Id
-          Id: g=73e862a611e3f0425693c93661660103
+          Id: g=e237afc331993bf48103fa3a6567821e
           Type: StoreColumn
           DataType: Boolean
-          Value: false
         - Name: ConditionName
-          Id: g=17ada40bcc3741d9653f5a6645f964bd
+          Id: g=85bbe63f311513d5b8c81493f9a1e1e3
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: EnabledState_Id
-          Id: g=3409d58c3f428b5b29f8ac8212bcae64
+          Id: g=5e328e6a7b71361c0194bc985d31344a
           Type: StoreColumn
           DataType: Boolean
-          Value: false
         - Name: SourceName
-          Id: g=1ddc1ec64b515860830ec6306ec08f52
+          Id: g=9b2ea75140f81bd8cc41456a2169f400
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: Time
-          Id: g=637516ba1128f8ad2978cd59e74f64da
+          Id: g=1e0ab2ccaedbb5f53d4b610c0426b0be
           Type: StoreColumn
           DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: 'Message_en-US'
-          Id: g=254d509aab2cece3d69efb1cd4b291e3
+          Id: g=bf8b1b8e4039945350016faa8304f02f
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: Severity
-          Id: g=554d9ecb9b9b59f5452f37617489ea7c
+          Id: g=c9e821c891a1aceaeab717eba31e4244
           Type: StoreColumn
           DataType: UInt16
-          Value: 0
         - Name: LocalTime
-          Id: g=f7dc811497b162c29f1bbffa18cf83c0
+          Id: g=c4a558cd7fc953a13e341f826415a1f8
           Type: StoreColumn
           DataType: DateTime
-          Value: "1601-01-01T00:00:00.0000000"
   - Class: Reference
     Target: ns=29;i=30
     Direction: Forward
@@ -224,13 +203,11 @@ Children:
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: MaxColumnCount
     Id: g=a0772aa39c91b300b710d21483487200
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: DataTypeCompatibilityMap
     Id: g=5b0135d064b7e6d48ff47dfa4e512776
     Type: BaseDataVariableType
@@ -238,7 +215,6 @@ Children:
     AccessLevel: Read
     ValueRank: OneOrMoreDimensions
     ArrayDimensions: [0,0]
-    Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
   - Name: Status
     Id: g=85414009e51daa1bb62288b6ba95a41b
     Type: PropertyType
@@ -310,37 +286,30 @@ Children:
           Id: g=28c30d498315b9db719797c15fa10d71
           Type: StoreColumn
           DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: LocalTimestamp
           Id: g=4ed82257cb8cf736fe70a89d6609df47
           Type: StoreColumn
           DataType: DateTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: Speed
           Id: g=8381fde1ced623f01461576c1004def3
           Type: StoreColumn
           DataType: Int32
-          Value: 0
         - Name: Temperature
           Id: g=acad0070ea195ac94095c8e2aaca6971
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: Humidity
           Id: g=fb649cd652dba7049f02ab29e1345451
           Type: StoreColumn
           DataType: Int32
-          Value: 0
         - Name: Pressure
           Id: g=0c08846e9910931b4beacfb813cfcc3f
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: BatchName
           Id: g=7ce53399e7539ea8dd1569dfc81cb87f
           Type: StoreColumn
           DataType: String
-          Value: ""
   - Class: Reference
     Target: ns=29;i=30
     Direction: Forward
@@ -352,13 +321,11 @@ Children:
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: MaxColumnCount
     Id: g=ce53be27210f38ef880daf28c79c3b47
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: DataTypeCompatibilityMap
     Id: g=cdf16986a9d34ecb36a14f190667e66e
     Type: BaseDataVariableType
@@ -366,7 +333,6 @@ Children:
     AccessLevel: Read
     ValueRank: OneOrMoreDimensions
     ArrayDimensions: [0,0]
-    Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
   - Name: Status
     Id: g=1c7b04658b7ead3f96a2e6991aceeffd
     Type: PropertyType
@@ -438,32 +404,26 @@ Children:
           Id: g=e044a8e0ba9788ca0a4835ddb6d03869
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /RecSetSpeed
           Id: g=9e115cf67ad9712812dfd919e0c32193
           Type: StoreColumn
           DataType: Int16
-          Value: 0
         - Name: /RecAutoMode
           Id: g=0ba23152e0efd692d9ffbdd65a0ab35f
           Type: StoreColumn
           DataType: Boolean
-          Value: false
         - Name: /RecSetTemp
           Id: g=6d63871c96068b0319f1845bc2f7a21d
           Type: StoreColumn
           DataType: UInt32
-          Value: 0
         - Name: /RecSpeedFactor
           Id: g=ba0f248b2ddca2b7f81f4a0bfe53aa54
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /RecProdName
           Id: g=b88c322fcd2097c2941d85017d43b5cb
           Type: StoreColumn
           DataType: String
-          Value: ""
   - Class: Reference
     Target: ns=29;i=30
     Direction: Forward
@@ -475,13 +435,11 @@ Children:
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: MaxColumnCount
     Id: g=6ac0c6f32f6650e2fccc05f01db9b3ff
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: DataTypeCompatibilityMap
     Id: g=fca2377f623336e2274d3b3dac627cc5
     Type: BaseDataVariableType
@@ -489,7 +447,6 @@ Children:
     AccessLevel: Read
     ValueRank: OneOrMoreDimensions
     ArrayDimensions: [0,0]
-    Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
   - Name: Status
     Id: g=9a5992fab0a666c3dea710aeb0c7083c
     Type: PropertyType
@@ -533,12 +490,10 @@ Children:
     Id: g=498f5da304a55b266c5b2d8ea51bf0de
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Filename
     Id: g=1f40c8a51be9d0b463796b6c8c284668
     Type: BaseDataVariableType
     DataType: String
-    Value: ""
 - Name: EDB_BatchEvents
   Id: g=5223e249b16a4a2698b818dbd223447e
   Type: SQLiteStore
@@ -571,17 +526,14 @@ Children:
           Id: g=b7622f7204052ffd10645facc83781f5
           Type: StoreColumn
           DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: LocalTimestamp
           Id: g=c141c0055ea4591237f2c713e5f3cd66
           Type: StoreColumn
           DataType: DateTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: BatchEventMessage
           Id: g=ea635ce94fc503e9c3895792a47ce949
           Type: StoreColumn
           DataType: String
-          Value: ""
   - Class: Reference
     Target: ns=29;i=30
     Direction: Forward
@@ -593,13 +545,11 @@ Children:
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: MaxColumnCount
     Id: g=c35ed97234539b2f32b6ff5c45122a52
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: DataTypeCompatibilityMap
     Id: g=1823ee071f9302d47a34ecd4061b933e
     Type: BaseDataVariableType
@@ -607,7 +557,6 @@ Children:
     AccessLevel: Read
     ValueRank: OneOrMoreDimensions
     ArrayDimensions: [0,0]
-    Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
   - Name: Status
     Id: g=1716f10c99d3bd2bff8804e8c448aa51
     Type: PropertyType
@@ -665,13 +614,11 @@ Children:
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: MaxColumnCount
     Id: g=c8c78e623370e97fba0dc02594dadda0
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: DataTypeCompatibilityMap
     Id: g=80c8256d2323a6b119ec47d0dd0818a0
     Type: BaseDataVariableType
@@ -679,7 +626,6 @@ Children:
     AccessLevel: Read
     ValueRank: OneOrMoreDimensions
     ArrayDimensions: [0,0]
-    Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
   - Name: Status
     Id: g=6766df2d0029d9a645f378075884a932
     Type: PropertyType
@@ -751,41 +697,26 @@ Children:
           Id: g=44c23cae49e6593ee3010f18df264c76
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: ErrorCode
           Id: g=f485c457aff06ad0e9b0f700bb0bc3dc
           Type: StoreColumn
           DataType: UInt16
-          Value: 0
         - Name: ModuleName
           Id: g=a7a23b5c22604a266d4887ce9693a091
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: Time
           Id: g=2621d68701f80e376e0c5f38a9042736
           Type: StoreColumn
           DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: TimeStamp
           Id: g=8714a201ff816745a5ed5a3a368e5d1f
           Type: StoreColumn
           DataType: DateTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: LocalTime
           Id: g=665a01d7c9f4d1a6467001112ee8e754
           Type: StoreColumn
           DataType: TimeZoneDataType
-          Value: 
-           {
-            "TypeId": {
-             "Id": 8912
-            },
-            "Body": {
-             "offset": 0,
-             "daylightSavingInOffset": false
-            }
-           }
   - Class: Reference
     Target: ns=29;i=30
     Direction: Forward
@@ -797,13 +728,11 @@ Children:
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: MaxColumnCount
     Id: g=a75d3a433b22fe4e188f81bd7ae041b7
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: DataTypeCompatibilityMap
     Id: g=53f75ee44f5bf986675efc07b94b6c82
     Type: BaseDataVariableType
@@ -811,7 +740,6 @@ Children:
     AccessLevel: Read
     ValueRank: OneOrMoreDimensions
     ArrayDimensions: [0,0]
-    Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
   - Name: Status
     Id: g=619cde07b6e222e07bad28e4e365ceae
     Type: PropertyType
@@ -867,24 +795,20 @@ Children:
     Id: g=73ffbb7555dbf918631eb1a364ea15d3
     Type: PropertyType
     DataType: String
-    Value: ""
   - Name: Password
     Id: g=1c9b52e04115c034a9ef1a71d2f88965
     Type: PropertyType
     DataType: Password
-    Value: ""
   - Name: MaxColumnNameLength
     Id: g=ae83292ceaff71e8e536776a57db8dd8
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: MaxColumnCount
     Id: g=efebc07814fe049cdb753012190111d8
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: DataTypeCompatibilityMap
     Id: g=545a01b0541849f14488306931e6eb3e
     Type: BaseDataVariableType
@@ -892,7 +816,6 @@ Children:
     AccessLevel: Read
     ValueRank: OneOrMoreDimensions
     ArrayDimensions: [0,0]
-    Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
   - Name: Status
     Id: g=e73148a9d207c1aa6c3e4cbc3a50eb2c
     Type: PropertyType
@@ -950,13 +873,11 @@ Children:
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: MaxColumnCount
     Id: g=b5c0076456aa2786539696299c20ac1c
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: DataTypeCompatibilityMap
     Id: g=6933acc9c4e81b124a641f7922d4a4df
     Type: BaseDataVariableType
@@ -964,7 +885,6 @@ Children:
     AccessLevel: Read
     ValueRank: OneOrMoreDimensions
     ArrayDimensions: [0,0]
-    Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
   - Name: Status
     Id: g=9a9eadb809af9f4647076339e33117c6
     Type: PropertyType
@@ -1020,24 +940,20 @@ Children:
     Id: g=51aaa66802a52c69309166157271532e
     Type: PropertyType
     DataType: String
-    Value: ""
   - Name: Password
     Id: g=ee9338ce8d52acceb7ece7fdcc43c277
     Type: PropertyType
     DataType: Password
-    Value: ""
   - Name: MaxColumnNameLength
     Id: g=97ea04e10582e2aea1c0278e21df1589
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: MaxColumnCount
     Id: g=84e04114cf4a2539047e74e28d216d42
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: DataTypeCompatibilityMap
     Id: g=2b910ccb44ebda6e2b190c1b361b1a7c
     Type: BaseDataVariableType
@@ -1045,7 +961,6 @@ Children:
     AccessLevel: Read
     ValueRank: OneOrMoreDimensions
     ArrayDimensions: [0,0]
-    Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
   - Name: Status
     Id: g=19eadd73c39badcd0eb0b464e5a0c469
     Type: PropertyType

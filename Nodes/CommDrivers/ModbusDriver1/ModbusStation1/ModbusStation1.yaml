@@ -47,7 +47,6 @@ Children:
   Type: BaseDataVariableType
   DataType: CommunicationOperationCode
   AccessLevel: Read
-  Value: 0
 - Class: Reference
   Target: ns=31;i=29
   Direction: Forward
@@ -77,12 +76,10 @@ Children:
   Id: g=d007fdfaa1ad0922f92baf3eb47dddd8
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
 - Name: SwapDWords
   Id: g=556c672a320da4d58be4e570b9cb8f40
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
 - Name: SwapBytes
   Id: g=93ce1c58ef4e3d703533e1ae5c7cd715
   Type: BaseDataVariableType

@@ -23,6 +23,7 @@ using FTOptix.Core;
 using FTOptix.WebUI;
 using FTOptix.ODBCStore;
 using FTOptix.OPCUAServer;
+using FTOptix.EdgeAppPlatform;
 #endregion
 
 public class DesignTimeNetLogicGenerateMessages : BaseNetLogic

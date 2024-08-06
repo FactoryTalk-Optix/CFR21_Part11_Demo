@@ -18,6 +18,7 @@ using FTOptix.Report;
 using FTOptix.WebUI;
 using FTOptix.ODBCStore;
 using FTOptix.OPCUAServer;
+using FTOptix.EdgeAppPlatform;
 #endregion
 
 public class RecipesEditorUISetup : BaseNetLogic

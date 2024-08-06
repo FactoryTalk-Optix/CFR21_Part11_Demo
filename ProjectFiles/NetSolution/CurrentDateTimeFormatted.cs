@@ -8,6 +8,7 @@ using FTOptix.NetLogic;
 using FTOptix.WebUI;
 using FTOptix.ODBCStore;
 using FTOptix.OPCUAServer;
+using FTOptix.EdgeAppPlatform;
 #endregion
 
 public class CurrentDateTimeFormatted : BaseNetLogic

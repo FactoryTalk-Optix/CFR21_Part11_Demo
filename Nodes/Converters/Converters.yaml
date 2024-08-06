@@ -12,7 +12,6 @@ Children:
     Type: BaseDataVariableType
     DataType: Boolean
     ReferenceType: HasSource
-    Value: false
     Children:
     - Name: ConditionalConverter1
       Id: g=311b2a889a8462c021372fb9fc50f470
@@ -23,7 +22,6 @@ Children:
         Type: BaseDataVariableType
         DataType: Boolean
         ReferenceType: HasSource
-        Value: false
         Children:
         - Name: ExpressionEvaluator1
           Id: g=a207496cd23e1c8d35e6c7eb7d2fdb1a
@@ -46,7 +44,7 @@ Children:
               Id: g=14e10825eb124f50c9c906cf6a0d5119
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=42;g=a0392a72-1fcb-a29a-6359-2594c025bc09}"
+              Value: "/Objects/CFR21_Part11_Demo/Model/ReportScrSelection"
       - Name: TrueValue
         Id: g=ca0ea4b3e73ebc7841cecf128fc9dab7
         Type: BaseDataVariableType
@@ -60,7 +58,6 @@ Children:
         DataType: Boolean
         ReferenceType: HasParameter
         ModellingRule: Optional
-        Value: false
   - Name: TrueValue
     Id: g=ff1e9d015a8249f106cf123408b0f46f
     Type: BaseDataVariableType
@@ -84,7 +81,6 @@ Children:
     Type: BaseDataVariableType
     DataType: Boolean
     ReferenceType: HasSource
-    Value: false
     Children:
     - Name: ConditionalConverter1
       Id: g=b3ba71e3902cb4a028468744361f6866
@@ -95,7 +91,6 @@ Children:
         Type: BaseDataVariableType
         DataType: Boolean
         ReferenceType: HasSource
-        Value: false
         Children:
         - Name: ExpressionEvaluator1
           Id: g=90d34a0efad757120eaa683e671f5947
@@ -118,7 +113,7 @@ Children:
               Id: g=60ad1bfbbdd6eb4ac76dfbfd3342bf48
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=42;g=a0392a72-1fcb-a29a-6359-2594c025bc09}"
+              Value: "/Objects/CFR21_Part11_Demo/Model/ReportScrSelection"
       - Name: TrueValue
         Id: g=cadf7d4b379ba65010a4f5217ad32180
         Type: BaseDataVariableType
@@ -132,7 +127,6 @@ Children:
         DataType: Boolean
         ReferenceType: HasParameter
         ModellingRule: Optional
-        Value: false
   - Name: TrueValue
     Id: g=188c1d6573e58ee0953f7e5874c1418c
     Type: BaseDataVariableType
@@ -152,7 +146,7 @@ Children:
   Supertype: ValueMapConverter
   ReferenceType: HasComponent
   Children:
-  - Name: Pairs
+  - Name: ns=5;Pairs
     Id: g=0ff16322b400c0f0546def917753ec69
     Type: BaseObjectType
     ModellingRule: None
@@ -167,7 +161,6 @@ Children:
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: None
-        Value: false
       - Name: Value
         Id: g=d4feb0d8e2c5bf325dc17c467d98420a
         Type: BaseDataVariableType

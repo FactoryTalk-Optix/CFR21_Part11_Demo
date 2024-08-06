@@ -23,6 +23,7 @@ using FTOptix.CommunicationDriver;
 using FTOptix.Core;
 using FTOptix.ODBCStore;
 using FTOptix.OPCUAServer;
+using FTOptix.EdgeAppPlatform;
 #endregion
 
 public class ReadDataFromEmbDatabase : BaseNetLogic

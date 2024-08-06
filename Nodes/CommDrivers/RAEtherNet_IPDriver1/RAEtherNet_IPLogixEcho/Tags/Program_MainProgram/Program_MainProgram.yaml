@@ -1,0 +1,514 @@
+Name: 'Program:MainProgram'
+Id: g=8f7535ce16b066db60de70a2296edf31
+Type: FolderType
+Children:
+- Name: Start
+  Id: g=63d4339a2d71e0c2c60658ac45961c7b
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Id: g=dd4b07c87a86b6cf188a50aa281b2190
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram.Start"
+- Name: Run
+  Id: g=92dae1a740ac23c85ee256e072d642cb
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Id: g=05d8a7eb5a20481796d4ce3d49f5d1d0
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram.Run"
+- Name: LogVar1Counter
+  Id: g=2585877c76671aa5e0b6fbc006e25623
+  Type: COUNTER
+  DataType: COUNTER
+  Children:
+  - Name: ACC
+    Id: g=1a0de6715f4760b21de1983c3d169186
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Id: g=3b418678b708d547afd0326c207d5ba1
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.LogVar1Counter.ACC"
+  - Name: CD
+    Id: g=aa78efd0574aa54191b689c857170162
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=96307d4f34448486a1f503797534471b
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.LogVar1Counter.CD"
+  - Name: CU
+    Id: g=c8023fe521ce80b43c2f49afd8c97bd5
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=3ad5f9ec39dcd475ee3102446978fbe3
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.LogVar1Counter.CU"
+  - Name: DN
+    Id: g=fbad94b16b30a475b9b7b97c685ce4cc
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=90704832b2394f2cc1c5c2bb65519823
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.LogVar1Counter.DN"
+  - Name: OV
+    Id: g=218183381bce17ab4c1113ce3b2d34f9
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=6b0bbe027b81f8d209d0c1f4c4085f49
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.LogVar1Counter.OV"
+  - Name: PRE
+    Id: g=5aeb49706bbbf47346534458b2655fa1
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Id: g=d62569a362fa0bd6b2ac51ebeb54f636
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.LogVar1Counter.PRE"
+  - Name: UN
+    Id: g=faf1e3dc167bd5b7076dd64c379b1d3f
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=b12f47499508709c6446217172bb5f98
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.LogVar1Counter.UN"
+- Name: Timer1
+  Id: g=1f865b5ff900effb630d205c7d796860
+  Type: TIMER
+  DataType: TIMER
+  Children:
+  - Name: ACC
+    Id: g=4eec9e3d5e855aa9111a30b15e265854
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Id: g=0d36f5644326f852c8174a447b9b2750
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Timer1.ACC"
+  - Name: DN
+    Id: g=1e2368446f3778a408dae295a14fadf3
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=5712e561134a13cd9fc414b8362a33c6
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Timer1.DN"
+  - Name: EN
+    Id: g=53ab92732de858e518f46d0a2adf4ebf
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=a13fdcb86cf33924408acea85f1b4e56
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Timer1.EN"
+  - Name: PRE
+    Id: g=b899bf04008fb5301fae5f5a5028ef04
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Id: g=ca9a02b5d021f8811db3adbb02f5a148
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Timer1.PRE"
+  - Name: TT
+    Id: g=b277f1193a4774ea026908d9678508ce
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=b5c50ac00949458278debb962ae99e6c
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Timer1.TT"
+- Name: ONSBITS
+  Id: g=e71c5e8ae3927cbc158773dbad276b2e
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Id: g=b963e59fda5e46ab70108e23a035d3be
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram.ONSBITS"
+- Name: LogVar2Counter
+  Id: g=36e5d382e3b24723c5fb6e6f34589406
+  Type: COUNTER
+  DataType: COUNTER
+  Children:
+  - Name: ACC
+    Id: g=720487656ca647906aa68c33cee2dd35
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Id: g=e5f3176db1b95e960478da44057f4780
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.LogVar2Counter.ACC"
+  - Name: CD
+    Id: g=c53585895d46206bdb2d5e2a48c9755d
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=c804147834a456acde3bccaee9f976ba
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.LogVar2Counter.CD"
+  - Name: CU
+    Id: g=88cc3067c7cd5f512ee549ad046831ee
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=6220ec4fd7d82ce20f698477560debd1
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.LogVar2Counter.CU"
+  - Name: DN
+    Id: g=f032627fb280dbd7d665eec6199bb783
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=3754c4fda17cdc9f29947cf42b7d481a
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.LogVar2Counter.DN"
+  - Name: OV
+    Id: g=4fdeabfbb365cda0632505f0e4d9844a
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=4fa3fe7162a3cbf64b3f4beac9c92ed9
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.LogVar2Counter.OV"
+  - Name: PRE
+    Id: g=1b695f78737c0cde9d71e52a9dd86e8f
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Id: g=f82dbcfacdff7062dd47d75518aa6066
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.LogVar2Counter.PRE"
+  - Name: UN
+    Id: g=0f0f19c14c58f8ed6098c9a9afba6478
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=6ba1c4507e8e513e67b9bb807a696bd3
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.LogVar2Counter.UN"
+- Name: LogVar3Counter
+  Id: g=4b6aa5f5d3a0c1124cc0d0be40fb4f9e
+  Type: COUNTER
+  DataType: COUNTER
+  Children:
+  - Name: ACC
+    Id: g=6b9075d59d09c0a0fd487a0418fc9fcb
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Id: g=69507d07f517198061d0f437e2017d01
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.LogVar3Counter.ACC"
+  - Name: CD
+    Id: g=6e2d69bdfa0f64e3d2668d9b9ea75e33
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=0b11fa0798d9b5eaccf532fced79e2b9
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.LogVar3Counter.CD"
+  - Name: CU
+    Id: g=75bd58fb302603be3a9420f002573d43
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=729ceaa73c8be57f3e43ffaf587c2345
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.LogVar3Counter.CU"
+  - Name: DN
+    Id: g=193c67f5c173456e9648cfea354f1b15
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=ed351e952eb95e6d68a4ee39fd20fa44
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.LogVar3Counter.DN"
+  - Name: OV
+    Id: g=4d9940f51e95a64c6ba06241870b0364
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=6613b1eca2faad0de4eaa10203f76a1f
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.LogVar3Counter.OV"
+  - Name: PRE
+    Id: g=514972242560d1f28a9559c62988f0bc
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Id: g=88e1325801ef1529fedf31e961d46910
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.LogVar3Counter.PRE"
+  - Name: UN
+    Id: g=6d9378cdbd0913ddddfe0184f26c623b
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=39718289a4f54c88d5521df5fa0dc0f4
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.LogVar3Counter.UN"
+- Name: LogVar4Counter
+  Id: g=ef454b098a60aaa1598fa7c8d8ba444b
+  Type: COUNTER
+  DataType: COUNTER
+  Children:
+  - Name: ACC
+    Id: g=ca00372622e745b476b81b98e59facde
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Id: g=9fd9da5a451e41224d8935fa67ee77f5
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.LogVar4Counter.ACC"
+  - Name: CD
+    Id: g=104376d0c107317cd0ff72c52d7609e9
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=fb79859ad326f2878311b57992b18bc2
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.LogVar4Counter.CD"
+  - Name: CU
+    Id: g=381d4fd5424b7adbdcc1d0ca3f0e9fa2
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=1a20dde1f2faa9761cc37161173bb27e
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.LogVar4Counter.CU"
+  - Name: DN
+    Id: g=45e64ce99c998433eb73f086237e2eba
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=149c580375cb58b8099bc9a169269f9e
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.LogVar4Counter.DN"
+  - Name: OV
+    Id: g=9c0eab36daea51e709b4ef760284b123
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=46ef4272b1ca4784270fac1bf7d1db71
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.LogVar4Counter.OV"
+  - Name: PRE
+    Id: g=08ddc1ff313de16e2cb80e6ad91e5de5
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Id: g=e06f90fbc1ca6993e9c436dba609dc0a
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.LogVar4Counter.PRE"
+  - Name: UN
+    Id: g=96e6777ec6475f61977974d8203cdc03
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=d9c742e911d7b647045a11519c2dc4d7
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.LogVar4Counter.UN"
+- Name: Timer2
+  Id: g=4172052324eb66794912829424450795
+  Type: TIMER
+  DataType: TIMER
+  Children:
+  - Name: ACC
+    Id: g=1cdbb22a58a44f027c45cfcb954679b3
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Id: g=e13f42c664c99b2fe633d136c1467624
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Timer2.ACC"
+  - Name: DN
+    Id: g=a52243b42935f0c435f46ba41c7d8658
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=22a4b55cf48d4c038bfe05dc3ece455f
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Timer2.DN"
+  - Name: EN
+    Id: g=faa7ce950aaf9e4fdfd79b73fbb42e19
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=eae7c8685232d7367b785d879bfdaa5d
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Timer2.EN"
+  - Name: PRE
+    Id: g=5fc0e5a1d4fd40c128855fc648156748
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Id: g=1d8efb4f9c90e18a044ae77cd47e14d3
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Timer2.PRE"
+  - Name: TT
+    Id: g=8e51fd400751c179949cbbe7b8faa208
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=cdfcf3681611515487fcb81226b36fc3
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Timer2.TT"
+- Name: TempIncDone
+  Id: g=07ba42d5c25f739208865489296b72d9
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Id: g=10c6635d56c88e77193847010b8cc52d
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram.TempIncDone"
+- Name: SpeedIncDone
+  Id: g=6dbe9a2495cc12f5248932463209c3da
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Id: g=246ab090b1aa1164730627becae9a6ac
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram.SpeedIncDone"
+- Name: HumidityIncDone
+  Id: g=e348162db633f6546d8199b3e132dc03
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Id: g=cf595d21832fa4f5c1ae7a83b47db6e4
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram.HumidityIncDone"
+- Name: PressureIncDone
+  Id: g=6f956806bcc4e2074b09b698c5222662
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Id: g=e15676a1b520d3547a5db78181872731
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram.PressureIncDone"
+- Name: BatchNumber
+  Id: g=dc689df863c633d4fa809e290912b88f
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Id: g=ade6335b87c754ae123496a31caa973f
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram.BatchNumber"
+- Name: BatchNumberString
+  Id: g=6118fed774056447cf135b0bb5b3d9b7
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Id: g=26ff0aad1a303de3c42713e1e13d395d
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram.BatchNumberString"
+- Name: BatchTestString
+  Id: g=4923bebaa835acaae78b07c9c1299966
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Id: g=249c5b600b11eb7659c599708c3c3850
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram.BatchTestString"

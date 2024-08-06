@@ -14,13 +14,12 @@ Children:
       Id: g=b8bd18bd665124e850b7872c74e43ef2
       Type: NodePointer
       DataType: NodeId
-      Value: {"IdType":2,"Id":"97e6b28268adc4e33e510343df1e2138","Namespace":42}
+      Value: "/Objects/CFR21_Part11_Demo/Security"
       Children:
       - Name: Kind
         Id: g=589920f6beeeb3efad66d767f14efa14
         Type: PropertyType
         DataType: NodeId
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: NodeClass
         Id: g=84260b6d93d3bb507624c74aff97c7ab
         Type: PropertyType
@@ -31,7 +30,6 @@ Children:
     Type: BaseDataVariableType
     DataType: Duration
     ReferenceType: HasProperty
-    Value: "0:00:00:0.0000000"
   - Name: DeltaObserverEnabled
     Id: g=5182849fca49bc44e717a455ae41af66
     Type: BaseDataVariableType

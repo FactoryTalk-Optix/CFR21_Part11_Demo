@@ -1,0 +1,144 @@
+Name: 'Program:MachineCtrl'
+Id: g=e1ab5b1dce8fde5e7db7c187335bbb5c
+Type: FolderType
+Children:
+- Name: FillingDone
+  Id: g=7c9597fe7002df7e22cad97e3261a662
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Id: g=c6604589bec32bbfcc14e5b0f33755fe
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MachineCtrl.FillingDone"
+- Name: Timer1
+  Id: g=713ded2d3192e9c96d87b10dceaa3449
+  Type: TIMER
+  DataType: TIMER
+  Children:
+  - Name: ACC
+    Id: g=2a43806ad8925b8a9197a77b7f66abe2
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Id: g=784e47c78d95d0334e482b1b5212571d
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MachineCtrl.Timer1.ACC"
+  - Name: DN
+    Id: g=c8ed0d118a1681cb57bffdd34308ef3d
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=e16bed6be674fd4fa06eee5fc2537f11
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MachineCtrl.Timer1.DN"
+  - Name: EN
+    Id: g=2cf86debf44fcaa8ed19bd4acbf82423
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=b28419cd992f0d9fbd577e1b10a74741
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MachineCtrl.Timer1.EN"
+  - Name: PRE
+    Id: g=aa76c611529ab83c575ac528b51ca7a8
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Id: g=f0f724ccdf346b4a949ee2254ffc240b
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MachineCtrl.Timer1.PRE"
+  - Name: TT
+    Id: g=a3521a5be374b32c4d7cb459dc6743f2
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=dba99a8f9088a6bca4ea14dfed70b819
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MachineCtrl.Timer1.TT"
+- Name: Timer2
+  Id: g=3616e423d31d231a86c7df18a2ccb250
+  Type: TIMER
+  DataType: TIMER
+  Children:
+  - Name: ACC
+    Id: g=6b1ae0b0e2d7d6fe38258b1f889c7c1d
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Id: g=578fe0dba06eba174291b7c85d55ffb1
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MachineCtrl.Timer2.ACC"
+  - Name: DN
+    Id: g=94df51f46970a671ad18af8b3f97d18c
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=8bfa02f41fe4b26de3c13b91b5d597e1
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MachineCtrl.Timer2.DN"
+  - Name: EN
+    Id: g=0d23d465a1d309865c691c0c16d4981c
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=0edc191a9e0b66dbc40ebb5358efb508
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MachineCtrl.Timer2.EN"
+  - Name: PRE
+    Id: g=77303a72dfe67420d10356ac96e3bae1
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Id: g=c3aa657f815ca12d3b2c37b02b04bbec
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MachineCtrl.Timer2.PRE"
+  - Name: TT
+    Id: g=07cd18eef9539fde4a36fbb9bab8c147
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=c7ac6011f914e7ed823915ca6229d05a
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MachineCtrl.Timer2.TT"
+- Name: FillingCompleted
+  Id: g=1405f39d9a787ff40701ef6f2fe03c0c
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Id: g=04d42f51f7aa41b594983e030590581e
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MachineCtrl.FillingCompleted"
+- Name: FillingReady
+  Id: g=f36197150dbb7bfcb5a7d732a969f2c7
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Id: g=1a76a0f9cc3a031010796a9208af877f
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MachineCtrl.FillingReady"

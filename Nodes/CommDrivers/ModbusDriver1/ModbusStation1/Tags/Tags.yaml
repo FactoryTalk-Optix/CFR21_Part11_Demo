@@ -6,7 +6,6 @@ Children:
   Id: g=067664b902bdee2a0bf9e3f0bc9c30cb
   Type: ModbusTag
   DataType: Boolean
-  Value: false
   Children:
   - Name: MemoryArea
     Id: g=935bf1c17a89d6b8c60cae59255b9c43
@@ -17,12 +16,10 @@ Children:
     Id: g=26082c8014056f4a971bbbc12aeee026
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 0
 - Name: CS2
   Id: g=08eedaa3b06d811e0bb8d0686902a409
   Type: ModbusTag
   DataType: Boolean
-  Value: false
   Children:
   - Name: MemoryArea
     Id: g=a0d9d3cf4d7f2c05b66f533c8686ce8a
@@ -43,7 +40,6 @@ Children:
   Id: g=f579cc24143b33f9f53ac3617f8e8375
   Type: ModbusTag
   DataType: Boolean
-  Value: false
   Children:
   - Name: MemoryArea
     Id: g=937a16851cf1db829b06040173e68e09
@@ -64,7 +60,6 @@ Children:
   Id: g=a0dc124816daad0c2d053308e3fd7fd1
   Type: ModbusTag
   DataType: Boolean
-  Value: false
   Children:
   - Name: MemoryArea
     Id: g=ae2cc3eb7375c198773a97bd78d26503
@@ -85,7 +80,6 @@ Children:
   Id: g=f4bc76095ffeb1755aacf3713e84f771
   Type: ModbusTag
   DataType: Boolean
-  Value: false
   Children:
   - Name: MemoryArea
     Id: g=e447fc05d64775aff38e23d7a1485bc7
@@ -106,7 +100,6 @@ Children:
   Id: g=f6d0b054d4bfa7a03d0f1af5a55dcd19
   Type: ModbusTag
   DataType: Boolean
-  Value: false
   Children:
   - Name: MemoryArea
     Id: g=ea3a14f460cdbf12a16c579b016b16fb
@@ -117,17 +110,14 @@ Children:
     Id: g=a8b28ff4ae532d67f62f011225ef55ce
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 0
   - Name: NumDiscreteInput
     Id: g=7cbf9c9a1b876387828ff0c789993076
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 0
 - Name: SW2
   Id: g=70fb8190477faf6eef4a6b9b5b2a1b66
   Type: ModbusTag
   DataType: Boolean
-  Value: false
   Children:
   - Name: MemoryArea
     Id: g=5039feb93f59aa3b87a5b217fc842a30
@@ -148,7 +138,6 @@ Children:
   Id: g=47ee15672e25a939480b9229a0610bec
   Type: ModbusTag
   DataType: Boolean
-  Value: false
   Children:
   - Name: MemoryArea
     Id: g=849837e39ec3f60426e2fdddbc4bdc60
@@ -169,7 +158,6 @@ Children:
   Id: g=b632fae3c72aaf7b419033825367e4a2
   Type: ModbusTag
   DataType: Boolean
-  Value: false
   Children:
   - Name: MemoryArea
     Id: g=7e68640cf7d65fc2ad66a992baa9dac7
@@ -190,7 +178,6 @@ Children:
   Id: g=2d7d26459828f41ba01e55ea04e1cf61
   Type: ModbusTag
   DataType: Boolean
-  Value: false
   Children:
   - Name: MemoryArea
     Id: g=96487fd4616a31abe318b376dba01a5e
@@ -211,23 +198,19 @@ Children:
   Id: g=0d8ec2fd2ccd92a22c2900ac147cc33c
   Type: ModbusTag
   DataType: Int16
-  Value: 0
   Children:
   - Name: MemoryArea
     Id: g=80fada8bcf70a11268af22273fd7de7f
     Type: BaseDataVariableType
     DataType: ModbusMemoryArea
-    Value: 0
   - Name: BitOffset
     Id: g=dd84330c8d63a23d5dd3d51bccbc294b
     Type: BaseDataVariableType
     DataType: UInt32
-    Value: 0
   - Name: NumRegister
     Id: g=3b1f4bdbe859ec5b2e3f2dbe690caf96
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 0
   - Name: MaximumLength
     Id: g=1dd7b45c482be4bc8fd45bbc26a39963
     Type: BaseDataVariableType
@@ -237,18 +220,15 @@ Children:
   Id: g=3a382992926544bbcb91f2d55fd54758
   Type: ModbusTag
   DataType: Int32
-  Value: 0
   Children:
   - Name: MemoryArea
     Id: g=74117d249ee64bf2ad9149f899769435
     Type: BaseDataVariableType
     DataType: ModbusMemoryArea
-    Value: 0
   - Name: BitOffset
     Id: g=f8e47911952c45f233b89bada235f0eb
     Type: BaseDataVariableType
     DataType: UInt32
-    Value: 0
   - Name: NumRegister
     Id: g=92f9b663c289059aa7dfaec03d3a388e
     Type: BaseDataVariableType
@@ -263,18 +243,15 @@ Children:
   Id: g=62e3c7fcbea1b242a80b73127d1fd1b5
   Type: ModbusTag
   DataType: Float
-  Value: 0.0
   Children:
   - Name: MemoryArea
     Id: g=e57da27def39db772fed3f66f153891f
     Type: BaseDataVariableType
     DataType: ModbusMemoryArea
-    Value: 0
   - Name: BitOffset
     Id: g=d65d50c5b049b23b32f9ac07aa40f8e2
     Type: BaseDataVariableType
     DataType: UInt32
-    Value: 0
   - Name: NumRegister
     Id: g=b1c618150b0da2910e2d27d9ab816e75
     Type: BaseDataVariableType
@@ -289,7 +266,6 @@ Children:
   Id: g=e892c873b94e13f38c5a42420be17073
   Type: ModbusTag
   DataType: Int16
-  Value: 0
   Children:
   - Name: MemoryArea
     Id: g=8d82db397c6d97979fe600957550a6ad
@@ -300,12 +276,10 @@ Children:
     Id: g=f6bfcceaf3535693a7753c48f16d59b6
     Type: BaseDataVariableType
     DataType: UInt32
-    Value: 0
   - Name: NumRegister
     Id: g=dd2ddf8028b9bf95d181edb6f41bc5b0
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 0
   - Name: MaximumLength
     Id: g=25f147e0822d020594ee4901c7ee3670
     Type: BaseDataVariableType
@@ -315,7 +289,6 @@ Children:
   Id: g=4505e45298414f2673acc66e1ef4ef25
   Type: ModbusTag
   DataType: Float
-  Value: 0.0
   Children:
   - Name: MemoryArea
     Id: g=390f14dc73441125fe7723800d563768
@@ -326,7 +299,6 @@ Children:
     Id: g=319debbd840a9d94b7589405d61de4e8
     Type: BaseDataVariableType
     DataType: UInt32
-    Value: 0
   - Name: NumRegister
     Id: g=6be7e08c3f2494202dba9cbd271c95ae
     Type: BaseDataVariableType
@@ -341,7 +313,6 @@ Children:
   Id: g=e3edb024f48f33037a64ddc9d8ccfdca
   Type: ModbusTag
   DataType: Int32
-  Value: 0
   Children:
   - Name: MemoryArea
     Id: g=32468647b0c21626276f40512169747d
@@ -352,7 +323,6 @@ Children:
     Id: g=1776347f413094dafde1cc0f7c6b5dd3
     Type: BaseDataVariableType
     DataType: UInt32
-    Value: 0
   - Name: NumRegister
     Id: g=2833e9ff82fe228b72a3543468bc7c88
     Type: BaseDataVariableType
@@ -367,7 +337,6 @@ Children:
   Id: g=bac2881b169a90557426eacc7bf724bc
   Type: ModbusTag
   DataType: Int32
-  Value: 0
   Children:
   - Name: NumRegister
     Id: g=a1926485c903f06cc7470a262ff1b9bc
@@ -378,5 +347,4 @@ Children:
     Id: g=ad4054d7e82832618845bdfd5bdcb724
     Type: BaseDataVariableType
     DataType: ModbusMemoryArea
-    Value: 0
 - File: StringVar1IntArray/StringVar1IntArray.yaml

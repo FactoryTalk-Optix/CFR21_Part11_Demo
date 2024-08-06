@@ -11,6 +11,7 @@ using FTOptix.Core;
 using FTOptix.ODBCStore;
 using FTOptix.WebUI;
 using FTOptix.OPCUAServer;
+using FTOptix.EdgeAppPlatform;
 #endregion
 
 public class MovingDialog : BaseNetLogic

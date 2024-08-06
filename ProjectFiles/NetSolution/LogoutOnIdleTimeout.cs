@@ -11,6 +11,7 @@ using FTOptix.CoreBase;
 using FTOptix.NetLogic;
 using FTOptix.ODBCStore;
 using FTOptix.WebUI;
+using FTOptix.EdgeAppPlatform;
 #endregion
 
 public class LogoutOnIdleTimeout : BaseNetLogic

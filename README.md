@@ -1,7 +1,12 @@
 # CFR21_Part11_Demo
+
 CFR21 Demo to show common use cases
 
 Documentation can be found in ProjectFiles/21CFR Part11.pdf
+
+## Deprecation notice
+
+This app is no longer maintained, to get the most updated documents and examples please refer to the official documentation: [https://www.rockwellautomation.com/en-us/docs/factorytalk-optix/current/contents-ditamap.html](https://www.rockwellautomation.com/en-us/docs/factorytalk-optix/current/contents-ditamap.html)
 
 ## Disclaimer
 

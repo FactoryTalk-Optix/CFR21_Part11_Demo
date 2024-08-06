@@ -14,27 +14,22 @@ Children:
       Id: g=33e4220602e261cdb2b6201a9c959941
       Type: BaseDataVariableType
       DataType: Int16
-      Value: 0
     - Name: RecAutoMode
       Id: g=5779f97964a80eecc2094b5222e828ea
       Type: BaseDataVariableType
       DataType: Boolean
-      Value: false
     - Name: RecSetTemp
       Id: g=ff8e38a80b39b955ee5f85e81daab802
       Type: BaseDataVariableType
       DataType: UInt32
-      Value: 0
     - Name: RecSpeedFactor
       Id: g=367e15501fff08aa649be0966d62051a
       Type: BaseDataVariableType
       DataType: Float
-      Value: 0.0
     - Name: RecProdName
       Id: g=b0cddb800c2e1f4b0ba816da840fc6db
       Type: BaseDataVariableType
       DataType: String
-      Value: ""
   - Class: Reference
     Target: ns=17;i=27
     Direction: Forward
@@ -75,13 +70,13 @@ Children:
     Id: g=17f16973d576c5b357268e416f2df1fe
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"52e781502564223eb8c9f71ff84b85e9","Namespace":42}
+    Value: "/Objects/CFR21_Part11_Demo/DataStores/EDB_Recipe"
     Children:
     - Name: Kind
       Id: g=4dff0235732f74861df33095dc47eadd
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":1,"Namespace":27}
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
   - Name: EditModel
     Id: g=2562d06d80a41a32cccff5f668f43969
     Type: BaseObjectType
@@ -90,27 +85,22 @@ Children:
       Id: g=dae83de0eeaa1349447e1abfd9a267de
       Type: BaseDataVariableType
       DataType: Int16
-      Value: 0
     - Name: RecAutoMode
       Id: g=7166814d3bd694883e0468f2067d0f12
       Type: BaseDataVariableType
       DataType: Boolean
-      Value: false
     - Name: RecSetTemp
       Id: g=47dd0bc2cdb65af326e6dbe4bf15980b
       Type: BaseDataVariableType
       DataType: UInt32
-      Value: 0
     - Name: RecSpeedFactor
       Id: g=0fbd12440c7b0e56ba9da4cc2810bc0b
       Type: BaseDataVariableType
       DataType: Float
-      Value: 0.0
     - Name: RecProdName
       Id: g=ada159b03ad3ab6cd6587ff241fa68a0
       Type: BaseDataVariableType
       DataType: String
-      Value: ""
   - Name: TableName
     Id: g=c2425be69f25ec99a4af533cbd3296ee
     Type: BaseDataVariableType
@@ -120,13 +110,13 @@ Children:
     Id: g=b4badd609a2ff4903ff32cbac8a1c496
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"7aa5a24c6880937e5e2cc18b353d4cbe","Namespace":42}
+    Value: "/Objects/CFR21_Part11_Demo/Model/Recipe"
     Children:
     - Name: Kind
       Id: g=922bcb2adbed5206ed905f822dc8785d
       Type: PropertyType
       DataType: NodeId
-      Value: {"IdType":2,"Id":"7aa5a24c6880937e5e2cc18b353d4cbe","Namespace":42}
+      Value: "/Objects/CFR21_Part11_Demo/Model/Recipe"
     - Name: NodeClass
       Id: g=0925a233345f28708d5cf139a31fe425
       Type: PropertyType

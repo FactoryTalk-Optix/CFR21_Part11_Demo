@@ -8,7 +8,7 @@ Children:
   Children:
   - Name: MaximumPasswordAge
     Id: g=7469d6e287ebc5002ccd9e6da693925d
-    Type: PropertyType
+    Type: BaseDataVariableType
     DataType: UInt16
     Value: 365
     Children:
@@ -16,7 +16,7 @@ Children:
       Id: g=8fa378e81d819c5cda09c564463f7b99
       Type: DynamicLink
       DataType: NodePath
-      Value: "365"
+      Value: "../../Model/Password_age"
       Children:
       - Name: Mode
         Id: g=6dcb763e68c9d1bd14c6ed007bb00dd4
@@ -25,17 +25,15 @@ Children:
         Value: 2
   - Name: EnforcePasswordHistory
     Id: g=f4dbeb38cd6102b6065489c933b28f96
-    Type: PropertyType
+    Type: BaseDataVariableType
     DataType: Byte
-    Value: 0
   - Name: MinimumPasswordAge
     Id: g=cc536240becaff751941408d29d97cde
-    Type: PropertyType
+    Type: BaseDataVariableType
     DataType: UInt16
-    Value: 0
   - Name: MinimumPasswordLength
     Id: g=6d00f75ed74cb80793716479131c56ac
-    Type: PropertyType
+    Type: BaseDataVariableType
     DataType: Byte
     Value: 8
 - File: UI/UI.yaml
@@ -57,34 +55,32 @@ Children:
   Id: g=3aaac1e96ad9ac0286d08f5a3caf43aa
   Type: Alias
   DataType: NodeId
-  Value: {"IdType":2,"Id":"2562d06d80a41a32cccff5f668f43969","Namespace":42}
+  Value: "/Objects/CFR21_Part11_Demo/Recipes/Recipe_1/EditModel"
   Children:
   - Name: Kind
     Id: g=6ad3efd0b65b2ca295ab83501c0f6867
     Type: PropertyType
     DataType: NodeId
-    Value: {"IdType":2,"Id":"2562d06d80a41a32cccff5f668f43969","Namespace":42}
+    Value: "/Objects/CFR21_Part11_Demo/Recipes/Recipe_1/EditModel"
 - Name: Authentication
   Id: g=630161b9c9cb3d2bbe168480e7b92bb0
   Type: PropertyGroup
   Children:
   - Name: AuthenticationMode
     Id: g=ec8c2760dbf0475d018b1c55ad11dfd1
-    Type: PropertyType
+    Type: BaseDataVariableType
     DataType: AuthenticationMode
-    Value: 0
   - Name: DefaultUserFolder
     Id: g=62d0d89502816aa4370ccf20bebe41a2
     Type: NodePointer
     DataType: NodeId
-    ReferenceType: HasProperty
-    Value: {"IdType":2,"Id":"c039db40ecd9ca2db2e1f143b11a80f1","Namespace":42}
+    Value: "/Objects/CFR21_Part11_Demo/Security/Users"
     Children:
     - Name: Kind
       Id: g=1fb0f68dbcf3b80c3f25a47d8dabe698
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":61}
+      Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
 - Name: AlarmConfiguration
   Id: g=a3dff692e5a8256a9298ac6e98aabc54
   Type: PropertyGroup
@@ -93,8 +89,6 @@ Children:
     Id: g=d7db523670cff8f5aecf46367d3fdfb2
     Type: BaseDataVariableType
     DataType: Boolean
-    ReferenceType: HasProperty
-    Value: false
 - Name: Localization
   Id: g=54f9f3a199ef22f5c92e743ea338182d
   Type: PropertyGroup
@@ -102,40 +96,14 @@ Children:
   - Name: Locales
     Id: g=8de23278d6d396c3b30d1ece96f4aefa
     Type: BaseDataVariableType
-    DataType: String
-    ReferenceType: HasProperty
+    DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
-    Children:
-    - Name: DynamicLink
-      Id: g=82af8a73134b47ee449e7f16c12c2985
-      Type: DynamicLink
-      DataType: NodePath
-      Value: "en-US"
-      Children:
-      - Name: Mode
-        Id: g=5a84d17aa58b74003bdd2603d70ac14a
-        Type: BaseVariableType
-        DataType: DynamicLinkMode
-        Value: 2
   - Name: LocaleFallbackList
     Id: g=12f114754e265f8c309b81eb8f5ac168
     Type: BaseDataVariableType
-    DataType: String
-    ReferenceType: HasProperty
+    DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
-    Value: ["en-NZ"]
-    Children:
-    - Name: DynamicLink
-      Id: g=fe36ca5f6c1c5a64bfdcdfdbc9086386
-      Type: DynamicLink
-      DataType: NodePath
-      Value: "en-US"
-      Children:
-      - Name: Mode
-        Id: g=1ad2c1235889e8ad8c2f1489e75a4c10
-        Type: BaseVariableType
-        DataType: DynamicLinkMode
-        Value: 2
+    Value: ["en-US"]

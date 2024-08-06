@@ -23,7 +23,6 @@ Children:
       Id: g=e1792343ac1d7f14061433eb75b4f821
       Type: PropertyType
       DataType: WorkflowType
-      Value: 0
 - Name: SetTemperature
   Id: g=c884bb0c969c372b80c69e9d9f21570f
   Type: BaseDataVariableType
@@ -94,7 +93,6 @@ Children:
   Id: g=e78ce223eb40a57b53e04bdcae4724bc
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: AuditSigning Signature
     Id: g=ec02885aa54ea0bff5292902e9cfef6f
@@ -111,12 +109,10 @@ Children:
       Id: g=e069ea0a910a57d97b9a2defab77ff6e
       Type: PropertyType
       DataType: WorkflowType
-      Value: 0
 - Name: Variable1
   Id: g=1d7310a82f44acad00dd771dc60913ef
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
   Children:
   - Name: AuditSigning Signature
     Id: g=65dca64e8445c512759c3609055414ee
@@ -138,7 +134,6 @@ Children:
   Id: g=1dbefed713b34b05bf8865f128633c6c
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: AuditSigning Signature
     Id: g=d815eb1250f9086fd2e747f587d669cb
@@ -153,18 +148,16 @@ Children:
         Id: g=867e725f1aea64cdbc29f7a4c55aec05
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
         Children:
         - Name: Kind
           Id: g=7f9ff6477c8364b6a6cc9da2fbd35b25
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":14,"Namespace":1}
+          Value: "/Types/ObjectTypes/BaseObjectType/UserType"
         - Name: NodeClass
           Id: g=d6d05a20d8a4e38a3ba7953c3508c324
           Type: PropertyType
           DataType: NodePointerNodeClass
-          Value: 0
     - Name: Groups
       Id: g=dbd3d251703026dc71bb43796b0f42f1
       Type: BaseObjectType
